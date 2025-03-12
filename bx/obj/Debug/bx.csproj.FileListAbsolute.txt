@@ -19,3 +19,7 @@ D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\bx\bx\obj\Debug\bx.ALL_UserContro
 D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\bx\bx\obj\Debug\bx.MainBoard.resources
 D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\bx\bx\obj\Debug\bx.csproj.Up2Date
 D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Revenue.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Bill.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Customer.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Product.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Supplier.resources

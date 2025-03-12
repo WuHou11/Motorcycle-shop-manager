@@ -37,6 +37,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_Supplier1 = new bx.ALL_UserControl.UC_Supplier();
+            this.uC_Product1 = new bx.ALL_UserControl.UC_Product();
+            this.uC_Customer1 = new bx.ALL_UserControl.UC_Customer();
+            this.uC_Bill1 = new bx.ALL_UserControl.UC_Bill();
             this.uC_Revenue1 = new bx.ALL_UserControl.UC_Revenue();
             this.uC_Account1 = new bx.ALL_UserControl.UC_Account();
             this.panel1.SuspendLayout();
@@ -54,10 +58,11 @@
             this.btnCustomer.TabIndex = 39;
             this.btnCustomer.Text = "Customer";
             this.btnCustomer.UseVisualStyleBackColor = false;
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // btnAccount
             // 
-            this.btnAccount.BackColor = System.Drawing.Color.Maroon;
+            this.btnAccount.BackColor = System.Drawing.Color.Black;
             this.btnAccount.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Bold);
             this.btnAccount.ForeColor = System.Drawing.Color.Transparent;
             this.btnAccount.Location = new System.Drawing.Point(57, 211);
@@ -81,6 +86,7 @@
             this.btnProduct.TabIndex = 37;
             this.btnProduct.Text = "Products";
             this.btnProduct.UseVisualStyleBackColor = false;
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
             // btnSuppiler
             // 
@@ -94,6 +100,7 @@
             this.btnSuppiler.TabIndex = 36;
             this.btnSuppiler.Text = "Supplier";
             this.btnSuppiler.UseVisualStyleBackColor = false;
+            this.btnSuppiler.Click += new System.EventHandler(this.btnSuppiler_Click);
             // 
             // label8
             // 
@@ -163,6 +170,7 @@
             this.btnBill.TabIndex = 65;
             this.btnBill.Text = "Bill";
             this.btnBill.UseVisualStyleBackColor = false;
+            this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
             // 
             // btnRevenue
             // 
@@ -180,6 +188,10 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.uC_Supplier1);
+            this.panel1.Controls.Add(this.uC_Product1);
+            this.panel1.Controls.Add(this.uC_Customer1);
+            this.panel1.Controls.Add(this.uC_Bill1);
             this.panel1.Controls.Add(this.uC_Revenue1);
             this.panel1.Controls.Add(this.uC_Account1);
             this.panel1.Location = new System.Drawing.Point(291, 74);
@@ -194,6 +206,38 @@
             // guna2Elipse2
             // 
             this.guna2Elipse2.TargetControl = this;
+            // 
+            // uC_Supplier1
+            // 
+            this.uC_Supplier1.BackColor = System.Drawing.Color.Maroon;
+            this.uC_Supplier1.Location = new System.Drawing.Point(3, 3);
+            this.uC_Supplier1.Name = "uC_Supplier1";
+            this.uC_Supplier1.Size = new System.Drawing.Size(1377, 845);
+            this.uC_Supplier1.TabIndex = 5;
+            // 
+            // uC_Product1
+            // 
+            this.uC_Product1.BackColor = System.Drawing.Color.Maroon;
+            this.uC_Product1.Location = new System.Drawing.Point(3, 3);
+            this.uC_Product1.Name = "uC_Product1";
+            this.uC_Product1.Size = new System.Drawing.Size(1377, 845);
+            this.uC_Product1.TabIndex = 4;
+            // 
+            // uC_Customer1
+            // 
+            this.uC_Customer1.BackColor = System.Drawing.Color.Maroon;
+            this.uC_Customer1.Location = new System.Drawing.Point(3, 3);
+            this.uC_Customer1.Name = "uC_Customer1";
+            this.uC_Customer1.Size = new System.Drawing.Size(1377, 845);
+            this.uC_Customer1.TabIndex = 3;
+            // 
+            // uC_Bill1
+            // 
+            this.uC_Bill1.BackColor = System.Drawing.Color.Maroon;
+            this.uC_Bill1.Location = new System.Drawing.Point(3, 3);
+            this.uC_Bill1.Name = "uC_Bill1";
+            this.uC_Bill1.Size = new System.Drawing.Size(1377, 845);
+            this.uC_Bill1.TabIndex = 2;
             // 
             // uC_Revenue1
             // 
@@ -257,5 +301,9 @@
         private ALL_UserControl.UC_Account uC_Account1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private ALL_UserControl.UC_Revenue uC_Revenue1;
+        private ALL_UserControl.UC_Supplier uC_Supplier1;
+        private ALL_UserControl.UC_Product uC_Product1;
+        private ALL_UserControl.UC_Customer uC_Customer1;
+        private ALL_UserControl.UC_Bill uC_Bill1;
     }
 }

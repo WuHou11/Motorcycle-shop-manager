@@ -30,6 +30,7 @@ namespace bx
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.formside = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.clearbtn = new System.Windows.Forms.Button();
             this.loginbtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -37,7 +38,6 @@ namespace bx
             this.password = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.username = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.display.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.formside.SuspendLayout();
@@ -64,6 +64,7 @@ namespace bx
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label2
             // 
@@ -107,6 +108,17 @@ namespace bx
             this.formside.Name = "formside";
             this.formside.Size = new System.Drawing.Size(688, 729);
             this.formside.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.label6.Location = new System.Drawing.Point(451, 483);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(171, 27);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Quên mật khẩu?";
             // 
             // clearbtn
             // 
@@ -188,17 +200,6 @@ namespace bx
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(370, 40);
             this.username.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label6.Location = new System.Drawing.Point(451, 483);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(171, 27);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Quên mật khẩu?";
             // 
             // Login
             // 

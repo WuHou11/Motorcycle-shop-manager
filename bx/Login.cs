@@ -19,11 +19,16 @@ namespace bx
 
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            Account mainForm = new Account();
+            MainBoard mainForm = new MainBoard();
             mainForm.Show();
 
             // Ẩn form đăng nhập
             this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

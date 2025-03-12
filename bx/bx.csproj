@@ -65,11 +65,35 @@
     <Compile Include="ALL UserControl\UC_Account.Designer.cs">
       <DependentUpon>UC_Account.cs</DependentUpon>
     </Compile>
+    <Compile Include="ALL UserControl\UC_Bill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ALL UserControl\UC_Bill.Designer.cs">
+      <DependentUpon>UC_Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ALL UserControl\UC_Customer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ALL UserControl\UC_Customer.Designer.cs">
+      <DependentUpon>UC_Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ALL UserControl\UC_Product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ALL UserControl\UC_Product.Designer.cs">
+      <DependentUpon>UC_Product.cs</DependentUpon>
+    </Compile>
     <Compile Include="ALL UserControl\UC_Revenue.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ALL UserControl\UC_Revenue.Designer.cs">
       <DependentUpon>UC_Revenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ALL UserControl\UC_Supplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ALL UserControl\UC_Supplier.Designer.cs">
+      <DependentUpon>UC_Supplier.cs</DependentUpon>
     </Compile>
     <Compile Include="Bill.cs">
       <SubType>Form</SubType>
@@ -121,8 +145,20 @@
     <EmbeddedResource Include="ALL UserControl\UC_Account.resx">
       <DependentUpon>UC_Account.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ALL UserControl\UC_Bill.resx">
+      <DependentUpon>UC_Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ALL UserControl\UC_Customer.resx">
+      <DependentUpon>UC_Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ALL UserControl\UC_Product.resx">
+      <DependentUpon>UC_Product.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ALL UserControl\UC_Revenue.resx">
       <DependentUpon>UC_Revenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ALL UserControl\UC_Supplier.resx">
+      <DependentUpon>UC_Supplier.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bill.resx">
       <DependentUpon>Bill.cs</DependentUpon>

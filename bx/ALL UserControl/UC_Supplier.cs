@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace bx
+namespace bx.ALL_UserControl
 {
-    public partial class Bill : Form
+    public partial class UC_Supplier : UserControl
     {
-        public Bill()
+        public UC_Supplier()
         {
             InitializeComponent();
-        }
-
-        private void lbExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void btnCustomer_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
