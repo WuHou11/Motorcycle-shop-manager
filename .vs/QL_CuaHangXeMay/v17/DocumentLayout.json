@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 149,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1028,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainBoard.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs",
+              "RelativeDocumentMoniker": "bx\\MainBoard.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs [Design]",
+              "RelativeToolTip": "bx\\MainBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T05:39:40.361Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 39,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -38,6 +38,10 @@ namespace bx
             this.password = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.username = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.lbExit = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.display.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.formside.SuspendLayout();
@@ -45,7 +49,7 @@ namespace bx
             // 
             // display
             // 
-            this.display.BackColor = System.Drawing.Color.Maroon;
+            this.display.BackColor = System.Drawing.Color.RoyalBlue;
             this.display.Controls.Add(this.pictureBox1);
             this.display.Controls.Add(this.label2);
             this.display.Controls.Add(this.label1);
@@ -95,6 +99,10 @@ namespace bx
             // formside
             // 
             this.formside.BackColor = System.Drawing.Color.Black;
+            this.formside.Controls.Add(this.label8);
+            this.formside.Controls.Add(this.lbExit);
+            this.formside.Controls.Add(this.panel2);
+            this.formside.Controls.Add(this.panel3);
             this.formside.Controls.Add(this.label6);
             this.formside.Controls.Add(this.clearbtn);
             this.formside.Controls.Add(this.loginbtn);
@@ -103,10 +111,10 @@ namespace bx
             this.formside.Controls.Add(this.password);
             this.formside.Controls.Add(this.label3);
             this.formside.Controls.Add(this.username);
-            this.formside.Location = new System.Drawing.Point(502, -2);
+            this.formside.Location = new System.Drawing.Point(509, -2);
             this.formside.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.formside.Name = "formside";
-            this.formside.Size = new System.Drawing.Size(688, 729);
+            this.formside.Size = new System.Drawing.Size(685, 729);
             this.formside.TabIndex = 1;
             // 
             // label6
@@ -201,6 +209,49 @@ namespace bx
             this.username.Size = new System.Drawing.Size(370, 40);
             this.username.TabIndex = 0;
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Black;
+            this.label8.Font = new System.Drawing.Font("Lucida Bright", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label8.Location = new System.Drawing.Point(579, 11);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(31, 46);
+            this.label8.TabIndex = 66;
+            this.label8.Text = "-";
+            // 
+            // lbExit
+            // 
+            this.lbExit.AutoSize = true;
+            this.lbExit.BackColor = System.Drawing.Color.Black;
+            this.lbExit.Font = new System.Drawing.Font("Lucida Bright", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbExit.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lbExit.Location = new System.Drawing.Point(631, 11);
+            this.lbExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbExit.Name = "lbExit";
+            this.lbExit.Size = new System.Drawing.Size(45, 46);
+            this.lbExit.TabIndex = 64;
+            this.lbExit.Text = "x";
+            this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.Location = new System.Drawing.Point(623, 15);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(52, 45);
+            this.panel2.TabIndex = 65;
+            // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(567, 15);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(52, 45);
+            this.panel3.TabIndex = 67;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -208,7 +259,7 @@ namespace bx
             this.ClientSize = new System.Drawing.Size(1191, 726);
             this.Controls.Add(this.formside);
             this.Controls.Add(this.display);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -235,5 +286,9 @@ namespace bx
         private System.Windows.Forms.Button clearbtn;
         private System.Windows.Forms.Button loginbtn;
         private Label label6;
+        private Label label8;
+        private Label lbExit;
+        private Panel panel2;
+        private Panel panel3;
     }
 }

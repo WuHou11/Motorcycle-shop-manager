@@ -30,5 +30,10 @@ namespace bx
         {
             Application.Exit();
         }
+
+        private void lbExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

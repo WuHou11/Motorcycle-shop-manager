@@ -80,9 +80,15 @@ namespace bx
             }
 
             // Đổi màu cho nút được chọn
-            activeButton.BackColor = Color.Blue;
+            activeButton.BackColor = Color.RoyalBlue;
             activeButton.ForeColor = Color.Black;
         }
 
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            Login Formout = new Login();
+            Formout.Show();
+            this.Hide();
+        }
     }
 }
