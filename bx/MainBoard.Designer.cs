@@ -24,102 +24,41 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainBoard));
-            this.btnCustomer = new System.Windows.Forms.Button();
-            this.btnAccount = new System.Windows.Forms.Button();
-            this.btnProduct = new System.Windows.Forms.Button();
-            this.btnSuppiler = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.lbExit = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnBill = new System.Windows.Forms.Button();
-            this.btnRevenue = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.uC_Supplier1 = new bx.ALL_UserControl.UC_Supplier();
-            this.uC_Product1 = new bx.ALL_UserControl.UC_Product();
-            this.uC_Revenue1 = new bx.ALL_UserControl.UC_Revenue();
-            this.uC_Account1 = new bx.ALL_UserControl.UC_Account();
-            this.uC_Bill1 = new bx.ALL_UserControl.UC_Bill();
-            this.uC_Customer1 = new bx.ALL_UserControl.UC_Customer();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.btnLogout = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton6 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton7 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.btnAccount = new Guna.UI2.WinForms.Guna2Button();
+            this.btnProduct = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCustomer = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSuppiler = new Guna.UI2.WinForms.Guna2Button();
+            this.btnBill = new Guna.UI2.WinForms.Guna2Button();
+            this.btnRevenue = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLogout = new Guna.UI2.WinForms.Guna2Button();
+            this.PanelMoving = new Guna.UI2.WinForms.Guna2Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.uC_Supplier1 = new bx.ALL_UserControl.UC_Supplier();
+            this.uC_Bill1 = new bx.ALL_UserControl.UC_Bill();
+            this.uC_Product1 = new bx.ALL_UserControl.UC_Product();
+            this.uC_Customer1 = new bx.ALL_UserControl.UC_Customer();
+            this.uC_Account1 = new bx.ALL_UserControl.UC_Account();
+            this.uC_Revenue1 = new bx.ALL_UserControl.UC_Revenue();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnCustomer
-            // 
-            this.btnCustomer.BackColor = System.Drawing.Color.Black;
-            this.btnCustomer.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomer.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCustomer.Location = new System.Drawing.Point(-1, 526);
-            this.btnCustomer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnCustomer.Name = "btnCustomer";
-            this.btnCustomer.Size = new System.Drawing.Size(284, 94);
-            this.btnCustomer.TabIndex = 39;
-            this.btnCustomer.Text = "Khách hàng";
-            this.btnCustomer.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCustomer.UseVisualStyleBackColor = false;
-            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
-            // 
-            // btnAccount
-            // 
-            this.btnAccount.BackColor = System.Drawing.Color.Black;
-            this.btnAccount.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAccount.ForeColor = System.Drawing.Color.Transparent;
-            this.btnAccount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAccount.Location = new System.Drawing.Point(0, 213);
-            this.btnAccount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnAccount.Name = "btnAccount";
-            this.btnAccount.Size = new System.Drawing.Size(284, 94);
-            this.btnAccount.TabIndex = 38;
-            this.btnAccount.Text = "Tài Khoản";
-            this.btnAccount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnAccount.UseVisualStyleBackColor = false;
-            this.btnAccount.Click += new System.EventHandler(this.btnAccount_Click);
-            // 
-            // btnProduct
-            // 
-            this.btnProduct.BackColor = System.Drawing.Color.Black;
-            this.btnProduct.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.btnProduct.ForeColor = System.Drawing.Color.Transparent;
-            this.btnProduct.Location = new System.Drawing.Point(-1, 317);
-            this.btnProduct.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnProduct.Name = "btnProduct";
-            this.btnProduct.Size = new System.Drawing.Size(284, 94);
-            this.btnProduct.TabIndex = 37;
-            this.btnProduct.Text = "Sản Phẩm";
-            this.btnProduct.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnProduct.UseVisualStyleBackColor = false;
-            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
-            // 
-            // btnSuppiler
-            // 
-            this.btnSuppiler.BackColor = System.Drawing.Color.Black;
-            this.btnSuppiler.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.btnSuppiler.ForeColor = System.Drawing.Color.Transparent;
-            this.btnSuppiler.Location = new System.Drawing.Point(-1, 422);
-            this.btnSuppiler.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnSuppiler.Name = "btnSuppiler";
-            this.btnSuppiler.Size = new System.Drawing.Size(284, 94);
-            this.btnSuppiler.TabIndex = 36;
-            this.btnSuppiler.Text = "         Đối Tác";
-            this.btnSuppiler.UseVisualStyleBackColor = false;
-            this.btnSuppiler.Click += new System.EventHandler(this.btnSuppiler_Click);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Black;
+            this.label8.BackColor = System.Drawing.Color.AliceBlue;
             this.label8.Font = new System.Drawing.Font("Lucida Bright", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label8.Location = new System.Drawing.Point(1568, 2);
+            this.label8.Location = new System.Drawing.Point(20, 8);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(31, 46);
@@ -129,123 +68,48 @@
             // lbExit
             // 
             this.lbExit.AutoSize = true;
-            this.lbExit.BackColor = System.Drawing.Color.Black;
-            this.lbExit.Font = new System.Drawing.Font("Lucida Bright", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbExit.BackColor = System.Drawing.Color.AliceBlue;
+            this.lbExit.Font = new System.Drawing.Font("Segoe UI", 21F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbExit.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.lbExit.Location = new System.Drawing.Point(1620, 2);
+            this.lbExit.Location = new System.Drawing.Point(13, -3);
             this.lbExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbExit.Name = "lbExit";
-            this.lbExit.Size = new System.Drawing.Size(45, 46);
+            this.lbExit.Size = new System.Drawing.Size(48, 57);
             this.lbExit.TabIndex = 60;
             this.lbExit.Text = "x";
+            this.lbExit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(1612, 6);
+            this.panel2.Controls.Add(this.lbExit);
+            this.panel2.Location = new System.Drawing.Point(1857, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(52, 45);
+            this.panel2.Size = new System.Drawing.Size(65, 61);
             this.panel2.TabIndex = 61;
             // 
             // panel3
             // 
-            this.panel3.Location = new System.Drawing.Point(1556, 6);
+            this.panel3.Controls.Add(this.label8);
+            this.panel3.Location = new System.Drawing.Point(1784, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(52, 45);
+            this.panel3.Size = new System.Drawing.Size(65, 60);
             this.panel3.TabIndex = 63;
-            // 
-            // btnBill
-            // 
-            this.btnBill.BackColor = System.Drawing.Color.Black;
-            this.btnBill.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.btnBill.ForeColor = System.Drawing.Color.Transparent;
-            this.btnBill.Location = new System.Drawing.Point(-1, 630);
-            this.btnBill.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnBill.Name = "btnBill";
-            this.btnBill.Size = new System.Drawing.Size(284, 94);
-            this.btnBill.TabIndex = 65;
-            this.btnBill.Text = "Hóa Đơn";
-            this.btnBill.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnBill.UseVisualStyleBackColor = false;
-            this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
-            // 
-            // btnRevenue
-            // 
-            this.btnRevenue.BackColor = System.Drawing.Color.Black;
-            this.btnRevenue.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRevenue.ForeColor = System.Drawing.Color.Transparent;
-            this.btnRevenue.Location = new System.Drawing.Point(-1, 734);
-            this.btnRevenue.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnRevenue.Name = "btnRevenue";
-            this.btnRevenue.Size = new System.Drawing.Size(284, 94);
-            this.btnRevenue.TabIndex = 67;
-            this.btnRevenue.Text = "Doanh Thu";
-            this.btnRevenue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRevenue.UseVisualStyleBackColor = false;
-            this.btnRevenue.Click += new System.EventHandler(this.btnRevenue_Click);
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.uC_Supplier1);
-            this.panel1.Controls.Add(this.uC_Product1);
             this.panel1.Controls.Add(this.uC_Revenue1);
-            this.panel1.Controls.Add(this.uC_Account1);
+            this.panel1.Controls.Add(this.uC_Supplier1);
             this.panel1.Controls.Add(this.uC_Bill1);
+            this.panel1.Controls.Add(this.uC_Product1);
             this.panel1.Controls.Add(this.uC_Customer1);
-            this.panel1.Location = new System.Drawing.Point(291, 74);
+            this.panel1.Controls.Add(this.uC_Account1);
+            this.panel1.Location = new System.Drawing.Point(419, 57);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1367, 860);
+            this.panel1.Size = new System.Drawing.Size(1503, 1033);
             this.panel1.TabIndex = 68;
-            // 
-            // uC_Supplier1
-            // 
-            this.uC_Supplier1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.uC_Supplier1.Location = new System.Drawing.Point(0, 3);
-            this.uC_Supplier1.Name = "uC_Supplier1";
-            this.uC_Supplier1.Size = new System.Drawing.Size(1377, 845);
-            this.uC_Supplier1.TabIndex = 5;
-            // 
-            // uC_Product1
-            // 
-            this.uC_Product1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.uC_Product1.Location = new System.Drawing.Point(-1, 3);
-            this.uC_Product1.Name = "uC_Product1";
-            this.uC_Product1.Size = new System.Drawing.Size(1377, 845);
-            this.uC_Product1.TabIndex = 4;
-            // 
-            // uC_Revenue1
-            // 
-            this.uC_Revenue1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.uC_Revenue1.Location = new System.Drawing.Point(-1, 3);
-            this.uC_Revenue1.Name = "uC_Revenue1";
-            this.uC_Revenue1.Size = new System.Drawing.Size(1377, 845);
-            this.uC_Revenue1.TabIndex = 1;
-            // 
-            // uC_Account1
-            // 
-            this.uC_Account1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.uC_Account1.Location = new System.Drawing.Point(0, 3);
-            this.uC_Account1.Name = "uC_Account1";
-            this.uC_Account1.Size = new System.Drawing.Size(1364, 863);
-            this.uC_Account1.TabIndex = 0;
-            // 
-            // uC_Bill1
-            // 
-            this.uC_Bill1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.uC_Bill1.Location = new System.Drawing.Point(-1, 3);
-            this.uC_Bill1.Name = "uC_Bill1";
-            this.uC_Bill1.Size = new System.Drawing.Size(1377, 845);
-            this.uC_Bill1.TabIndex = 2;
-            // 
-            // uC_Customer1
-            // 
-            this.uC_Customer1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.uC_Customer1.Location = new System.Drawing.Point(0, 3);
-            this.uC_Customer1.Name = "uC_Customer1";
-            this.uC_Customer1.Size = new System.Drawing.Size(1377, 845);
-            this.uC_Customer1.TabIndex = 3;
             // 
             // guna2Elipse1
             // 
@@ -255,188 +119,273 @@
             // 
             this.guna2Elipse2.TargetControl = this;
             // 
+            // btnAccount
+            // 
+            this.btnAccount.BorderRadius = 15;
+            this.btnAccount.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAccount.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAccount.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAccount.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAccount.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.btnAccount.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.btnAccount.ForeColor = System.Drawing.Color.DimGray;
+            this.btnAccount.Image = ((System.Drawing.Image)(resources.GetObject("btnAccount.Image")));
+            this.btnAccount.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnAccount.ImageSize = new System.Drawing.Size(50, 50);
+            this.btnAccount.Location = new System.Drawing.Point(30, 232);
+            this.btnAccount.Name = "btnAccount";
+            this.btnAccount.Size = new System.Drawing.Size(382, 80);
+            this.btnAccount.TabIndex = 70;
+            this.btnAccount.Text = "Tài Khoản";
+            this.btnAccount.Click += new System.EventHandler(this.btnAccount_Click);
+            // 
+            // btnProduct
+            // 
+            this.btnProduct.BorderRadius = 15;
+            this.btnProduct.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnProduct.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnProduct.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnProduct.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnProduct.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.btnProduct.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.btnProduct.ForeColor = System.Drawing.Color.DimGray;
+            this.btnProduct.Image = ((System.Drawing.Image)(resources.GetObject("btnProduct.Image")));
+            this.btnProduct.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnProduct.ImageSize = new System.Drawing.Size(50, 50);
+            this.btnProduct.Location = new System.Drawing.Point(30, 318);
+            this.btnProduct.Name = "btnProduct";
+            this.btnProduct.Size = new System.Drawing.Size(382, 80);
+            this.btnProduct.TabIndex = 71;
+            this.btnProduct.Text = "Sản Phẩm";
+            this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
+            // 
+            // btnCustomer
+            // 
+            this.btnCustomer.BorderRadius = 15;
+            this.btnCustomer.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCustomer.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCustomer.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCustomer.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCustomer.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.btnCustomer.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.btnCustomer.ForeColor = System.Drawing.Color.DimGray;
+            this.btnCustomer.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomer.Image")));
+            this.btnCustomer.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnCustomer.ImageSize = new System.Drawing.Size(50, 50);
+            this.btnCustomer.Location = new System.Drawing.Point(30, 490);
+            this.btnCustomer.Name = "btnCustomer";
+            this.btnCustomer.Size = new System.Drawing.Size(382, 80);
+            this.btnCustomer.TabIndex = 73;
+            this.btnCustomer.Text = "    Khách Hàng";
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
+            // 
+            // btnSuppiler
+            // 
+            this.btnSuppiler.BorderRadius = 15;
+            this.btnSuppiler.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSuppiler.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSuppiler.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSuppiler.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSuppiler.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.btnSuppiler.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.btnSuppiler.ForeColor = System.Drawing.Color.DimGray;
+            this.btnSuppiler.Image = ((System.Drawing.Image)(resources.GetObject("btnSuppiler.Image")));
+            this.btnSuppiler.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSuppiler.ImageSize = new System.Drawing.Size(50, 50);
+            this.btnSuppiler.Location = new System.Drawing.Point(30, 404);
+            this.btnSuppiler.Name = "btnSuppiler";
+            this.btnSuppiler.Size = new System.Drawing.Size(382, 80);
+            this.btnSuppiler.TabIndex = 72;
+            this.btnSuppiler.Text = "Đối Tác";
+            this.btnSuppiler.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnSuppiler.Click += new System.EventHandler(this.btnSuppiler_Click);
+            // 
+            // btnBill
+            // 
+            this.btnBill.BorderRadius = 15;
+            this.btnBill.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBill.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBill.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBill.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBill.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.btnBill.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.btnBill.ForeColor = System.Drawing.Color.DimGray;
+            this.btnBill.Image = ((System.Drawing.Image)(resources.GetObject("btnBill.Image")));
+            this.btnBill.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBill.ImageSize = new System.Drawing.Size(50, 50);
+            this.btnBill.Location = new System.Drawing.Point(31, 576);
+            this.btnBill.Name = "btnBill";
+            this.btnBill.Size = new System.Drawing.Size(382, 80);
+            this.btnBill.TabIndex = 75;
+            this.btnBill.Text = "Hóa Đơn";
+            this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
+            // 
+            // btnRevenue
+            // 
+            this.btnRevenue.BorderRadius = 15;
+            this.btnRevenue.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnRevenue.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnRevenue.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnRevenue.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnRevenue.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.btnRevenue.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.btnRevenue.ForeColor = System.Drawing.Color.DimGray;
+            this.btnRevenue.Image = ((System.Drawing.Image)(resources.GetObject("btnRevenue.Image")));
+            this.btnRevenue.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnRevenue.ImageSize = new System.Drawing.Size(50, 50);
+            this.btnRevenue.Location = new System.Drawing.Point(30, 662);
+            this.btnRevenue.Name = "btnRevenue";
+            this.btnRevenue.Size = new System.Drawing.Size(382, 80);
+            this.btnRevenue.TabIndex = 74;
+            this.btnRevenue.Text = "    Doanh Thu";
+            this.btnRevenue.Click += new System.EventHandler(this.btnRevenue_Click);
+            // 
             // btnLogout
             // 
-            this.btnLogout.BorderThickness = 18;
+            this.btnLogout.BackColor = System.Drawing.Color.AliceBlue;
             this.btnLogout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnLogout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnLogout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnLogout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLogout.FillColor = System.Drawing.Color.Black;
-            this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnLogout.ForeColor = System.Drawing.Color.White;
+            this.btnLogout.FillColor = System.Drawing.Color.AliceBlue;
+            this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
+            this.btnLogout.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.btnLogout.HoverState.BorderColor = System.Drawing.Color.AliceBlue;
+            this.btnLogout.HoverState.FillColor = System.Drawing.Color.AliceBlue;
+            this.btnLogout.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
-            this.btnLogout.ImageSize = new System.Drawing.Size(150, 150);
-            this.btnLogout.Location = new System.Drawing.Point(12, 836);
+            this.btnLogout.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnLogout.ImageSize = new System.Drawing.Size(50, 50);
+            this.btnLogout.Location = new System.Drawing.Point(12, 995);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.btnLogout.Size = new System.Drawing.Size(109, 97);
-            this.btnLogout.TabIndex = 69;
+            this.btnLogout.Size = new System.Drawing.Size(141, 95);
+            this.btnLogout.TabIndex = 76;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            this.btnLogout.MouseEnter += new System.EventHandler(this.btnLogout_MouseEnter);
+            this.btnLogout.MouseLeave += new System.EventHandler(this.btnLogout_MouseLeave);
             // 
-            // guna2CircleButton2
+            // PanelMoving
             // 
-            this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton2.FillColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton2.Image")));
-            this.guna2CircleButton2.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton2.Location = new System.Drawing.Point(21, 229);
-            this.guna2CircleButton2.Name = "guna2CircleButton2";
-            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(75, 62);
-            this.guna2CircleButton2.TabIndex = 71;
+            this.PanelMoving.BackColor = System.Drawing.Color.OrangeRed;
+            this.PanelMoving.Location = new System.Drawing.Point(12, 235);
+            this.PanelMoving.Name = "PanelMoving";
+            this.PanelMoving.Size = new System.Drawing.Size(12, 77);
+            this.PanelMoving.TabIndex = 78;
+            this.PanelMoving.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelMoving_Paint);
             // 
-            // guna2CircleButton3
+            // pictureBox1
             // 
-            this.guna2CircleButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton3.FillColor = System.Drawing.Color.White;
-            this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton3.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton3.Image")));
-            this.guna2CircleButton3.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton3.Location = new System.Drawing.Point(21, 334);
-            this.guna2CircleButton3.Name = "guna2CircleButton3";
-            this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton3.Size = new System.Drawing.Size(75, 62);
-            this.guna2CircleButton3.TabIndex = 72;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(52, 23);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(324, 201);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 79;
+            this.pictureBox1.TabStop = false;
             // 
-            // guna2CircleButton4
+            // uC_Supplier1
             // 
-            this.guna2CircleButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton4.FillColor = System.Drawing.Color.White;
-            this.guna2CircleButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton4.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton4.Image")));
-            this.guna2CircleButton4.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton4.Location = new System.Drawing.Point(21, 752);
-            this.guna2CircleButton4.Name = "guna2CircleButton4";
-            this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton4.Size = new System.Drawing.Size(75, 62);
-            this.guna2CircleButton4.TabIndex = 73;
+            this.uC_Supplier1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.uC_Supplier1.Location = new System.Drawing.Point(13, 12);
+            this.uC_Supplier1.Name = "uC_Supplier1";
+            this.uC_Supplier1.Size = new System.Drawing.Size(1450, 1000);
+            this.uC_Supplier1.TabIndex = 7;
             // 
-            // guna2CircleButton5
+            // uC_Bill1
             // 
-            this.guna2CircleButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton5.FillColor = System.Drawing.Color.White;
-            this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton5.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton5.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton5.Image")));
-            this.guna2CircleButton5.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton5.Location = new System.Drawing.Point(21, 442);
-            this.guna2CircleButton5.Name = "guna2CircleButton5";
-            this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton5.Size = new System.Drawing.Size(75, 62);
-            this.guna2CircleButton5.TabIndex = 74;
+            this.uC_Bill1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.uC_Bill1.Location = new System.Drawing.Point(13, 12);
+            this.uC_Bill1.Name = "uC_Bill1";
+            this.uC_Bill1.Size = new System.Drawing.Size(1450, 1000);
+            this.uC_Bill1.TabIndex = 6;
             // 
-            // guna2CircleButton6
+            // uC_Product1
             // 
-            this.guna2CircleButton6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton6.FillColor = System.Drawing.Color.White;
-            this.guna2CircleButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton6.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton6.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton6.Image")));
-            this.guna2CircleButton6.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton6.Location = new System.Drawing.Point(21, 539);
-            this.guna2CircleButton6.Name = "guna2CircleButton6";
-            this.guna2CircleButton6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton6.Size = new System.Drawing.Size(75, 62);
-            this.guna2CircleButton6.TabIndex = 75;
+            this.uC_Product1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.uC_Product1.Location = new System.Drawing.Point(13, 12);
+            this.uC_Product1.Name = "uC_Product1";
+            this.uC_Product1.Size = new System.Drawing.Size(1450, 1000);
+            this.uC_Product1.TabIndex = 5;
             // 
-            // guna2CircleButton7
+            // uC_Customer1
             // 
-            this.guna2CircleButton7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton7.FillColor = System.Drawing.Color.White;
-            this.guna2CircleButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton7.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton7.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton7.Image")));
-            this.guna2CircleButton7.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton7.Location = new System.Drawing.Point(21, 645);
-            this.guna2CircleButton7.Name = "guna2CircleButton7";
-            this.guna2CircleButton7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton7.Size = new System.Drawing.Size(75, 62);
-            this.guna2CircleButton7.TabIndex = 76;
+            this.uC_Customer1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.uC_Customer1.Location = new System.Drawing.Point(13, 12);
+            this.uC_Customer1.Name = "uC_Customer1";
+            this.uC_Customer1.Size = new System.Drawing.Size(1450, 1000);
+            this.uC_Customer1.TabIndex = 2;
+            // 
+            // uC_Account1
+            // 
+            this.uC_Account1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.uC_Account1.Location = new System.Drawing.Point(13, 12);
+            this.uC_Account1.Name = "uC_Account1";
+            this.uC_Account1.Size = new System.Drawing.Size(1450, 1000);
+            this.uC_Account1.TabIndex = 0;
+            // 
+            // uC_Revenue1
+            // 
+            this.uC_Revenue1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.uC_Revenue1.Location = new System.Drawing.Point(13, 12);
+            this.uC_Revenue1.Name = "uC_Revenue1";
+            this.uC_Revenue1.Size = new System.Drawing.Size(1450, 1000);
+            this.uC_Revenue1.TabIndex = 8;
             // 
             // MainBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1670, 946);
-            this.Controls.Add(this.guna2CircleButton7);
-            this.Controls.Add(this.guna2CircleButton6);
-            this.Controls.Add(this.guna2CircleButton5);
-            this.Controls.Add(this.guna2CircleButton4);
-            this.Controls.Add(this.guna2CircleButton3);
-            this.Controls.Add(this.guna2CircleButton2);
+            this.BackColor = System.Drawing.Color.AliceBlue;
+            this.ClientSize = new System.Drawing.Size(1946, 1102);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PanelMoving);
             this.Controls.Add(this.btnLogout);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnRevenue);
             this.Controls.Add(this.btnBill);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.lbExit);
             this.Controls.Add(this.btnCustomer);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.btnAccount);
             this.Controls.Add(this.btnProduct);
             this.Controls.Add(this.btnSuppiler);
+            this.Controls.Add(this.btnAccount);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainBoard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Account";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainBoard_Load);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
-        private System.Windows.Forms.Button btnCustomer;
-        private System.Windows.Forms.Button btnAccount;
-        private System.Windows.Forms.Button btnProduct;
-        private System.Windows.Forms.Button btnSuppiler;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label lbExit;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button btnBill;
-        private System.Windows.Forms.Button btnRevenue;
         private System.Windows.Forms.Panel panel1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private ALL_UserControl.UC_Account uC_Account1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
-        private ALL_UserControl.UC_Revenue uC_Revenue1;
-        private ALL_UserControl.UC_Supplier uC_Supplier1;
-        private ALL_UserControl.UC_Product uC_Product1;
+        private Guna.UI2.WinForms.Guna2Button btnAccount;
+        private Guna.UI2.WinForms.Guna2Button btnBill;
+        private Guna.UI2.WinForms.Guna2Button btnRevenue;
+        private Guna.UI2.WinForms.Guna2Button btnCustomer;
+        private Guna.UI2.WinForms.Guna2Button btnProduct;
+        private Guna.UI2.WinForms.Guna2Button btnSuppiler;
+        private Guna.UI2.WinForms.Guna2Button btnLogout;
+        private Guna.UI2.WinForms.Guna2Panel PanelMoving;
         private ALL_UserControl.UC_Customer uC_Customer1;
+        private ALL_UserControl.UC_Account uC_Account1;
+        private ALL_UserControl.UC_Product uC_Product1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private ALL_UserControl.UC_Supplier uC_Supplier1;
         private ALL_UserControl.UC_Bill uC_Bill1;
-        private Guna.UI2.WinForms.Guna2CircleButton btnLogout;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton7;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton6;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton5;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton4;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton3;
+        private ALL_UserControl.UC_Revenue uC_Revenue1;
     }
 }

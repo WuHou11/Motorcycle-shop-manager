@@ -16,5 +16,10 @@ namespace bx.ALL_UserControl
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

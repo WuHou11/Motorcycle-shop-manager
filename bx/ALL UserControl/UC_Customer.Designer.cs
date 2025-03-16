@@ -48,10 +48,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.attname = new System.Windows.Forms.TextBox();
             this.attList = new System.Windows.Forms.DataGridView();
+            this.label4 = new System.Windows.Forms.Label();
             this.atteditbtn = new System.Windows.Forms.Button();
             this.attdelbtn = new System.Windows.Forms.Button();
             this.attaddbtn = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.attList)).BeginInit();
@@ -69,26 +69,26 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(584, 27);
+            this.groupBox2.Location = new System.Drawing.Point(658, 43);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(746, 146);
             this.groupBox2.TabIndex = 39;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Tim kiem";
+            this.groupBox2.Text = "Tìm kiếm";
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.Maroon;
-            this.button4.Location = new System.Drawing.Point(601, 84);
+            this.button4.Location = new System.Drawing.Point(557, 82);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 46);
             this.button4.TabIndex = 36;
-            this.button4.Text = "Search";
+            this.button4.Text = "Tìm";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // textBox1
@@ -104,26 +104,27 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Transparent;
             this.label3.Location = new System.Drawing.Point(50, 94);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(127, 27);
+            this.label3.Size = new System.Drawing.Size(144, 32);
             this.label3.TabIndex = 34;
-            this.label3.Text = "Theo SĐT";
+            this.label3.Text = "Theo Số ĐT";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.Transparent;
             this.label9.Location = new System.Drawing.Point(50, 41);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(120, 27);
+            this.label9.Size = new System.Drawing.Size(158, 32);
             this.label9.TabIndex = 33;
-            this.label9.Text = "Theo ten";
+            this.label9.Text = "Theo Tên KH";
             // 
             // textBox2
             // 
@@ -156,19 +157,19 @@
             this.groupBox1.Size = new System.Drawing.Size(464, 565);
             this.groupBox1.TabIndex = 38;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thong tin khach hang";
+            this.groupBox1.Text = "Thông tin khách hàng";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label12.ForeColor = System.Drawing.Color.Transparent;
             this.label12.Location = new System.Drawing.Point(13, 319);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(96, 27);
+            this.label12.Size = new System.Drawing.Size(92, 32);
             this.label12.TabIndex = 45;
-            this.label12.Text = "Dia chi";
+            this.label12.Text = "Địa chỉ";
             // 
             // textBox3
             // 
@@ -182,52 +183,52 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.radioButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.radioButton2.ForeColor = System.Drawing.Color.Transparent;
             this.radioButton2.Location = new System.Drawing.Point(305, 195);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(124, 31);
+            this.radioButton2.Size = new System.Drawing.Size(74, 36);
             this.radioButton2.TabIndex = 43;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
+            this.radioButton2.Text = "Nữ";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.radioButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.radioButton1.ForeColor = System.Drawing.Color.Transparent;
             this.radioButton1.Location = new System.Drawing.Point(169, 195);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(96, 31);
+            this.radioButton1.Size = new System.Drawing.Size(93, 36);
             this.radioButton1.TabIndex = 42;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
+            this.radioButton1.Text = "Nam";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label10.ForeColor = System.Drawing.Color.Transparent;
             this.label10.Location = new System.Drawing.Point(13, 197);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 27);
+            this.label10.Size = new System.Drawing.Size(112, 32);
             this.label10.TabIndex = 41;
-            this.label10.Text = "Gender";
+            this.label10.Text = "Giới tính";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label11.ForeColor = System.Drawing.Color.Transparent;
             this.label11.Location = new System.Drawing.Point(13, 254);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(82, 27);
+            this.label11.Size = new System.Drawing.Size(110, 32);
             this.label11.TabIndex = 40;
-            this.label11.Text = "CCCD";
+            this.label11.Text = "Số CCCD";
             // 
             // textBox4
             // 
@@ -251,26 +252,26 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.Transparent;
             this.label7.Location = new System.Drawing.Point(13, 383);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 27);
+            this.label7.Size = new System.Drawing.Size(81, 32);
             this.label7.TabIndex = 37;
-            this.label7.Text = "Phone";
+            this.label7.Text = "Số ĐT";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(13, 139);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 27);
+            this.label2.Size = new System.Drawing.Size(95, 32);
             this.label2.TabIndex = 34;
-            this.label2.Text = "TenKH";
+            this.label2.Text = "Tên KH";
             // 
             // dob
             // 
@@ -284,14 +285,14 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(13, 75);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 27);
+            this.label1.Size = new System.Drawing.Size(91, 32);
             this.label1.TabIndex = 32;
-            this.label1.Text = "Ma KH";
+            this.label1.Text = "Mã KH";
             // 
             // attname
             // 
@@ -341,50 +342,13 @@
             this.attList.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.attList.RowHeadersWidth = 62;
             this.attList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.attList.Size = new System.Drawing.Size(786, 620);
+            this.attList.Size = new System.Drawing.Size(885, 765);
             this.attList.TabIndex = 37;
-            // 
-            // atteditbtn
-            // 
-            this.atteditbtn.BackColor = System.Drawing.Color.White;
-            this.atteditbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.atteditbtn.Location = new System.Drawing.Point(199, 727);
-            this.atteditbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.atteditbtn.Name = "atteditbtn";
-            this.atteditbtn.Size = new System.Drawing.Size(120, 46);
-            this.atteditbtn.TabIndex = 36;
-            this.atteditbtn.Text = "EDIT";
-            this.atteditbtn.UseVisualStyleBackColor = false;
-            // 
-            // attdelbtn
-            // 
-            this.attdelbtn.BackColor = System.Drawing.Color.White;
-            this.attdelbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attdelbtn.ForeColor = System.Drawing.Color.Maroon;
-            this.attdelbtn.Location = new System.Drawing.Point(347, 727);
-            this.attdelbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.attdelbtn.Name = "attdelbtn";
-            this.attdelbtn.Size = new System.Drawing.Size(120, 46);
-            this.attdelbtn.TabIndex = 35;
-            this.attdelbtn.Text = "DELETE";
-            this.attdelbtn.UseVisualStyleBackColor = false;
-            // 
-            // attaddbtn
-            // 
-            this.attaddbtn.BackColor = System.Drawing.Color.White;
-            this.attaddbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attaddbtn.Location = new System.Drawing.Point(47, 727);
-            this.attaddbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.attaddbtn.Name = "attaddbtn";
-            this.attaddbtn.Size = new System.Drawing.Size(120, 46);
-            this.attaddbtn.TabIndex = 34;
-            this.attaddbtn.Text = "ADD";
-            this.attaddbtn.UseVisualStyleBackColor = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.RoyalBlue;
+            this.label4.BackColor = System.Drawing.Color.DodgerBlue;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(24, 35);
@@ -394,20 +358,57 @@
             this.label4.TabIndex = 57;
             this.label4.Text = "QUẢN LÝ KHÁCH HÀNG";
             // 
+            // atteditbtn
+            // 
+            this.atteditbtn.BackColor = System.Drawing.Color.White;
+            this.atteditbtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.atteditbtn.Location = new System.Drawing.Point(221, 737);
+            this.atteditbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.atteditbtn.Name = "atteditbtn";
+            this.atteditbtn.Size = new System.Drawing.Size(120, 46);
+            this.atteditbtn.TabIndex = 60;
+            this.atteditbtn.Text = "Sửa";
+            this.atteditbtn.UseVisualStyleBackColor = false;
+            // 
+            // attdelbtn
+            // 
+            this.attdelbtn.BackColor = System.Drawing.Color.White;
+            this.attdelbtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.attdelbtn.ForeColor = System.Drawing.Color.Maroon;
+            this.attdelbtn.Location = new System.Drawing.Point(369, 737);
+            this.attdelbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.attdelbtn.Name = "attdelbtn";
+            this.attdelbtn.Size = new System.Drawing.Size(120, 46);
+            this.attdelbtn.TabIndex = 59;
+            this.attdelbtn.Text = "Xóa";
+            this.attdelbtn.UseVisualStyleBackColor = false;
+            // 
+            // attaddbtn
+            // 
+            this.attaddbtn.BackColor = System.Drawing.Color.White;
+            this.attaddbtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.attaddbtn.Location = new System.Drawing.Point(69, 737);
+            this.attaddbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.attaddbtn.Name = "attaddbtn";
+            this.attaddbtn.Size = new System.Drawing.Size(120, 46);
+            this.attaddbtn.TabIndex = 58;
+            this.attaddbtn.Text = "Thêm";
+            this.attaddbtn.UseVisualStyleBackColor = false;
+            // 
             // UC_Customer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.RoyalBlue;
+            this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.Controls.Add(this.atteditbtn);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.attdelbtn);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.attaddbtn);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.attList);
-            this.Controls.Add(this.atteditbtn);
-            this.Controls.Add(this.attdelbtn);
-            this.Controls.Add(this.attaddbtn);
             this.Name = "UC_Customer";
-            this.Size = new System.Drawing.Size(1377, 845);
+            this.Size = new System.Drawing.Size(1450, 1000);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -439,9 +440,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox attname;
         private System.Windows.Forms.DataGridView attList;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button atteditbtn;
         private System.Windows.Forms.Button attdelbtn;
         private System.Windows.Forms.Button attaddbtn;
-        private System.Windows.Forms.Label label4;
     }
 }

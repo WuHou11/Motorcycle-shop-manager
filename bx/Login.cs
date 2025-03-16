@@ -17,14 +17,6 @@ namespace bx
             InitializeComponent();
         }
 
-        private void loginbtn_Click(object sender, EventArgs e)
-        {
-            MainBoard mainForm = new MainBoard();
-            mainForm.Show();
-
-            // Ẩn form đăng nhập
-            this.Hide();
-        }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -34,6 +26,14 @@ namespace bx
         private void lbExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            MainBoard mainb = new MainBoard();
+            this.Hide();
+            mainb.Show();
+
         }
     }
 }

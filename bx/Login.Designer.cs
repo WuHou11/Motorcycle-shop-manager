@@ -25,23 +25,26 @@ namespace bx
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.display = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.formside = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.clearbtn = new System.Windows.Forms.Button();
-            this.loginbtn = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.password = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.username = new System.Windows.Forms.TextBox();
+            this.lbError = new System.Windows.Forms.Label();
+            this.btnClear = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.lbExit = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lbForgotPassword = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.display.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.formside.SuspendLayout();
@@ -49,22 +52,23 @@ namespace bx
             // 
             // display
             // 
-            this.display.BackColor = System.Drawing.Color.RoyalBlue;
+            this.display.BackColor = System.Drawing.Color.AliceBlue;
             this.display.Controls.Add(this.pictureBox1);
             this.display.Controls.Add(this.label2);
             this.display.Controls.Add(this.label1);
             this.display.Location = new System.Drawing.Point(-2, -2);
             this.display.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.display.Name = "display";
-            this.display.Size = new System.Drawing.Size(507, 729);
+            this.display.Size = new System.Drawing.Size(515, 729);
             this.display.TabIndex = 0;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(106, 405);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(61, 290);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(279, 220);
+            this.pictureBox1.Size = new System.Drawing.Size(418, 384);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -73,12 +77,12 @@ namespace bx
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(123, 267);
+            this.label2.Font = new System.Drawing.Font("Ravie", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.Location = new System.Drawing.Point(125, 167);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(244, 102);
+            this.label2.Size = new System.Drawing.Size(264, 96);
             this.label2.TabIndex = 1;
             this.label2.Text = "Shop";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -86,135 +90,137 @@ namespace bx
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(44, 165);
+            this.label1.Font = new System.Drawing.Font("Ravie", 26F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DimGray;
+            this.label1.Location = new System.Drawing.Point(49, 98);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(459, 102);
+            this.label1.Size = new System.Drawing.Size(408, 69);
             this.label1.TabIndex = 0;
             this.label1.Text = "Motobikes";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // formside
             // 
-            this.formside.BackColor = System.Drawing.Color.Black;
+            this.formside.BackColor = System.Drawing.Color.Cyan;
+            this.formside.Controls.Add(this.guna2CheckBox1);
+            this.formside.Controls.Add(this.lbError);
+            this.formside.Controls.Add(this.btnClear);
+            this.formside.Controls.Add(this.btnLogin);
+            this.formside.Controls.Add(this.guna2TextBox2);
+            this.formside.Controls.Add(this.guna2TextBox1);
             this.formside.Controls.Add(this.label8);
             this.formside.Controls.Add(this.lbExit);
             this.formside.Controls.Add(this.panel2);
             this.formside.Controls.Add(this.panel3);
-            this.formside.Controls.Add(this.label6);
-            this.formside.Controls.Add(this.clearbtn);
-            this.formside.Controls.Add(this.loginbtn);
+            this.formside.Controls.Add(this.lbForgotPassword);
             this.formside.Controls.Add(this.label5);
             this.formside.Controls.Add(this.label4);
-            this.formside.Controls.Add(this.password);
             this.formside.Controls.Add(this.label3);
-            this.formside.Controls.Add(this.username);
             this.formside.Location = new System.Drawing.Point(509, -2);
             this.formside.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.formside.Name = "formside";
             this.formside.Size = new System.Drawing.Size(685, 729);
             this.formside.TabIndex = 1;
             // 
-            // label6
+            // lbError
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label6.Location = new System.Drawing.Point(451, 483);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(171, 27);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Quên mật khẩu?";
+            this.lbError.AutoSize = true;
+            this.lbError.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbError.ForeColor = System.Drawing.Color.Red;
+            this.lbError.Location = new System.Drawing.Point(149, 472);
+            this.lbError.Name = "lbError";
+            this.lbError.Size = new System.Drawing.Size(442, 28);
+            this.lbError.TabIndex = 73;
+            this.lbError.Text = "Tên đăng nhập hoặc Mật khẩu không đúng";
             // 
-            // clearbtn
+            // btnClear
             // 
-            this.clearbtn.BackColor = System.Drawing.Color.White;
-            this.clearbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearbtn.ForeColor = System.Drawing.Color.Maroon;
-            this.clearbtn.Location = new System.Drawing.Point(242, 557);
-            this.clearbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.clearbtn.Name = "clearbtn";
-            this.clearbtn.Size = new System.Drawing.Size(138, 46);
-            this.clearbtn.TabIndex = 7;
-            this.clearbtn.Text = "CLEAR";
-            this.clearbtn.UseVisualStyleBackColor = false;
+            this.btnClear.BorderRadius = 18;
+            this.btnClear.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClear.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClear.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClear.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClear.FillColor = System.Drawing.Color.GreenYellow;
+            this.btnClear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.ForeColor = System.Drawing.Color.Gray;
+            this.btnClear.Location = new System.Drawing.Point(171, 519);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(180, 67);
+            this.btnClear.TabIndex = 72;
+            this.btnClear.Text = "Xóa";
             // 
-            // loginbtn
+            // btnLogin
             // 
-            this.loginbtn.BackColor = System.Drawing.Color.White;
-            this.loginbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loginbtn.Location = new System.Drawing.Point(447, 557);
-            this.loginbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.loginbtn.Name = "loginbtn";
-            this.loginbtn.Size = new System.Drawing.Size(166, 46);
-            this.loginbtn.TabIndex = 6;
-            this.loginbtn.Text = "LOGIN";
-            this.loginbtn.UseVisualStyleBackColor = false;
-            this.loginbtn.Click += new System.EventHandler(this.loginbtn_Click);
+            this.btnLogin.BorderRadius = 18;
+            this.btnLogin.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLogin.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLogin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLogin.FillColor = System.Drawing.Color.GreenYellow;
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.DimGray;
+            this.btnLogin.Location = new System.Drawing.Point(401, 519);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(180, 67);
+            this.btnLogin.TabIndex = 71;
+            this.btnLogin.Text = "Đăng nhập";
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // label5
+            // guna2TextBox2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Lucida Sans", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(290, 141);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(184, 55);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "LOGIN";
+            this.guna2TextBox2.BorderRadius = 18;
+            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox2.DefaultText = "";
+            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox2.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox2.IconLeft")));
+            this.guna2TextBox2.IconRight = ((System.Drawing.Image)(resources.GetObject("guna2TextBox2.IconRight")));
+            this.guna2TextBox2.IconRightOffset = new System.Drawing.Point(15, 1);
+            this.guna2TextBox2.Location = new System.Drawing.Point(303, 337);
+            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2TextBox2.Name = "guna2TextBox2";
+            this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox2.PlaceholderText = "Nhập mật khẩu";
+            this.guna2TextBox2.SelectedText = "";
+            this.guna2TextBox2.Size = new System.Drawing.Size(334, 60);
+            this.guna2TextBox2.TabIndex = 70;
             // 
-            // label4
+            // guna2TextBox1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(12, 432);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(204, 37);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "PASSWORD";
-            // 
-            // password
-            // 
-            this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.password.Location = new System.Drawing.Point(242, 428);
-            this.password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.password.Name = "password";
-            this.password.PasswordChar = '*';
-            this.password.Size = new System.Drawing.Size(370, 40);
-            this.password.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(12, 329);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(203, 37);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "USERNAME";
-            // 
-            // username
-            // 
-            this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.username.Location = new System.Drawing.Point(242, 325);
-            this.username.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(370, 40);
-            this.username.TabIndex = 0;
+            this.guna2TextBox1.BorderRadius = 18;
+            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TextBox1.DefaultText = "";
+            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
+            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TextBox1.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox1.IconLeft")));
+            this.guna2TextBox1.Location = new System.Drawing.Point(303, 243);
+            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.guna2TextBox1.Name = "guna2TextBox1";
+            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.guna2TextBox1.PlaceholderText = "Nhập tên đăng nhập";
+            this.guna2TextBox1.SelectedText = "";
+            this.guna2TextBox1.Size = new System.Drawing.Size(334, 60);
+            this.guna2TextBox1.TabIndex = 69;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Black;
+            this.label8.BackColor = System.Drawing.Color.Cyan;
             this.label8.Font = new System.Drawing.Font("Lucida Bright", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label8.ForeColor = System.Drawing.Color.OrangeRed;
             this.label8.Location = new System.Drawing.Point(579, 11);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
@@ -225,9 +231,9 @@ namespace bx
             // lbExit
             // 
             this.lbExit.AutoSize = true;
-            this.lbExit.BackColor = System.Drawing.Color.Black;
+            this.lbExit.BackColor = System.Drawing.Color.Cyan;
             this.lbExit.Font = new System.Drawing.Font("Lucida Bright", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbExit.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lbExit.ForeColor = System.Drawing.Color.Red;
             this.lbExit.Location = new System.Drawing.Point(631, 11);
             this.lbExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbExit.Name = "lbExit";
@@ -251,6 +257,75 @@ namespace bx
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(52, 45);
             this.panel3.TabIndex = 67;
+            // 
+            // lbForgotPassword
+            // 
+            this.lbForgotPassword.AutoSize = true;
+            this.lbForgotPassword.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbForgotPassword.ForeColor = System.Drawing.Color.Indigo;
+            this.lbForgotPassword.Location = new System.Drawing.Point(466, 426);
+            this.lbForgotPassword.Name = "lbForgotPassword";
+            this.lbForgotPassword.Size = new System.Drawing.Size(171, 27);
+            this.lbForgotPassword.TabIndex = 8;
+            this.lbForgotPassword.Text = "Quên mật khẩu?";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Cyan;
+            this.label5.Font = new System.Drawing.Font("Ravie", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(205, 108);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(316, 96);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "LOGIN";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.DimGray;
+            this.label4.Location = new System.Drawing.Point(39, 352);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(150, 36);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Mật khẩu";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.DimGray;
+            this.label3.Location = new System.Drawing.Point(39, 257);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(222, 36);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Tên đăng nhập";
+            // 
+            // guna2CheckBox1
+            // 
+            this.guna2CheckBox1.AutoSize = true;
+            this.guna2CheckBox1.Checked = true;
+            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.Blue;
+            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox1.CheckedState.BorderThickness = 5;
+            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.Blue;
+            this.guna2CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox1.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
+            this.guna2CheckBox1.ForeColor = System.Drawing.Color.Maroon;
+            this.guna2CheckBox1.Location = new System.Drawing.Point(77, 668);
+            this.guna2CheckBox1.Name = "guna2CheckBox1";
+            this.guna2CheckBox1.Size = new System.Drawing.Size(578, 36);
+            this.guna2CheckBox1.TabIndex = 75;
+            this.guna2CheckBox1.Text = "Bạn chấp nhận các điều khoản của chúng tôi";
+            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.Blue;
+            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox1.UncheckedState.BorderThickness = 5;
+            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.Blue;
             // 
             // Login
             // 
@@ -280,15 +355,17 @@ namespace bx
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox username;
-        private System.Windows.Forms.Button clearbtn;
-        private System.Windows.Forms.Button loginbtn;
-        private Label label6;
+        private Label lbForgotPassword;
         private Label label8;
         private Label lbExit;
         private Panel panel2;
         private Panel panel3;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Label lbError;
+        private Guna.UI2.WinForms.Guna2Button btnClear;
+        private Guna.UI2.WinForms.Guna2Button btnLogin;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
     }
 }

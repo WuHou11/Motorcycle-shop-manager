@@ -3,8 +3,68 @@
   "WorkspaceRootPath": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\mainboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\mainboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1028,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +82,207 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "bx\\Login.Designer.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Login.Designer.cs",
+              "RelativeToolTip": "bx\\Login.Designer.cs",
+              "ViewState": "AgIAADQBAAAAAAAAAAAvwEkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T02:14:23.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Login.cs",
+              "RelativeDocumentMoniker": "bx\\Login.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Login.cs",
+              "RelativeToolTip": "bx\\Login.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAnwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T02:14:06.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\packages.config",
+              "RelativeDocumentMoniker": "bx\\packages.config",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\packages.config",
+              "RelativeToolTip": "bx\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-16T02:13:59.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainBoard.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs",
+              "RelativeDocumentMoniker": "bx\\MainBoard.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs*",
+              "RelativeToolTip": "bx\\MainBoard.cs*",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAwIsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T08:48:09.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UC_Account.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Account.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Account.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Account.cs [Design]",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Account.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:09:17.15Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Program.cs",
+              "RelativeDocumentMoniker": "bx\\Program.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Program.cs",
+              "RelativeToolTip": "bx\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:41:08.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Login.cs",
+              "RelativeDocumentMoniker": "bx\\Login.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Login.cs [Design]",
+              "RelativeToolTip": "bx\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:09:41.93Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainBoard.Designer.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.Designer.cs",
+              "RelativeDocumentMoniker": "bx\\MainBoard.Designer.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.Designer.cs*",
+              "RelativeToolTip": "bx\\MainBoard.Designer.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:05:25.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UC_Supplier.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Supplier.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Supplier.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Supplier.cs",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Supplier.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAvwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:56:05.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UC_Customer.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Customer.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Customer.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Customer.cs",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Customer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAvwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:50:17.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainBoard.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs",
               "RelativeDocumentMoniker": "bx\\MainBoard.cs",
-              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs [Design]",
-              "RelativeToolTip": "bx\\MainBoard.cs [Design]",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs [Design]*",
+              "RelativeToolTip": "bx\\MainBoard.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T05:39:40.361Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UC_Bill.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Bill.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Bill.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Bill.cs [Design]",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Bill.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:09:05.589Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UC_Customer.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Customer.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Customer.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Customer.cs [Design]",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Customer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:08:52.002Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UC_Product.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Product.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Product.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Product.cs [Design]",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Product.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:08:44.375Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UC_Revenue.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Revenue.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Revenue.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Revenue.cs [Design]",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Revenue.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:07:55.15Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UC_Supplier.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Supplier.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Supplier.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Supplier.cs [Design]",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Supplier.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:07:39.928Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         },

@@ -23,9 +23,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button4 = new System.Windows.Forms.Button();
@@ -45,10 +45,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.attname = new System.Windows.Forms.TextBox();
             this.attList = new System.Windows.Forms.DataGridView();
+            this.label4 = new System.Windows.Forms.Label();
             this.atteditbtn = new System.Windows.Forms.Button();
             this.attdelbtn = new System.Windows.Forms.Button();
             this.attaddbtn = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.attList)).BeginInit();
@@ -66,32 +66,32 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(584, 27);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(746, 146);
+            this.groupBox2.Size = new System.Drawing.Size(832, 146);
             this.groupBox2.TabIndex = 39;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Tim kiem";
+            this.groupBox2.Text = "Tìm kiếm";
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.button4.ForeColor = System.Drawing.Color.Maroon;
             this.button4.Location = new System.Drawing.Point(592, 65);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(120, 46);
             this.button4.TabIndex = 36;
-            this.button4.Text = "Search";
+            this.button4.Text = "Tìm";
             this.button4.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(252, 88);
+            this.textBox1.Location = new System.Drawing.Point(252, 94);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
             this.textBox1.PasswordChar = '*';
@@ -101,31 +101,31 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.Transparent;
             this.label3.Location = new System.Drawing.Point(50, 94);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(172, 27);
+            this.label3.Size = new System.Drawing.Size(168, 32);
             this.label3.TabIndex = 34;
-            this.label3.Text = "Theo maNCC";
+            this.label3.Text = "Theo Mã NCC";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label9.ForeColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(50, 41);
+            this.label9.Location = new System.Drawing.Point(50, 53);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(120, 27);
+            this.label9.Size = new System.Drawing.Size(172, 32);
             this.label9.TabIndex = 33;
-            this.label9.Text = "Theo ten";
+            this.label9.Text = "Theo Tên NCC";
             // 
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(252, 37);
+            this.textBox2.Location = new System.Drawing.Point(252, 51);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(187, 33);
@@ -143,26 +143,26 @@
             this.groupBox1.Controls.Add(this.dob);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.attname);
-            this.groupBox1.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(47, 141);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(464, 546);
             this.groupBox1.TabIndex = 38;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thong tin nha cung cap";
+            this.groupBox1.Text = "Thông tin nhà cung cấp";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label11.ForeColor = System.Drawing.Color.Transparent;
-            this.label11.Location = new System.Drawing.Point(13, 193);
+            this.label11.Location = new System.Drawing.Point(13, 189);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(96, 27);
+            this.label11.Size = new System.Drawing.Size(95, 32);
             this.label11.TabIndex = 40;
-            this.label11.Text = "Dia chi";
+            this.label11.Text = "Địa Chỉ";
             // 
             // textBox4
             // 
@@ -186,24 +186,24 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label7.ForeColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(13, 310);
+            this.label7.Location = new System.Drawing.Point(13, 306);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(89, 27);
+            this.label7.Size = new System.Drawing.Size(81, 32);
             this.label7.TabIndex = 37;
-            this.label7.Text = "Phone";
+            this.label7.Text = "Số ĐT";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(13, 249);
+            this.label6.Location = new System.Drawing.Point(13, 245);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(78, 27);
+            this.label6.Size = new System.Drawing.Size(76, 32);
             this.label6.TabIndex = 36;
             this.label6.Text = "Email";
             // 
@@ -219,14 +219,15 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(13, 139);
+            this.label2.Location = new System.Drawing.Point(13, 135);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 27);
+            this.label2.Size = new System.Drawing.Size(109, 32);
             this.label2.TabIndex = 34;
-            this.label2.Text = "TenNCC";
+            this.label2.Text = "Tên NCC";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // dob
             // 
@@ -245,9 +246,9 @@
             this.label1.Location = new System.Drawing.Point(13, 75);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 27);
+            this.label1.Size = new System.Drawing.Size(112, 27);
             this.label1.TabIndex = 32;
-            this.label1.Text = "MaNCC";
+            this.label1.Text = "Mã NCC";
             // 
             // attname
             // 
@@ -265,82 +266,45 @@
             this.attList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.attList.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.attList.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.attList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.attList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.attList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.attList.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.attList.DefaultCellStyle = dataGridViewCellStyle2;
             this.attList.Location = new System.Drawing.Point(544, 197);
             this.attList.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.attList.MultiSelect = false;
             this.attList.Name = "attList";
             this.attList.ReadOnly = true;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Maroon;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.attList.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.attList.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.attList.RowHeadersWidth = 62;
             this.attList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.attList.Size = new System.Drawing.Size(786, 597);
+            this.attList.Size = new System.Drawing.Size(872, 752);
             this.attList.TabIndex = 37;
-            // 
-            // atteditbtn
-            // 
-            this.atteditbtn.BackColor = System.Drawing.Color.White;
-            this.atteditbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.atteditbtn.Location = new System.Drawing.Point(199, 707);
-            this.atteditbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.atteditbtn.Name = "atteditbtn";
-            this.atteditbtn.Size = new System.Drawing.Size(120, 46);
-            this.atteditbtn.TabIndex = 36;
-            this.atteditbtn.Text = "EDIT";
-            this.atteditbtn.UseVisualStyleBackColor = false;
-            // 
-            // attdelbtn
-            // 
-            this.attdelbtn.BackColor = System.Drawing.Color.White;
-            this.attdelbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attdelbtn.ForeColor = System.Drawing.Color.Maroon;
-            this.attdelbtn.Location = new System.Drawing.Point(347, 707);
-            this.attdelbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.attdelbtn.Name = "attdelbtn";
-            this.attdelbtn.Size = new System.Drawing.Size(120, 46);
-            this.attdelbtn.TabIndex = 35;
-            this.attdelbtn.Text = "DELETE";
-            this.attdelbtn.UseVisualStyleBackColor = false;
-            // 
-            // attaddbtn
-            // 
-            this.attaddbtn.BackColor = System.Drawing.Color.White;
-            this.attaddbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.attaddbtn.Location = new System.Drawing.Point(47, 707);
-            this.attaddbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.attaddbtn.Name = "attaddbtn";
-            this.attaddbtn.Size = new System.Drawing.Size(120, 46);
-            this.attaddbtn.TabIndex = 34;
-            this.attaddbtn.Text = "ADD";
-            this.attaddbtn.UseVisualStyleBackColor = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.RoyalBlue;
+            this.label4.BackColor = System.Drawing.Color.DodgerBlue;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(41, 35);
@@ -350,20 +314,57 @@
             this.label4.TabIndex = 57;
             this.label4.Text = "NHÀ CUNG CẤP";
             // 
+            // atteditbtn
+            // 
+            this.atteditbtn.BackColor = System.Drawing.Color.White;
+            this.atteditbtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.atteditbtn.Location = new System.Drawing.Point(216, 707);
+            this.atteditbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.atteditbtn.Name = "atteditbtn";
+            this.atteditbtn.Size = new System.Drawing.Size(120, 46);
+            this.atteditbtn.TabIndex = 63;
+            this.atteditbtn.Text = "Sửa";
+            this.atteditbtn.UseVisualStyleBackColor = false;
+            // 
+            // attdelbtn
+            // 
+            this.attdelbtn.BackColor = System.Drawing.Color.White;
+            this.attdelbtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.attdelbtn.ForeColor = System.Drawing.Color.Maroon;
+            this.attdelbtn.Location = new System.Drawing.Point(364, 707);
+            this.attdelbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.attdelbtn.Name = "attdelbtn";
+            this.attdelbtn.Size = new System.Drawing.Size(120, 46);
+            this.attdelbtn.TabIndex = 62;
+            this.attdelbtn.Text = "Xóa";
+            this.attdelbtn.UseVisualStyleBackColor = false;
+            // 
+            // attaddbtn
+            // 
+            this.attaddbtn.BackColor = System.Drawing.Color.White;
+            this.attaddbtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.attaddbtn.Location = new System.Drawing.Point(64, 707);
+            this.attaddbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.attaddbtn.Name = "attaddbtn";
+            this.attaddbtn.Size = new System.Drawing.Size(120, 46);
+            this.attaddbtn.TabIndex = 61;
+            this.attaddbtn.Text = "Thêm";
+            this.attaddbtn.UseVisualStyleBackColor = false;
+            // 
             // UC_Supplier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.RoyalBlue;
+            this.BackColor = System.Drawing.Color.DodgerBlue;
+            this.Controls.Add(this.atteditbtn);
+            this.Controls.Add(this.attdelbtn);
+            this.Controls.Add(this.attaddbtn);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.attList);
-            this.Controls.Add(this.atteditbtn);
-            this.Controls.Add(this.attdelbtn);
-            this.Controls.Add(this.attaddbtn);
             this.Name = "UC_Supplier";
-            this.Size = new System.Drawing.Size(1377, 845);
+            this.Size = new System.Drawing.Size(1450, 1000);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -392,9 +393,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox attname;
         private System.Windows.Forms.DataGridView attList;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button atteditbtn;
         private System.Windows.Forms.Button attdelbtn;
         private System.Windows.Forms.Button attaddbtn;
-        private System.Windows.Forms.Label label4;
     }
 }
