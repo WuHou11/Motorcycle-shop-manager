@@ -3,55 +3,51 @@
   "WorkspaceRootPath": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\mainboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\mainboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\employeeboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\employeeboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\employeeboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\employeeboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\mainboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\mainboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -59,12 +55,48 @@
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\employeeboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\employeeboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_sale.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_sale.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_revenue.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_revenue.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\focus\\bx\\bx\\all usercontrol\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1028,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +114,134 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "UC_Account.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Account.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Account.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Account.cs",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Account.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA6wB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T14:17:15.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeBoard.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\EmployeeBoard.cs",
+              "RelativeDocumentMoniker": "bx\\EmployeeBoard.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\EmployeeBoard.cs [Design]",
+              "RelativeToolTip": "bx\\EmployeeBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:41:29.683Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeBoard.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\EmployeeBoard.cs",
+              "RelativeDocumentMoniker": "bx\\EmployeeBoard.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\EmployeeBoard.cs",
+              "RelativeToolTip": "bx\\EmployeeBoard.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowE8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:30:19.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UC_Sale.Designer.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Sale.Designer.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Sale.Designer.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Sale.Designer.cs",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Sale.Designer.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAswH0CAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:11:13.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UC_Revenue.Designer.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Revenue.Designer.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Revenue.Designer.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Revenue.Designer.cs",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Revenue.Designer.cs",
+              "ViewState": "AgIAAJMBAAAAAAAAAAAAAKUBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:10:52.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UC_Sale.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Sale.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Sale.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Sale.cs [Design]",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Sale.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:10:39.194Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeBoard.Designer.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\EmployeeBoard.Designer.cs",
+              "RelativeDocumentMoniker": "bx\\EmployeeBoard.Designer.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\EmployeeBoard.Designer.cs",
+              "RelativeToolTip": "bx\\EmployeeBoard.Designer.cs",
+              "ViewState": "AgIAAE4BAAAAAAAAAAAvwE4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:05:00.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UC_Revenue.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Revenue.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Revenue.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Revenue.cs",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Revenue.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T12:54:55.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainBoard.cs [Design]",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs",
+              "RelativeDocumentMoniker": "bx\\MainBoard.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs [Design]",
+              "RelativeToolTip": "bx\\MainBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T05:39:40.361Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainBoard.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs",
+              "RelativeDocumentMoniker": "bx\\MainBoard.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs",
+              "RelativeToolTip": "bx\\MainBoard.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAjwKYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T08:48:09.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Login.Designer.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Login.Designer.cs",
               "RelativeDocumentMoniker": "bx\\Login.Designer.cs",
@@ -95,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Login.cs",
               "RelativeDocumentMoniker": "bx\\Login.cs",
@@ -108,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "packages.config",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\packages.config",
               "RelativeDocumentMoniker": "bx\\packages.config",
@@ -122,19 +281,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainBoard.cs",
-              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs",
-              "RelativeDocumentMoniker": "bx\\MainBoard.cs",
-              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs",
-              "RelativeToolTip": "bx\\MainBoard.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAwIsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T08:48:09.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "UC_Account.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Account.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Account.cs",
@@ -146,20 +292,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Program.cs",
               "RelativeDocumentMoniker": "bx\\Program.cs",
               "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Program.cs",
               "RelativeToolTip": "bx\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T14:41:08.423Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 23,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\Login.cs",
               "RelativeDocumentMoniker": "bx\\Login.cs",
@@ -171,20 +317,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "MainBoard.Designer.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.Designer.cs",
               "RelativeDocumentMoniker": "bx\\MainBoard.Designer.cs",
               "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.Designer.cs",
               "RelativeToolTip": "bx\\MainBoard.Designer.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAkBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJgBAAAAAAAAAAAAAKcBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T14:05:25.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "UC_Supplier.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Supplier.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Supplier.cs",
@@ -197,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
               "Title": "UC_Customer.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Customer.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Customer.cs",
@@ -210,19 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainBoard.cs [Design]",
-              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs",
-              "RelativeDocumentMoniker": "bx\\MainBoard.cs",
-              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\MainBoard.cs [Design]",
-              "RelativeToolTip": "bx\\MainBoard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T05:39:40.361Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "UC_Bill.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Bill.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Bill.cs",
@@ -234,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "UC_Customer.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Customer.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Customer.cs",
@@ -246,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "UC_Product.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Product.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Product.cs",
@@ -258,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "UC_Revenue.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Revenue.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Revenue.cs",
@@ -270,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "UC_Supplier.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\focus\\bx\\bx\\ALL UserControl\\UC_Supplier.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Supplier.cs",

@@ -57,7 +57,7 @@ namespace bx
             uC_Bill1.Visible = false;
             uC_Customer1.Visible = false;
             uC_Product1.Visible = false;
-            //uC_Revenue1.Visible = false;
+            uC_Revenue1.Visible = false;
             uC_Supplier1.Visible = false;
             btnAccount.PerformClick();
         }
@@ -101,7 +101,7 @@ namespace bx
             MovePanel(btnProduct);
             uC_Product1.Visible = true;
             uC_Product1.BringToFront();
-;
+            
         }
 
         private void btnSuppiler_Click(object sender, EventArgs e)
@@ -110,11 +110,11 @@ namespace bx
             MovePanel(btnSuppiler);
             uC_Supplier1.Visible = true;
             uC_Supplier1.BringToFront();
-            
+
         }
 
         private void btnCustomer_Click(object sender, EventArgs e)
-        {   
+        {
             ActivateButton(btnCustomer);
             MovePanel(btnCustomer);
             uC_Customer1.Visible = true;
@@ -160,6 +160,15 @@ namespace bx
         private void btnLogout_MouseLeave(object sender, EventArgs e)
         {
             btnLogout.ImageSize = new Size(50, 50);
+        }
+
+        private void btnSale_Click(object sender, EventArgs e)
+        {
+            uC_Sale1.BackColor = Color.DodgerBlue;
+            ActivateButton(btnSale);
+            MovePanel(btnSale);
+            uC_Sale1.Visible = true;
+            uC_Sale1.BringToFront();
         }
     }
 }

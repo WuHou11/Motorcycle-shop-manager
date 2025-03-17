@@ -36,6 +36,11 @@
     <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\Windows\SysWOW64\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
@@ -83,11 +88,23 @@
     <Compile Include="ALL UserControl\UC_Revenue.Designer.cs">
       <DependentUpon>UC_Revenue.cs</DependentUpon>
     </Compile>
+    <Compile Include="ALL UserControl\UC_Sale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ALL UserControl\UC_Sale.Designer.cs">
+      <DependentUpon>UC_Sale.cs</DependentUpon>
+    </Compile>
     <Compile Include="ALL UserControl\UC_Supplier.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ALL UserControl\UC_Supplier.Designer.cs">
       <DependentUpon>UC_Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeBoard.Designer.cs">
+      <DependentUpon>EmployeeBoard.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -118,8 +135,14 @@
     <EmbeddedResource Include="ALL UserControl\UC_Revenue.resx">
       <DependentUpon>UC_Revenue.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ALL UserControl\UC_Sale.resx">
+      <DependentUpon>UC_Sale.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ALL UserControl\UC_Supplier.resx">
       <DependentUpon>UC_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeBoard.resx">
+      <DependentUpon>EmployeeBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

@@ -26,9 +26,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Supplier));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -46,9 +46,10 @@
             this.attname = new System.Windows.Forms.TextBox();
             this.attList = new System.Windows.Forms.DataGridView();
             this.label4 = new System.Windows.Forms.Label();
-            this.atteditbtn = new System.Windows.Forms.Button();
-            this.attdelbtn = new System.Windows.Forms.Button();
-            this.attaddbtn = new System.Windows.Forms.Button();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnExcel = new Guna.UI2.WinForms.Guna2Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.attList)).BeginInit();
@@ -61,7 +62,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Controls.Add(this.guna2Button3);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label9);
@@ -74,19 +75,6 @@
             this.groupBox2.TabIndex = 39;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm kiếm";
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.button4.ForeColor = System.Drawing.Color.Maroon;
-            this.button4.Location = new System.Drawing.Point(592, 65);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 46);
-            this.button4.TabIndex = 36;
-            this.button4.Text = "Tìm";
-            this.button4.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
@@ -314,57 +302,96 @@
             this.label4.TabIndex = 57;
             this.label4.Text = "NHÀ CUNG CẤP";
             // 
-            // atteditbtn
+            // guna2Button3
             // 
-            this.atteditbtn.BackColor = System.Drawing.Color.White;
-            this.atteditbtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.atteditbtn.Location = new System.Drawing.Point(216, 707);
-            this.atteditbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.atteditbtn.Name = "atteditbtn";
-            this.atteditbtn.Size = new System.Drawing.Size(120, 46);
-            this.atteditbtn.TabIndex = 63;
-            this.atteditbtn.Text = "Sửa";
-            this.atteditbtn.UseVisualStyleBackColor = false;
+            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.BorderRadius = 15;
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.AliceBlue;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button3.ForeColor = System.Drawing.Color.Blue;
+            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
+            this.guna2Button3.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button3.Location = new System.Drawing.Point(547, 72);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(131, 55);
+            this.guna2Button3.TabIndex = 68;
+            this.guna2Button3.Text = "Tìm";
             // 
-            // attdelbtn
+            // guna2Button2
             // 
-            this.attdelbtn.BackColor = System.Drawing.Color.White;
-            this.attdelbtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.attdelbtn.ForeColor = System.Drawing.Color.Maroon;
-            this.attdelbtn.Location = new System.Drawing.Point(364, 707);
-            this.attdelbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.attdelbtn.Name = "attdelbtn";
-            this.attdelbtn.Size = new System.Drawing.Size(120, 46);
-            this.attdelbtn.TabIndex = 62;
-            this.attdelbtn.Text = "Xóa";
-            this.attdelbtn.UseVisualStyleBackColor = false;
+            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button2.BorderRadius = 15;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.AliceBlue;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button2.ForeColor = System.Drawing.Color.Maroon;
+            this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
+            this.guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button2.Location = new System.Drawing.Point(367, 715);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(131, 55);
+            this.guna2Button2.TabIndex = 74;
+            this.guna2Button2.Text = "Xóa";
             // 
-            // attaddbtn
+            // guna2Button1
             // 
-            this.attaddbtn.BackColor = System.Drawing.Color.White;
-            this.attaddbtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.attaddbtn.Location = new System.Drawing.Point(64, 707);
-            this.attaddbtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.attaddbtn.Name = "attaddbtn";
-            this.attaddbtn.Size = new System.Drawing.Size(120, 46);
-            this.attaddbtn.TabIndex = 61;
-            this.attaddbtn.Text = "Thêm";
-            this.attaddbtn.UseVisualStyleBackColor = false;
+            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button1.BorderRadius = 15;
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.AliceBlue;
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.Purple;
+            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
+            this.guna2Button1.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2Button1.Location = new System.Drawing.Point(216, 715);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(131, 55);
+            this.guna2Button1.TabIndex = 73;
+            this.guna2Button1.Text = "Sửa";
+            // 
+            // btnExcel
+            // 
+            this.btnExcel.BackColor = System.Drawing.Color.Transparent;
+            this.btnExcel.BorderRadius = 15;
+            this.btnExcel.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExcel.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExcel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExcel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExcel.FillColor = System.Drawing.Color.AliceBlue;
+            this.btnExcel.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcel.ForeColor = System.Drawing.Color.Green;
+            this.btnExcel.Image = ((System.Drawing.Image)(resources.GetObject("btnExcel.Image")));
+            this.btnExcel.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnExcel.Location = new System.Drawing.Point(70, 715);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(131, 55);
+            this.btnExcel.TabIndex = 72;
+            this.btnExcel.Text = "Thêm";
             // 
             // UC_Supplier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
-            this.Controls.Add(this.atteditbtn);
-            this.Controls.Add(this.attdelbtn);
-            this.Controls.Add(this.attaddbtn);
+            this.Controls.Add(this.guna2Button2);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.attList);
             this.Name = "UC_Supplier";
-            this.Size = new System.Drawing.Size(1450, 1000);
+            this.Size = new System.Drawing.Size(1450, 1100);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -376,7 +403,6 @@
         }
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label9;
@@ -394,8 +420,9 @@
         private System.Windows.Forms.TextBox attname;
         private System.Windows.Forms.DataGridView attList;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button atteditbtn;
-        private System.Windows.Forms.Button attdelbtn;
-        private System.Windows.Forms.Button attaddbtn;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnExcel;
     }
 }

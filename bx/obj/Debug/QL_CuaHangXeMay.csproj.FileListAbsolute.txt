@@ -17,3 +17,5 @@ D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\QL_CuaHangXeMay.csproj
 D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\QL_CuaHa.C77DA4A3.Up2Date
 D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.exe
 D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.pdb
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.EmployeeBoard.resources
