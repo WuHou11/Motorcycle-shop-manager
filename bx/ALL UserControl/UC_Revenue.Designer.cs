@@ -31,29 +31,23 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Revenue));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtLoiNhuan = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtTongChi = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtTongThu = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chart_DoanhThu = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.btnTimKiem = new Guna.UI2.WinForms.Guna2Button();
+            this.dtStart = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.dtEnd = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.attList = new System.Windows.Forms.DataGridView();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.btnExcel = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_DoanhThu)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.attList)).BeginInit();
             this.SuspendLayout();
@@ -63,15 +57,15 @@
             this.guna2Elipse1.BorderRadius = 30;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // textBox8
+            // txtLoiNhuan
             // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(1244, 909);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.PasswordChar = '*';
-            this.textBox8.Size = new System.Drawing.Size(179, 33);
-            this.textBox8.TabIndex = 55;
+            this.txtLoiNhuan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLoiNhuan.Location = new System.Drawing.Point(1244, 909);
+            this.txtLoiNhuan.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtLoiNhuan.Name = "txtLoiNhuan";
+            this.txtLoiNhuan.PasswordChar = '*';
+            this.txtLoiNhuan.Size = new System.Drawing.Size(179, 33);
+            this.txtLoiNhuan.TabIndex = 55;
             // 
             // label11
             // 
@@ -85,15 +79,15 @@
             this.label11.TabIndex = 54;
             this.label11.Text = "Lợi nhuận";
             // 
-            // textBox7
+            // txtTongChi
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(845, 909);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.PasswordChar = '*';
-            this.textBox7.Size = new System.Drawing.Size(179, 33);
-            this.textBox7.TabIndex = 53;
+            this.txtTongChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTongChi.Location = new System.Drawing.Point(845, 909);
+            this.txtTongChi.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTongChi.Name = "txtTongChi";
+            this.txtTongChi.PasswordChar = '*';
+            this.txtTongChi.Size = new System.Drawing.Size(179, 33);
+            this.txtTongChi.TabIndex = 53;
             // 
             // label10
             // 
@@ -107,15 +101,15 @@
             this.label10.TabIndex = 52;
             this.label10.Text = "Tổng chi";
             // 
-            // textBox6
+            // txtTongThu
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(449, 909);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.PasswordChar = '*';
-            this.textBox6.Size = new System.Drawing.Size(179, 33);
-            this.textBox6.TabIndex = 51;
+            this.txtTongThu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTongThu.Location = new System.Drawing.Point(449, 909);
+            this.txtTongThu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTongThu.Name = "txtTongThu";
+            this.txtTongThu.PasswordChar = '*';
+            this.txtTongThu.Size = new System.Drawing.Size(179, 33);
+            this.txtTongThu.TabIndex = 51;
             // 
             // label7
             // 
@@ -129,80 +123,93 @@
             this.label7.TabIndex = 50;
             this.label7.Text = "Tổng thu";
             // 
-            // chart1
+            // chart_DoanhThu
             // 
             chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            this.chart_DoanhThu.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(843, 49);
-            this.chart1.Name = "chart1";
+            this.chart_DoanhThu.Legends.Add(legend1);
+            this.chart_DoanhThu.Location = new System.Drawing.Point(679, 50);
+            this.chart_DoanhThu.Name = "chart_DoanhThu";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.FastLine;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             series1.YValuesPerPoint = 2;
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(580, 300);
-            this.chart1.TabIndex = 49;
-            this.chart1.Text = "chart1";
+            this.chart_DoanhThu.Series.Add(series1);
+            this.chart_DoanhThu.Size = new System.Drawing.Size(712, 300);
+            this.chart_DoanhThu.TabIndex = 49;
+            this.chart_DoanhThu.Text = "chart1";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.guna2Button3);
-            this.groupBox2.Controls.Add(this.guna2DateTimePicker2);
-            this.groupBox2.Controls.Add(this.guna2DateTimePicker1);
+            this.groupBox2.Controls.Add(this.btnTimKiem);
+            this.groupBox2.Controls.Add(this.dtStart);
+            this.groupBox2.Controls.Add(this.dtEnd);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(52, 33);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(746, 317);
+            this.groupBox2.Size = new System.Drawing.Size(576, 317);
             this.groupBox2.TabIndex = 48;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "THỐNG KÊ DOANH THU";
             // 
-            // guna2DateTimePicker2
+            // btnTimKiem
             // 
-            this.guna2DateTimePicker2.Checked = true;
-            this.guna2DateTimePicker2.FillColor = System.Drawing.Color.OrangeRed;
-            this.guna2DateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.guna2DateTimePicker2.Location = new System.Drawing.Point(476, 79);
-            this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            this.guna2DateTimePicker2.Size = new System.Drawing.Size(206, 36);
-            this.guna2DateTimePicker2.TabIndex = 44;
-            this.guna2DateTimePicker2.Value = new System.DateTime(2025, 3, 11, 19, 4, 58, 781);
+            this.btnTimKiem.BackColor = System.Drawing.Color.Transparent;
+            this.btnTimKiem.BorderRadius = 15;
+            this.btnTimKiem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnTimKiem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnTimKiem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnTimKiem.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnTimKiem.FillColor = System.Drawing.Color.AliceBlue;
+            this.btnTimKiem.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiem.ForeColor = System.Drawing.Color.Blue;
+            this.btnTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("btnTimKiem.Image")));
+            this.btnTimKiem.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnTimKiem.Location = new System.Drawing.Point(315, 222);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.Size = new System.Drawing.Size(131, 55);
+            this.btnTimKiem.TabIndex = 68;
+            this.btnTimKiem.Text = "Tìm";
             // 
-            // guna2DateTimePicker1
+            // dtStart
             // 
-            this.guna2DateTimePicker1.Checked = true;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.OrangeRed;
-            this.guna2DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(476, 137);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(206, 36);
-            this.guna2DateTimePicker1.TabIndex = 43;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2025, 3, 11, 19, 4, 55, 247);
+            this.dtStart.Checked = true;
+            this.dtStart.FillColor = System.Drawing.Color.OrangeRed;
+            this.dtStart.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtStart.Location = new System.Drawing.Point(226, 77);
+            this.dtStart.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtStart.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtStart.Name = "dtStart";
+            this.dtStart.Size = new System.Drawing.Size(206, 36);
+            this.dtStart.TabIndex = 44;
+            this.dtStart.Value = new System.DateTime(2025, 3, 11, 19, 4, 58, 781);
+            // 
+            // dtEnd
+            // 
+            this.dtEnd.Checked = true;
+            this.dtEnd.FillColor = System.Drawing.Color.OrangeRed;
+            this.dtEnd.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtEnd.Location = new System.Drawing.Point(226, 135);
+            this.dtEnd.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtEnd.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtEnd.Name = "dtEnd";
+            this.dtEnd.Size = new System.Drawing.Size(206, 36);
+            this.dtEnd.TabIndex = 43;
+            this.dtEnd.Value = new System.DateTime(2025, 3, 11, 19, 4, 55, 247);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(314, 137);
+            this.label6.Location = new System.Drawing.Point(64, 135);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(123, 32);
@@ -214,76 +221,12 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(314, 79);
+            this.label1.Location = new System.Drawing.Point(64, 77);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(107, 32);
             this.label1.TabIndex = 39;
             this.label1.Text = "Từ ngày";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(49, 164);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 32);
-            this.label2.TabIndex = 38;
-            this.label2.Text = "Năm";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(145, 160);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(124, 33);
-            this.textBox4.TabIndex = 37;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(147, 109);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(122, 33);
-            this.textBox1.TabIndex = 35;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(49, 115);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 32);
-            this.label3.TabIndex = 34;
-            this.label3.Text = "Tháng";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(49, 62);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(74, 32);
-            this.label9.TabIndex = 33;
-            this.label9.Text = "Ngày";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(145, 58);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(124, 33);
-            this.textBox2.TabIndex = 32;
             // 
             // attList
             // 
@@ -352,43 +295,24 @@
             this.btnExcel.Text = "Xuất File Excel";
             this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
-            // guna2Button3
-            // 
-            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.BorderRadius = 15;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.AliceBlue;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.Blue;
-            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
-            this.guna2Button3.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button3.Location = new System.Drawing.Point(531, 232);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(131, 55);
-            this.guna2Button3.TabIndex = 68;
-            this.guna2Button3.Text = "Tìm";
-            // 
             // UC_Revenue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
             this.Controls.Add(this.btnExcel);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtLoiNhuan);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtTongChi);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtTongThu);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.chart_DoanhThu);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.attList);
             this.Name = "UC_Revenue";
             this.Size = new System.Drawing.Size(1450, 1100);
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart_DoanhThu)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.attList)).EndInit();
@@ -397,27 +321,21 @@
 
         }
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtLoiNhuan;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtTongChi;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtTongThu;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart_DoanhThu;
         private System.Windows.Forms.GroupBox groupBox2;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtStart;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtEnd;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.DataGridView attList;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Guna.UI2.WinForms.Guna2Button btnExcel;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2Button btnTimKiem;
     }
 }

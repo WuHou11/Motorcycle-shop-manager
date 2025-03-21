@@ -121,7 +121,7 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="guna2Button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnXoa.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAABGdBTUEAALGPC/xhBQAAFeZJREFUeF7t
         nXmsbmV1xh8GxSYCl+G2KlT6R8MsWDVRG00ZlAJRq7VpylSmtmlT/adMcsF0NYC1Ehlksq3YmBjmoZLY
@@ -220,7 +220,7 @@
         hBBCCCGEEEIIIYQQQgghZsX/AlHqfXElzgvMAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="guna2Button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnSua.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAMmdJREFUeF7t
         3Xu4fdd87/FvErkSqTQoUlUUcQ0HfaIPTRWnqvSOHlXXk6KPqlZpq61PVDWqlFJHrzgVQlvVFlVVpLlI
@@ -441,7 +441,7 @@
         xugQRwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnExcel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnThem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAYAAADRcblEAAAABGdBTUEAALGPC/xhBQAAHuxJREFUeF7t
         nQm4dtd0x/9VQxCJIIYgJASJIUIrBCExVg01RWKI1lBThJhiqHahShFTjUXR0oY+GmOoeQqCRBBzhBiq
@@ -579,7 +579,7 @@
         AElFTkSuQmCC
 </value>
   </data>
-  <data name="guna2Button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnTimKiem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAIgZJREFUeF7t
         1s125DqOReF6u570w/T7T6qXncvOjA3FjyIk8RDcg2+QcF37gASo+s///N///keSJK2lFCRJUn+lIEmS

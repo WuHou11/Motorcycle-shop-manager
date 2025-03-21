@@ -27,15 +27,17 @@ namespace bx
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.display = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_Logo = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.formside = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.ToggleSwitch_Agree = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.lbError = new System.Windows.Forms.Label();
             this.btnClear = new Guna.UI2.WinForms.Guna2Button();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.lbExit = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -44,16 +46,15 @@ namespace bx
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.display.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).BeginInit();
             this.formside.SuspendLayout();
             this.SuspendLayout();
             // 
             // display
             // 
             this.display.BackColor = System.Drawing.Color.AliceBlue;
-            this.display.Controls.Add(this.pictureBox1);
+            this.display.Controls.Add(this.pictureBox_Logo);
             this.display.Controls.Add(this.label2);
             this.display.Controls.Add(this.label1);
             this.display.Location = new System.Drawing.Point(-2, -2);
@@ -62,17 +63,17 @@ namespace bx
             this.display.Size = new System.Drawing.Size(515, 729);
             this.display.TabIndex = 0;
             // 
-            // pictureBox1
+            // pictureBox_Logo
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(61, 290);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(418, 384);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox_Logo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_Logo.Image")));
+            this.pictureBox_Logo.Location = new System.Drawing.Point(61, 290);
+            this.pictureBox_Logo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox_Logo.Name = "pictureBox_Logo";
+            this.pictureBox_Logo.Size = new System.Drawing.Size(418, 384);
+            this.pictureBox_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Logo.TabIndex = 2;
+            this.pictureBox_Logo.TabStop = false;
+            this.pictureBox_Logo.Click += new System.EventHandler(this.pictureBox_Logo_Click);
             // 
             // label2
             // 
@@ -103,12 +104,13 @@ namespace bx
             // formside
             // 
             this.formside.BackColor = System.Drawing.Color.Cyan;
-            this.formside.Controls.Add(this.guna2CheckBox1);
+            this.formside.Controls.Add(this.label6);
+            this.formside.Controls.Add(this.ToggleSwitch_Agree);
             this.formside.Controls.Add(this.lbError);
             this.formside.Controls.Add(this.btnClear);
             this.formside.Controls.Add(this.btnLogin);
-            this.formside.Controls.Add(this.guna2TextBox2);
-            this.formside.Controls.Add(this.guna2TextBox1);
+            this.formside.Controls.Add(this.txtPassword);
+            this.formside.Controls.Add(this.txtUsername);
             this.formside.Controls.Add(this.label8);
             this.formside.Controls.Add(this.lbExit);
             this.formside.Controls.Add(this.panel2);
@@ -122,6 +124,33 @@ namespace bx
             this.formside.Name = "formside";
             this.formside.Size = new System.Drawing.Size(685, 729);
             this.formside.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
+            this.label6.ForeColor = System.Drawing.Color.Maroon;
+            this.label6.Location = new System.Drawing.Point(3, 673);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(552, 32);
+            this.label6.TabIndex = 78;
+            this.label6.Text = "Bạn chấp nhận các điều khoản của chúng tôi";
+            // 
+            // ToggleSwitch_Agree
+            // 
+            this.ToggleSwitch_Agree.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ToggleSwitch_Agree.CheckedState.BorderThickness = 2;
+            this.ToggleSwitch_Agree.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ToggleSwitch_Agree.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.ToggleSwitch_Agree.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.ToggleSwitch_Agree.Location = new System.Drawing.Point(576, 673);
+            this.ToggleSwitch_Agree.Name = "ToggleSwitch_Agree";
+            this.ToggleSwitch_Agree.Size = new System.Drawing.Size(61, 32);
+            this.ToggleSwitch_Agree.TabIndex = 77;
+            this.ToggleSwitch_Agree.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.ToggleSwitch_Agree.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.ToggleSwitch_Agree.UncheckedState.InnerBorderColor = System.Drawing.Color.Gray;
+            this.ToggleSwitch_Agree.UncheckedState.InnerColor = System.Drawing.Color.DarkGray;
             // 
             // lbError
             // 
@@ -167,53 +196,53 @@ namespace bx
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // guna2TextBox2
+            // txtPassword
             // 
-            this.guna2TextBox2.BorderRadius = 18;
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox2.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox2.IconLeft")));
-            this.guna2TextBox2.IconRight = ((System.Drawing.Image)(resources.GetObject("guna2TextBox2.IconRight")));
-            this.guna2TextBox2.IconRightOffset = new System.Drawing.Point(15, 1);
-            this.guna2TextBox2.Location = new System.Drawing.Point(303, 337);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox2.PlaceholderText = "Nhập mật khẩu";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(334, 60);
-            this.guna2TextBox2.TabIndex = 70;
+            this.txtPassword.BorderRadius = 18;
+            this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPassword.DefaultText = "";
+            this.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.ForeColor = System.Drawing.Color.Black;
+            this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtPassword.IconLeft")));
+            this.txtPassword.IconRight = ((System.Drawing.Image)(resources.GetObject("txtPassword.IconRight")));
+            this.txtPassword.IconRightOffset = new System.Drawing.Point(15, 1);
+            this.txtPassword.Location = new System.Drawing.Point(303, 337);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtPassword.PlaceholderText = "Nhập mật khẩu";
+            this.txtPassword.SelectedText = "";
+            this.txtPassword.Size = new System.Drawing.Size(334, 60);
+            this.txtPassword.TabIndex = 70;
             // 
-            // guna2TextBox1
+            // txtUsername
             // 
-            this.guna2TextBox1.BorderRadius = 18;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.IconLeft = ((System.Drawing.Image)(resources.GetObject("guna2TextBox1.IconLeft")));
-            this.guna2TextBox1.Location = new System.Drawing.Point(303, 243);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.guna2TextBox1.PlaceholderText = "Nhập tên đăng nhập";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(334, 60);
-            this.guna2TextBox1.TabIndex = 69;
+            this.txtUsername.BorderRadius = 18;
+            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUsername.DefaultText = "";
+            this.txtUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtUsername.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.ForeColor = System.Drawing.Color.Black;
+            this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtUsername.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtUsername.IconLeft")));
+            this.txtUsername.Location = new System.Drawing.Point(303, 243);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtUsername.PlaceholderText = "Nhập tên đăng nhập";
+            this.txtUsername.SelectedText = "";
+            this.txtUsername.Size = new System.Drawing.Size(334, 60);
+            this.txtUsername.TabIndex = 69;
             // 
             // label8
             // 
@@ -268,6 +297,7 @@ namespace bx
             this.lbForgotPassword.Size = new System.Drawing.Size(171, 27);
             this.lbForgotPassword.TabIndex = 8;
             this.lbForgotPassword.Text = "Quên mật khẩu?";
+            this.lbForgotPassword.Click += new System.EventHandler(this.lbForgotPassword_Click);
             // 
             // label5
             // 
@@ -306,27 +336,6 @@ namespace bx
             this.label3.TabIndex = 1;
             this.label3.Text = "Tên đăng nhập";
             // 
-            // guna2CheckBox1
-            // 
-            this.guna2CheckBox1.AutoSize = true;
-            this.guna2CheckBox1.Checked = true;
-            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.Blue;
-            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.CheckedState.BorderThickness = 5;
-            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.Blue;
-            this.guna2CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.guna2CheckBox1.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
-            this.guna2CheckBox1.ForeColor = System.Drawing.Color.Maroon;
-            this.guna2CheckBox1.Location = new System.Drawing.Point(77, 668);
-            this.guna2CheckBox1.Name = "guna2CheckBox1";
-            this.guna2CheckBox1.Size = new System.Drawing.Size(578, 36);
-            this.guna2CheckBox1.TabIndex = 75;
-            this.guna2CheckBox1.Text = "Bạn chấp nhận các điều khoản của chúng tôi";
-            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.Blue;
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
-            this.guna2CheckBox1.UncheckedState.BorderThickness = 5;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.Blue;
-            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -341,7 +350,7 @@ namespace bx
             this.Text = "LOGIN";
             this.display.ResumeLayout(false);
             this.display.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).EndInit();
             this.formside.ResumeLayout(false);
             this.formside.PerformLayout();
             this.ResumeLayout(false);
@@ -352,7 +361,7 @@ namespace bx
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel formside;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox_Logo;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -361,11 +370,12 @@ namespace bx
         private Label lbExit;
         private Panel panel2;
         private Panel panel3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox txtPassword;
+        private Guna.UI2.WinForms.Guna2TextBox txtUsername;
         private Label lbError;
         private Guna.UI2.WinForms.Guna2Button btnClear;
         private Guna.UI2.WinForms.Guna2Button btnLogin;
-        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch ToggleSwitch_Agree;
+        private Label label6;
     }
 }
