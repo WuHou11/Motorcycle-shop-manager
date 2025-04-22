@@ -32,23 +32,23 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Revenue));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.txtLoiNhuan = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblLoinhuan = new System.Windows.Forms.Label();
             this.txtTongChi = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblTongchi = new System.Windows.Forms.Label();
             this.txtTongThu = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblTongthu = new System.Windows.Forms.Label();
             this.chart_DoanhThu = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.grbTKDT = new System.Windows.Forms.GroupBox();
             this.btnTimKiem = new Guna.UI2.WinForms.Guna2Button();
             this.dtStart = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.dtEnd = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblDenngay = new System.Windows.Forms.Label();
+            this.lblTungay = new System.Windows.Forms.Label();
             this.attList = new System.Windows.Forms.DataGridView();
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.btnExcel = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.chart_DoanhThu)).BeginInit();
-            this.groupBox2.SuspendLayout();
+            this.grbTKDT.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.attList)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,17 +67,17 @@
             this.txtLoiNhuan.Size = new System.Drawing.Size(179, 33);
             this.txtLoiNhuan.TabIndex = 55;
             // 
-            // label11
+            // lblLoinhuan
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.Color.Transparent;
-            this.label11.Location = new System.Drawing.Point(1099, 909);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(127, 32);
-            this.label11.TabIndex = 54;
-            this.label11.Text = "Lợi nhuận";
+            this.lblLoinhuan.AutoSize = true;
+            this.lblLoinhuan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblLoinhuan.ForeColor = System.Drawing.Color.Transparent;
+            this.lblLoinhuan.Location = new System.Drawing.Point(1099, 909);
+            this.lblLoinhuan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblLoinhuan.Name = "lblLoinhuan";
+            this.lblLoinhuan.Size = new System.Drawing.Size(127, 32);
+            this.lblLoinhuan.TabIndex = 54;
+            this.lblLoinhuan.Text = "Lợi nhuận";
             // 
             // txtTongChi
             // 
@@ -89,17 +89,17 @@
             this.txtTongChi.Size = new System.Drawing.Size(179, 33);
             this.txtTongChi.TabIndex = 53;
             // 
-            // label10
+            // lblTongchi
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label10.ForeColor = System.Drawing.Color.Transparent;
-            this.label10.Location = new System.Drawing.Point(700, 909);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(113, 32);
-            this.label10.TabIndex = 52;
-            this.label10.Text = "Tổng chi";
+            this.lblTongchi.AutoSize = true;
+            this.lblTongchi.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblTongchi.ForeColor = System.Drawing.Color.Transparent;
+            this.lblTongchi.Location = new System.Drawing.Point(700, 909);
+            this.lblTongchi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTongchi.Name = "lblTongchi";
+            this.lblTongchi.Size = new System.Drawing.Size(113, 32);
+            this.lblTongchi.TabIndex = 52;
+            this.lblTongchi.Text = "Tổng chi";
             // 
             // txtTongThu
             // 
@@ -111,17 +111,17 @@
             this.txtTongThu.Size = new System.Drawing.Size(179, 33);
             this.txtTongThu.TabIndex = 51;
             // 
-            // label7
+            // lblTongthu
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label7.ForeColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(312, 909);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(118, 32);
-            this.label7.TabIndex = 50;
-            this.label7.Text = "Tổng thu";
+            this.lblTongthu.AutoSize = true;
+            this.lblTongthu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblTongthu.ForeColor = System.Drawing.Color.Transparent;
+            this.lblTongthu.Location = new System.Drawing.Point(312, 909);
+            this.lblTongthu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTongthu.Name = "lblTongthu";
+            this.lblTongthu.Size = new System.Drawing.Size(118, 32);
+            this.lblTongthu.TabIndex = 50;
+            this.lblTongthu.Text = "Tổng thu";
             // 
             // chart_DoanhThu
             // 
@@ -141,21 +141,21 @@
             this.chart_DoanhThu.TabIndex = 49;
             this.chart_DoanhThu.Text = "chart1";
             // 
-            // groupBox2
+            // grbTKDT
             // 
-            this.groupBox2.Controls.Add(this.btnTimKiem);
-            this.groupBox2.Controls.Add(this.dtStart);
-            this.groupBox2.Controls.Add(this.dtEnd);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(52, 33);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(576, 317);
-            this.groupBox2.TabIndex = 48;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "THỐNG KÊ DOANH THU";
+            this.grbTKDT.Controls.Add(this.btnTimKiem);
+            this.grbTKDT.Controls.Add(this.dtStart);
+            this.grbTKDT.Controls.Add(this.dtEnd);
+            this.grbTKDT.Controls.Add(this.lblDenngay);
+            this.grbTKDT.Controls.Add(this.lblTungay);
+            this.grbTKDT.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbTKDT.ForeColor = System.Drawing.Color.White;
+            this.grbTKDT.Location = new System.Drawing.Point(52, 33);
+            this.grbTKDT.Name = "grbTKDT";
+            this.grbTKDT.Size = new System.Drawing.Size(576, 317);
+            this.grbTKDT.TabIndex = 48;
+            this.grbTKDT.TabStop = false;
+            this.grbTKDT.Text = "THỐNG KÊ DOANH THU";
             // 
             // btnTimKiem
             // 
@@ -170,7 +170,7 @@
             this.btnTimKiem.ForeColor = System.Drawing.Color.Blue;
             this.btnTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("btnTimKiem.Image")));
             this.btnTimKiem.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnTimKiem.Location = new System.Drawing.Point(315, 222);
+            this.btnTimKiem.Location = new System.Drawing.Point(164, 213);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(131, 55);
             this.btnTimKiem.TabIndex = 68;
@@ -204,29 +204,29 @@
             this.dtEnd.TabIndex = 43;
             this.dtEnd.Value = new System.DateTime(2025, 3, 11, 19, 4, 55, 247);
             // 
-            // label6
+            // lblDenngay
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(64, 135);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(123, 32);
-            this.label6.TabIndex = 41;
-            this.label6.Text = "Đến ngày";
+            this.lblDenngay.AutoSize = true;
+            this.lblDenngay.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.lblDenngay.ForeColor = System.Drawing.Color.Transparent;
+            this.lblDenngay.Location = new System.Drawing.Point(64, 135);
+            this.lblDenngay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDenngay.Name = "lblDenngay";
+            this.lblDenngay.Size = new System.Drawing.Size(123, 32);
+            this.lblDenngay.TabIndex = 41;
+            this.lblDenngay.Text = "Đến ngày";
             // 
-            // label1
+            // lblTungay
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(64, 77);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 32);
-            this.label1.TabIndex = 39;
-            this.label1.Text = "Từ ngày";
+            this.lblTungay.AutoSize = true;
+            this.lblTungay.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTungay.ForeColor = System.Drawing.Color.Transparent;
+            this.lblTungay.Location = new System.Drawing.Point(64, 77);
+            this.lblTungay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTungay.Name = "lblTungay";
+            this.lblTungay.Size = new System.Drawing.Size(107, 32);
+            this.lblTungay.TabIndex = 39;
+            this.lblTungay.Text = "Từ ngày";
             // 
             // attList
             // 
@@ -302,19 +302,19 @@
             this.BackColor = System.Drawing.Color.DodgerBlue;
             this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.txtLoiNhuan);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lblLoinhuan);
             this.Controls.Add(this.txtTongChi);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lblTongchi);
             this.Controls.Add(this.txtTongThu);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblTongthu);
             this.Controls.Add(this.chart_DoanhThu);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.grbTKDT);
             this.Controls.Add(this.attList);
             this.Name = "UC_Revenue";
             this.Size = new System.Drawing.Size(1450, 1100);
             ((System.ComponentModel.ISupportInitialize)(this.chart_DoanhThu)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.grbTKDT.ResumeLayout(false);
+            this.grbTKDT.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.attList)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -322,17 +322,17 @@
         }
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private System.Windows.Forms.TextBox txtLoiNhuan;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblLoinhuan;
         private System.Windows.Forms.TextBox txtTongChi;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblTongchi;
         private System.Windows.Forms.TextBox txtTongThu;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblTongthu;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart_DoanhThu;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox grbTKDT;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtStart;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtEnd;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDenngay;
+        private System.Windows.Forms.Label lblTungay;
         private System.Windows.Forms.DataGridView attList;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Guna.UI2.WinForms.Guna2Button btnExcel;

@@ -19,3 +19,35 @@ D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.exe
 D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.pdb
 D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
 D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.EmployeeBoard.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\QL_CuaHangXeMay.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Account.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Bill.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Customer.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Product.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Revenue.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Supplier.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.EmployeeBoard.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.Login.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.MainBoard.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.Properties.Resources.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\QL_CuaHangXeMay.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\QL_CuaHangXeMay.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.exe
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.pdb
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\bx.exe.config
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\bx.exe
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\bx.pdb
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\QL_CuaHangXeMay.csproj.CopyComplete
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\ab125.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\ex155.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\janus.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\piaggio.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\raider.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\shmode.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\Sirius.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\sym.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\vision.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\wave.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\r15.jpg

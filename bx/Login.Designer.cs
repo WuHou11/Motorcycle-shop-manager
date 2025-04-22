@@ -32,7 +32,7 @@ namespace bx
             this.label1 = new System.Windows.Forms.Label();
             this.formside = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
-            this.ToggleSwitch_Agree = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.tgAgree = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.lbError = new System.Windows.Forms.Label();
             this.btnClear = new Guna.UI2.WinForms.Guna2Button();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
@@ -73,7 +73,6 @@ namespace bx
             this.pictureBox_Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox_Logo.TabIndex = 2;
             this.pictureBox_Logo.TabStop = false;
-            this.pictureBox_Logo.Click += new System.EventHandler(this.pictureBox_Logo_Click);
             // 
             // label2
             // 
@@ -105,7 +104,7 @@ namespace bx
             // 
             this.formside.BackColor = System.Drawing.Color.Cyan;
             this.formside.Controls.Add(this.label6);
-            this.formside.Controls.Add(this.ToggleSwitch_Agree);
+            this.formside.Controls.Add(this.tgAgree);
             this.formside.Controls.Add(this.lbError);
             this.formside.Controls.Add(this.btnClear);
             this.formside.Controls.Add(this.btnLogin);
@@ -136,21 +135,21 @@ namespace bx
             this.label6.TabIndex = 78;
             this.label6.Text = "Bạn chấp nhận các điều khoản của chúng tôi";
             // 
-            // ToggleSwitch_Agree
+            // tgAgree
             // 
-            this.ToggleSwitch_Agree.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ToggleSwitch_Agree.CheckedState.BorderThickness = 2;
-            this.ToggleSwitch_Agree.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ToggleSwitch_Agree.CheckedState.InnerBorderColor = System.Drawing.Color.White;
-            this.ToggleSwitch_Agree.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.ToggleSwitch_Agree.Location = new System.Drawing.Point(576, 673);
-            this.ToggleSwitch_Agree.Name = "ToggleSwitch_Agree";
-            this.ToggleSwitch_Agree.Size = new System.Drawing.Size(61, 32);
-            this.ToggleSwitch_Agree.TabIndex = 77;
-            this.ToggleSwitch_Agree.UncheckedState.BorderColor = System.Drawing.Color.White;
-            this.ToggleSwitch_Agree.UncheckedState.FillColor = System.Drawing.Color.White;
-            this.ToggleSwitch_Agree.UncheckedState.InnerBorderColor = System.Drawing.Color.Gray;
-            this.ToggleSwitch_Agree.UncheckedState.InnerColor = System.Drawing.Color.DarkGray;
+            this.tgAgree.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tgAgree.CheckedState.BorderThickness = 2;
+            this.tgAgree.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tgAgree.CheckedState.InnerBorderColor = System.Drawing.Color.White;
+            this.tgAgree.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.tgAgree.Location = new System.Drawing.Point(576, 673);
+            this.tgAgree.Name = "tgAgree";
+            this.tgAgree.Size = new System.Drawing.Size(61, 32);
+            this.tgAgree.TabIndex = 77;
+            this.tgAgree.UncheckedState.BorderColor = System.Drawing.Color.White;
+            this.tgAgree.UncheckedState.FillColor = System.Drawing.Color.White;
+            this.tgAgree.UncheckedState.InnerBorderColor = System.Drawing.Color.Gray;
+            this.tgAgree.UncheckedState.InnerColor = System.Drawing.Color.DarkGray;
             // 
             // lbError
             // 
@@ -178,6 +177,7 @@ namespace bx
             this.btnClear.Size = new System.Drawing.Size(180, 67);
             this.btnClear.TabIndex = 72;
             this.btnClear.Text = "Xóa";
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnLogin
             // 
@@ -215,6 +215,7 @@ namespace bx
             this.txtPassword.Location = new System.Drawing.Point(303, 337);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPassword.Name = "txtPassword";
+            this.txtPassword.PasswordChar = '*';
             this.txtPassword.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtPassword.PlaceholderText = "Nhập mật khẩu";
             this.txtPassword.SelectedText = "";
@@ -297,7 +298,6 @@ namespace bx
             this.lbForgotPassword.Size = new System.Drawing.Size(171, 27);
             this.lbForgotPassword.TabIndex = 8;
             this.lbForgotPassword.Text = "Quên mật khẩu?";
-            this.lbForgotPassword.Click += new System.EventHandler(this.lbForgotPassword_Click);
             // 
             // label5
             // 
@@ -375,7 +375,7 @@ namespace bx
         private Label lbError;
         private Guna.UI2.WinForms.Guna2Button btnClear;
         private Guna.UI2.WinForms.Guna2Button btnLogin;
-        private Guna.UI2.WinForms.Guna2ToggleSwitch ToggleSwitch_Agree;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch tgAgree;
         private Label label6;
     }
 }
