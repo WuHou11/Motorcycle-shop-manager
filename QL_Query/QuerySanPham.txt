@@ -1,0 +1,29 @@
+USE QLCHXM
+GO
+-- Tao bang SanPham
+CREATE TABLE SanPham (
+    MaXe VARCHAR(10) PRIMARY KEY,
+    TenXe VARCHAR(100),
+    LoaiXe VARCHAR(50),
+    DungTich INT,
+    HangSanXuat VARCHAR(100),
+    MauSac VARCHAR(30),
+    GiaNhap DECIMAL(15,2),
+    GiaBan DECIMAL(15,2),
+    SoLuong INT,
+    DonViTinh VARCHAR(20)
+);
+
+-- Them 10 dong du lieu
+INSERT INTO SanPham (MaXe, TenXe, LoaiXe, DungTich, HangSanXuat, MauSac, GiaNhap, GiaBan, SoLuong, DonViTinh)
+VALUES
+('SP001', 'Yamaha Sirius', 'Xe so', 115, 'Yamaha', 'Den', 18000000, 21000000, 10, 'Chiec'),
+('SP002', 'Honda Vision', 'Xe tay ga', 110, 'Honda', 'Trang', 28000000, 32000000, 7, 'Chiec'),
+('SP003', 'Suzuki Raider', 'Xe the thao', 150, 'Suzuki', 'Xanh', 46000000, 49000000, 5, 'Chiec'),
+('SP004', 'Yamaha Janus', 'Xe tay ga', 125, 'Yamaha', 'Do', 29000000, 33000000, 6, 'Chiec'),
+('SP005', 'Honda Wave Alpha', 'Xe so', 110, 'Honda', 'Den', 17000000, 19500000, 12, 'Chiec'),
+('SP006', 'SYM Elegant', 'Xe so', 100, 'SYM', 'Xam', 16000000, 18000000, 8, 'Chiec'),
+('SP007', 'Piaggio Liberty', 'Xe tay ga', 125, 'Piaggio', 'Trang', 50000000, 56000000, 3, 'Chiec'),
+('SP008', 'Honda SH Mode', 'Xe tay ga', 125, 'Honda', 'Do', 60000000, 65000000, 4, 'Chiec'),
+('SP009', 'Yamaha Exciter', 'Xe the thao', 155, 'Yamaha', 'Xanh', 47000000, 52000000, 9, 'Chiec'),
+('SP010', 'Honda Air Blade', 'Xe tay ga', 125, 'Honda', 'Den', 41000000, 45000000, 6, 'Chiec');

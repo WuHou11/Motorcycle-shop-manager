@@ -1,0 +1,25 @@
+USE QLCHXM
+GO
+
+-- Tao bang NhaCungCap
+CREATE TABLE NhaCungCap (
+    MaNCC VARCHAR(10) PRIMARY KEY,
+    TenNCC VARCHAR(100),
+    DiaChi VARCHAR(200),
+    Email VARCHAR(100),
+    SDT VARCHAR(15)
+);
+
+-- Them 10 dong du lieu
+INSERT INTO NhaCungCap (MaNCC, TenNCC, DiaChi, Email, SDT)
+VALUES
+('NCC001', 'Cong ty Yamaha Viet Nam', 'Ha Noi', 'yamaha.vn@example.com', '0901000001'),
+('NCC002', 'Cong ty Honda Viet Nam', 'TP HCM', 'honda.vn@example.com', '0901000002'),
+('NCC003', 'Cong ty Suzuki Viet Nam', 'Da Nang', 'suzuki.vn@example.com', '0901000003'),
+('NCC004', 'Cong ty Piaggio Viet Nam', 'Hai Phong', 'piaggio.vn@example.com', '0901000004'),
+('NCC005', 'Cong ty SYM Viet Nam', 'Can Tho', 'sym.vn@example.com', '0901000005'),
+('NCC006', 'Cong ty Xe may ABC', 'Nha Trang', 'abc@example.com', '0901000006'),
+('NCC007', 'Cong ty Xe co DEF', 'Hue', 'def@example.com', '0901000007'),
+('NCC008', 'Cong ty Giao thong GHI', 'Quang Ninh', 'ghi@example.com', '0901000008'),
+('NCC009', 'Cong ty Phu tung JKL', 'Vinh', 'jkl@example.com', '0901000009'),
+('NCC010', 'Cong ty Nhap khau MNO', 'Thanh Hoa', 'mno@example.com', '0901000010');

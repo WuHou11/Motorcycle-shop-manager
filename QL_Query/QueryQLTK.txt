@@ -1,0 +1,28 @@
+USE QLCHXM
+GO
+-- Tao bang QLTK
+CREATE TABLE QLTK (
+    MaNV VARCHAR(10) PRIMARY KEY,
+    HoTen VARCHAR(100),
+    Tuoi INT,
+    GioiTinh VARCHAR(10),
+    Email VARCHAR(100),
+    SDT VARCHAR(15),
+    TaiKhoan VARCHAR(50),
+    MatKhau VARCHAR(50),
+    ChucVu VARCHAR(50)
+);
+
+-- Them 10 nhan vien
+INSERT INTO QLTK (MaNV, HoTen, Tuoi, GioiTinh, Email, SDT, TaiKhoan, MatKhau, ChucVu)
+VALUES 
+('NV001', 'Nguyen Van A', 28, 'Nam', 'a.nguyen@example.com', '0912345678', 'nguyenvana', 'matkhau1', 'Nhan vien'),
+('NV002', 'Tran Thi B', 25, 'Nu', 'b.tran@example.com', '0912345679', 'tranthib', 'matkhau2', 'Nhan vien'),
+('NV003', 'Le Van C', 30, 'Nam', 'c.le@example.com', '0912345680', 'levanc', 'matkhau3', 'Quan ly'),
+('NV004', 'Pham Thi D', 27, 'Nu', 'd.pham@example.com', '0912345681', 'phamthid', 'matkhau4', 'Nhan vien'),
+('NV005', 'Hoang Van E', 32, 'Nam', 'e.hoang@example.com', '0912345682', 'hoangvane', 'matkhau5', 'Truong phong'),
+('NV006', 'Dang Thi F', 24, 'Nu', 'f.dang@example.com', '0912345683', 'dangthif', 'matkhau6', 'Nhan vien'),
+('NV007', 'Bui Van G', 29, 'Nam', 'g.bui@example.com', '0912345684', 'buivang', 'matkhau7', 'Nhan vien'),
+('NV008', 'Vu Thi H', 26, 'Nu', 'h.vu@example.com', '0912345685', 'vuthih', 'matkhau8', 'Nhan vien'),
+('NV009', 'To Van I', 31, 'Nam', 'i.to@example.com', '0912345686', 'tovani', 'matkhau9', 'Quan ly'),
+('NV010', 'Ngo Thi K', 23, 'Nu', 'k.ngo@example.com', '0912345687', 'ngothik', 'matkhau10', 'Nhan vien');
