@@ -25,6 +25,8 @@ namespace bx.ALL_UserControl
             txtDiaChi.Clear();
             txtEmail.Clear();
             txtSDT.Clear();
+            txtTimMaNCC.Clear();
+            txtTimTenNCC.Clear();
         }
         private void HienDanhSachNCC()
         {
