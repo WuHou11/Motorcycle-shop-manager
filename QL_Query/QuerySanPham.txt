@@ -15,7 +15,7 @@ CREATE TABLE SanPham (
     HinhAnh VARCHAR (20)
 );
 
--- Them 10 dong du lieu
+-- Them 9 dong du lieu
 INSERT INTO SanPham (MaXe, TenXe, LoaiXe, DungTich, HangSanXuat, MauSac, GiaNhap, GiaBan, SoLuong, DonViTinh, HinhAnh)
 VALUES
 ('SP001', 'Yamaha Sirius', 'Xe so', 115, 'Yamaha', 'Den', 18000000, 21000000, 10, 'Chiec', 'Sirius.jpg'),
@@ -27,4 +27,3 @@ VALUES
 ('SP007', 'Piaggio Liberty', 'Xe tay ga', 125, 'Piaggio', 'Trang', 50000000, 56000000, 3, 'Chiec','piaggio.jpg'),
 ('SP008', 'Honda SH Mode', 'Xe tay ga', 125, 'Honda', 'Do', 60000000, 65000000, 4, 'Chiec','shmode.jpg'),
 ('SP009', 'Yamaha Exciter', 'Xe the thao', 155, 'Yamaha', 'Xanh', 47000000, 52000000, 9, 'Chiec','ex155.jpg'),
-('SP010', 'Honda Air Blade', 'Xe tay ga', 125, 'Honda', 'Den', 41000000, 45000000, 6, 'Chiec','ab125.jpg');

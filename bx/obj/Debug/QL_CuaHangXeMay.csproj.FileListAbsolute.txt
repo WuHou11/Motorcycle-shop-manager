@@ -51,3 +51,35 @@ C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2
 C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\vision.jpg
 C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\wave.jpg
 C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\r15.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ab125.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ex155.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\janus.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\piaggio.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\r15.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\raider.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\shmode.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\Sirius.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\sym.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\vision.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\wave.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe.config
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\bx.pdb
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Guna.UI2.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.AssemblyReference.cache
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Account.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Bill.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Customer.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Product.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Revenue.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Supplier.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.EmployeeBoard.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.Login.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.MainBoard.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.Properties.Resources.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.GenerateResource.cache
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.CoreCompileInputs.cache
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHa.C77DA4A3.Up2Date
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.exe
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.pdb

@@ -2,20 +2,26 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace bx.ALL_UserControl
 {
     public partial class UC_Revenue : UserControl
     {
+        QLThongKe qltk;
+
         public UC_Revenue()
         {
             InitializeComponent();
+            qltk = new QLThongKe();
         }
+
 
         private void btnExcel_Click(object sender, EventArgs e)
         {
@@ -217,6 +223,265 @@ namespace bx.ALL_UserControl
 
             //Căn giữa cả bảng 
             oSheet.get_Range(c1, c2).HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter;
+        }
+
+        private void UC_Revenue_Load(object sender, EventArgs e)
+        {
+            HienDanhSachThongKe();
+            txtTongThu.Text = "0 VNĐ";
+            txtTongChi.Text = "0 VNĐ";
+            txtLoiNhuan.Text = "0 VNĐ";
+            txtTongThu.Visible = true;
+            txtTongChi.Visible = true;
+            txtLoiNhuan.Visible = true;
+
+        }
+        private void HienDanhSachThongKe()
+        {
+            try
+            {
+
+                DataTable dt = qltk.LayDSThongke();
+                dgvThongKe.DataSource = dt;
+
+                
+                CustomizeDataGridView();
+
+                // Tính tổng và hiển thị 
+                decimal totalTongThu = 0;
+                decimal totalTongChi = 0;
+                foreach (DataGridViewRow row in dgvThongKe.Rows)
+                {
+                    if (row.IsNewRow) continue; 
+                    if (row.Cells["ThanhTien"].Value != null && decimal.TryParse(row.Cells["ThanhTien"].Value.ToString(), out decimal thanhTien))
+                        totalTongThu += thanhTien;
+                    if (row.Cells["GiaNhap"].Value != null && decimal.TryParse(row.Cells["GiaNhap"].Value.ToString(), out decimal giaNhap))
+                        totalTongChi += giaNhap;
+                }
+                decimal totalLoiNhuan = totalTongThu - totalTongChi;
+
+                txtTongThu.Text = totalTongThu.ToString("#,##0 VNĐ");
+                txtTongChi.Text = totalTongChi.ToString("#,##0 VNĐ");
+                txtLoiNhuan.Text = totalLoiNhuan.ToString("#,##0 VNĐ");
+
+              
+                txtTongThu.Visible = true;
+                txtTongChi.Visible = true;
+                txtLoiNhuan.Visible = true;
+
+                // Cập nhật biểu đồ chart_DoanhThu
+                chart_DoanhThu.Series.Clear();
+                chart_DoanhThu.ChartAreas.Clear();
+
+                ChartArea chartArea = new ChartArea();
+                chartArea.AxisX.Title = "Thời gian";
+                chartArea.AxisY.Title = "Giá trị (VNĐ)";
+                chart_DoanhThu.ChartAreas.Add(chartArea);
+
+                Series seriesTongThu = new Series("Tổng thu") { ChartType = SeriesChartType.Column, Color = Color.Blue };
+                Series seriesTongChi = new Series("Tổng chi") { ChartType = SeriesChartType.Column, Color = Color.Red };
+                Series seriesLoiNhuan = new Series("Lợi nhuận") { ChartType = SeriesChartType.Column, Color = Color.Green };
+
+                chart_DoanhThu.Series.Add(seriesTongThu);
+                chart_DoanhThu.Series.Add(seriesTongChi);
+                chart_DoanhThu.Series.Add(seriesLoiNhuan);
+
+                // Tính tổng theo ngày để vẽ biểu đồ
+                var groupedData = dt.AsEnumerable()
+                    .GroupBy(row => Convert.ToDateTime(row["NgayLap"]))
+                    .Select(g => new
+                    {
+                        NgayLap = g.Key,
+                        TongThu = g.Sum(row => Convert.ToDecimal(row["ThanhTien"])),
+                        TongChi = g.Sum(row => Convert.ToDecimal(row["GiaNhap"])),
+                        LoiNhuan = g.Sum(row => Convert.ToDecimal(row["LoiNhuan"]))
+                    })
+                    .OrderBy(x => x.NgayLap);
+
+                foreach (var item in groupedData)
+                {
+                    seriesTongThu.Points.AddXY(item.NgayLap.ToString("dd/MM/yyyy"), item.TongThu);
+                    seriesTongChi.Points.AddXY(item.NgayLap.ToString("dd/MM/yyyy"), item.TongChi);
+                    seriesLoiNhuan.Points.AddXY(item.NgayLap.ToString("dd/MM/yyyy"), item.LoiNhuan);
+                }
+
+                chart_DoanhThu.Invalidate();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi hiển thị danh sách thống kê: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        private void CustomizeDataGridView()
+        {
+           
+            dgvThongKe.EnableHeadersVisualStyles = false;
+
+            // Tùy chỉnh tiêu đề cột
+            dgvThongKe.ColumnHeadersDefaultCellStyle.BackColor = Color.Red;
+            dgvThongKe.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dgvThongKe.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 10, FontStyle.Bold);
+            dgvThongKe.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
+     
+            dgvThongKe.DefaultCellStyle.Font = new Font("Arial", 10, FontStyle.Bold);
+            dgvThongKe.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
+           
+            if (dgvThongKe.Columns.Contains("GiaBan"))
+                dgvThongKe.Columns["GiaBan"].DefaultCellStyle.Format = "#,##0.00";
+            if (dgvThongKe.Columns.Contains("ThanhTien"))
+                dgvThongKe.Columns["ThanhTien"].DefaultCellStyle.Format = "#,##0.00";
+            if (dgvThongKe.Columns.Contains("GiaNhap"))
+                dgvThongKe.Columns["GiaNhap"].DefaultCellStyle.Format = "#,##0.00";
+            if (dgvThongKe.Columns.Contains("LoiNhuan"))
+                dgvThongKe.Columns["LoiNhuan"].DefaultCellStyle.Format = "#,##0.00";
+
+            // Tùy chỉnh tiêu đề cột
+            if (dgvThongKe.Columns.Contains("MaThongKe"))
+                dgvThongKe.Columns["MaThongKe"].HeaderText = "Mã thống kê";
+            if (dgvThongKe.Columns.Contains("MaHD"))
+                dgvThongKe.Columns["MaHD"].HeaderText = "Mã hợp đồng";
+            if (dgvThongKe.Columns.Contains("NgayLap"))
+                dgvThongKe.Columns["NgayLap"].HeaderText = "Ngày lập";
+            if (dgvThongKe.Columns.Contains("MaXe"))
+                dgvThongKe.Columns["MaXe"].HeaderText = "Mã xe";
+            if (dgvThongKe.Columns.Contains("TenXe"))
+                dgvThongKe.Columns["TenXe"].HeaderText = "Tên xe";
+            if (dgvThongKe.Columns.Contains("SoLuongBan"))
+                dgvThongKe.Columns["SoLuongBan"].HeaderText = "Số lượng bán";
+            if (dgvThongKe.Columns.Contains("GiaBan"))
+                dgvThongKe.Columns["GiaBan"].HeaderText = "Giá Bán";
+            if (dgvThongKe.Columns.Contains("ThanhTien"))
+                dgvThongKe.Columns["ThanhTien"].HeaderText = "Tổng thu";
+            if (dgvThongKe.Columns.Contains("GiaNhap"))
+                dgvThongKe.Columns["GiaNhap"].HeaderText = "Tổng chi";
+            if (dgvThongKe.Columns.Contains("LoiNhuan"))
+                dgvThongKe.Columns["LoiNhuan"].HeaderText = "Lợi Nhuận";
+
+            
+
+            
+            dgvThongKe.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+               
+                DateTime startDate = dtStart.Value.Date;
+                DateTime endDate = dtEnd.Value.Date;
+
+                // Kiểm tra ngày hợp lệ
+                if (startDate > endDate)
+                {
+                    MessageBox.Show("Ngày bắt đầu phải nhỏ hơn hoặc bằng ngày kết thúc!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+              
+                DataTable dt = qltk.LayDSThongkeTheoNgay(startDate, endDate);
+
+                if (dt == null)
+                {
+                    MessageBox.Show("Không thể lấy dữ liệu thống kê. Vui lòng kiểm tra kết nối cơ sở dữ liệu!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Gán DataTable trực tiếp vào DataSource của DataGridView
+                dgvThongKe.DataSource = dt;
+
+                // Kiểm tra nếu DataTable rỗng
+                if (dt.Rows.Count == 0)
+                {
+                    MessageBox.Show($"Không có dữ liệu thống kê từ {startDate.ToString("dd/MM/yyyy")} đến {endDate.ToString("dd/MM/yyyy")}!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    // Xóa biểu đồ nếu không có dữ liệu
+                    chart_DoanhThu.Series.Clear();
+                    chart_DoanhThu.ChartAreas.Clear();
+                    txtTongThu.Text = "0 VNĐ";
+                    txtTongChi.Text = "0 VNĐ";
+                    txtLoiNhuan.Text = "0 VNĐ";
+                    txtTongThu.Visible = true;
+                    txtTongChi.Visible = true;
+                    txtLoiNhuan.Visible = true;
+                    return;
+                }
+
+               
+                CustomizeDataGridView();
+
+               
+                decimal totalTongThu = 0;
+                decimal totalTongChi = 0;
+                foreach (DataGridViewRow row in dgvThongKe.Rows)
+                {
+                    if (row.IsNewRow) continue; 
+                    if (row.Cells["ThanhTien"].Value != null && decimal.TryParse(row.Cells["ThanhTien"].Value.ToString(), out decimal thanhTien))
+                        totalTongThu += thanhTien;
+                    if (row.Cells["GiaNhap"].Value != null && decimal.TryParse(row.Cells["GiaNhap"].Value.ToString(), out decimal giaNhap))
+                        totalTongChi += giaNhap;
+                }
+                decimal totalLoiNhuan = totalTongThu - totalTongChi;
+
+                txtTongThu.Text = totalTongThu.ToString("#,##0 VNĐ");
+                txtTongChi.Text = totalTongChi.ToString("#,##0 VNĐ");
+                txtLoiNhuan.Text = totalLoiNhuan.ToString("#,##0 VNĐ");
+
+               
+                txtTongThu.Visible = true;
+                txtTongChi.Visible = true;
+                txtLoiNhuan.Visible = true;
+
+                // Cập nhật biểu đồ chart_DoanhThu
+                chart_DoanhThu.Series.Clear();
+                chart_DoanhThu.ChartAreas.Clear();
+
+                ChartArea chartArea = new ChartArea();
+                chartArea.AxisX.Title = "Thời gian";
+                chartArea.AxisY.Title = "Giá trị (VNĐ)";
+                chart_DoanhThu.ChartAreas.Add(chartArea);
+
+                Series seriesTongThu = new Series("Tổng thu") { ChartType = SeriesChartType.Column, Color = Color.Blue };
+                Series seriesTongChi = new Series("Tổng chi") { ChartType = SeriesChartType.Column, Color = Color.Red };
+                Series seriesLoiNhuan = new Series("Lợi nhuận") { ChartType = SeriesChartType.Column, Color = Color.Green };
+
+                chart_DoanhThu.Series.Add(seriesTongThu);
+                chart_DoanhThu.Series.Add(seriesTongChi);
+                chart_DoanhThu.Series.Add(seriesLoiNhuan);
+
+                var groupedData = dt.AsEnumerable()
+                    .GroupBy(row => Convert.ToDateTime(row["NgayLap"]))
+                    .Select(g => new
+                    {
+                        NgayLap = g.Key,
+                        TongThu = g.Sum(row => Convert.ToDecimal(row["ThanhTien"])),
+                        TongChi = g.Sum(row => Convert.ToDecimal(row["GiaNhap"])),
+                        LoiNhuan = g.Sum(row => Convert.ToDecimal(row["LoiNhuan"]))
+                    })
+                    .OrderBy(x => x.NgayLap);
+
+                foreach (var item in groupedData)
+                {
+                    seriesTongThu.Points.AddXY(item.NgayLap.ToString("dd/MM/yyyy"), item.TongThu);
+                    seriesTongChi.Points.AddXY(item.NgayLap.ToString("dd/MM/yyyy"), item.TongChi);
+                    seriesLoiNhuan.Points.AddXY(item.NgayLap.ToString("dd/MM/yyyy"), item.LoiNhuan);
+                }
+
+                chart_DoanhThu.Invalidate();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tìm kiếm thống kê: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            HienDanhSachThongKe();
+            txtLoiNhuan.Clear();
+            txtTongChi.Clear();
+            txtTongThu.Clear();    
         }
     }
 }

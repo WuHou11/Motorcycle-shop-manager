@@ -1,0 +1,32 @@
+USE QLCHXM
+GO
+
+CREATE TABLE ThongKe (
+    MaThongKe VARCHAR(10) PRIMARY KEY,
+    MaHD VARCHAR(10) NOT NULL,
+    NgayLap DATE NOT NULL,
+    MaXe VARCHAR(10) NOT NULL,
+    TenXe VARCHAR(100),
+    SoLuongBan INT NOT NULL DEFAULT 0,
+    GiaBan DECIMAL(18, 2) NOT NULL DEFAULT 0,
+    ThanhTien DECIMAL(18, 2) NOT NULL DEFAULT 0,
+    GiaNhap DECIMAL(18, 2) NOT NULL DEFAULT 0,
+    LoiNhuan DECIMAL(18, 2) NOT NULL DEFAULT 0,
+    FOREIGN KEY (MaHD) REFERENCES QLHD(MaHD),
+    FOREIGN KEY (MaXe) REFERENCES SanPham(MaXe)
+);
+
+INSERT INTO ThongKe (MaThongKe, MaHD, NgayLap, MaXe, TenXe, SoLuongBan, GiaBan, ThanhTien, GiaNhap, LoiNhuan)
+    SELECT 
+        CONCAT('TK', RIGHT('0' + CAST(ROW_NUMBER() OVER (ORDER BY QLHD.MaHD) AS VARCHAR(6)), 6)) AS MaThongKe, -- Tạo mã TK01, TK02, ...
+        QLHD.MaHD,
+        QLHD.NgayLap,
+        QLHD.MaXe,
+        QLHD.TenXe,
+        QLHD.SOLUONG AS SoLuongBan,
+        QLHD.GiaBan,
+        QLHD.ThanhTien,
+        (SanPham.GiaNhap * QLHD.SOLUONG) AS GiaNhap,
+        (QLHD.ThanhTien - (SanPham.GiaNhap  * QLHD.SOLUONG)) AS LoiNhuan
+    FROM QLHD
+    JOIN SanPham ON QLHD.MaXe = SanPham.MaXe;

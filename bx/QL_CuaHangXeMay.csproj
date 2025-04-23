@@ -127,10 +127,16 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLCHXMDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLCHXMDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="QLHD.cs" />
     <Compile Include="QLKH.cs" />
     <Compile Include="QLNCC.cs" />
     <Compile Include="QLSP.cs" />
+    <Compile Include="QLThongKe.cs" />
     <Compile Include="QLTK.cs" />
     <EmbeddedResource Include="ALL UserControl\UC_Account.resx">
       <DependentUpon>UC_Account.cs</DependentUpon>
@@ -198,6 +204,17 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="QLCHXMDataSet.xsc">
+      <DependentUpon>QLCHXMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLCHXMDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLCHXMDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLCHXMDataSet.xss">
+      <DependentUpon>QLCHXMDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Resources\rs.jpg" />
   </ItemGroup>
   <ItemGroup>

@@ -15,7 +15,7 @@ namespace bx
         public Database()
         {
 
-            sqlCon = new SqlConnection("Data Source=MSI\\TRIEUHIEU;Initial Catalog=QLCHXM;User ID=sa;Password=trieuphuchieu;TrustServerCertificate=True;");
+            sqlCon = new SqlConnection("Data Source=MINH_NHUT;Initial Catalog=QLCHXM;User ID=sa;Password=28102005Zz@;TrustServerCertificate=True;");
         }
         public DataTable Execute(string sqlStr)
         {
@@ -42,6 +42,26 @@ namespace bx
                 if (sqlCon.State == ConnectionState.Open)
                     sqlCon.Close();
             }
+        }
+        public DataTable Execute(string query, SqlCommand cmd)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+               
+                sqlCon.Open();
+                cmd.Connection = sqlCon;
+                cmd.CommandText = query;
+                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                adapter.Fill(dt);
+                sqlCon.Close();
+                
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi khi thực thi truy vấn với tham số: " + ex.Message);
+            }
+            return dt ?? new DataTable(); // Trả về DataTable rỗng nếu có lỗi
         }
 
     }

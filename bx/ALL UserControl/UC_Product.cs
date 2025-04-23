@@ -15,6 +15,7 @@ namespace bx.ALL_UserControl
 {
     public partial class UC_Product : UserControl
     {
+        
         QLSP qlsp;
         public UC_Product()
         {
@@ -526,6 +527,11 @@ namespace bx.ALL_UserControl
                 HienDanhSachXe();
                 return;
             }
+        }
+
+        private void dgvQLSP_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
