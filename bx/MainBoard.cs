@@ -62,10 +62,6 @@ namespace bx
             btnAccount.PerformClick();
         }
 
-        private void lbExit_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
         private void ActivateButton(Guna2Button activeButton)
         {
             // Đặt màu mặc định cho tất cả các Guna2Button
@@ -169,6 +165,17 @@ namespace bx
             MovePanel(btnSale);
             uC_Sale1.Visible = true;
             uC_Sale1.BringToFront();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.ShowDialog();
+        }
+
+        private void lbExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

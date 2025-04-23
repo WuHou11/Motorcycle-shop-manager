@@ -278,13 +278,16 @@ namespace bx.ALL_UserControl
                             }
                             else
                             {
-                                // Giải phóng hình ảnh cũ nếu có
-                                if (ptbHinhSP.Image != null)
+                                if (!this.DesignMode) // Chỉ chạy khi không ở Design Time
                                 {
-                                    ptbHinhSP.Image.Dispose();
-                                    ptbHinhSP.Image = null;
+                                    // Giải phóng hình ảnh cũ nếu có
+                                    if (ptbHinhSP.Image != null)
+                                    {
+                                        ptbHinhSP.Image.Dispose();
+                                        ptbHinhSP.Image = null;
+                                    }
+                                    MessageBox.Show($"Không tìm thấy hình ảnh: {tenFileAnh}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 }
-                                MessageBox.Show($"Không tìm thấy hình ảnh: {tenFileAnh}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 break;
                             }
                         }

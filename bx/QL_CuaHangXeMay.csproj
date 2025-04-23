@@ -240,6 +240,9 @@
     <Content Include="asset\images\wave.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\back11.png" />
+    <None Include="Resources\back1.png" />
+    <None Include="Resources\back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

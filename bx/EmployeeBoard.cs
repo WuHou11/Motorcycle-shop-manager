@@ -103,19 +103,18 @@ namespace bx
 
         private void btnSale_Click(object sender, EventArgs e)
         {
-            ActivateButton(btnSale);
-            MovePanel(btnSale);
-            uC_Sale1.Visible = true;
-            uC_Sale1.BringToFront();
-        }
-
-        private void btnBill_Click(object sender, EventArgs e)
-        {
             MessageBox.Show("Bạn không đủ quyền hạng để truy cập!",
                    "Cảnh báo",
                    MessageBoxButtons.OK,
                    MessageBoxIcon.Warning);
+        }
 
+        private void btnBill_Click(object sender, EventArgs e)
+        {
+            ActivateButton(btnBill);
+            MovePanel(btnBill);
+            uC_Bill1.Visible = true;
+            uC_Bill1.BringToFront();
         }
 
         private void btnRevenue_Click(object sender, EventArgs e)
@@ -153,8 +152,14 @@ namespace bx
         {
            
             uC_Product1.Visible = false;
-            uC_Sale1.Visible = false;
+            uC_Bill1.Visible = false;
             btnProduct.PerformClick();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.ShowDialog();
         }
     }
 }

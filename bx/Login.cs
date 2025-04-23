@@ -43,10 +43,24 @@ namespace bx
 
                 if (dt.Rows.Count > 0)
                 {
-                    MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Hide();
-                    new MainBoard().ShowDialog();
-                    this.Close();
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        string chucVu = row["ChucVu"].ToString();
+                        if (chucVu=="Nhan vien")
+                        {
+                            MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            this.Hide();
+                            new EmployeeBoard().ShowDialog();
+                            this.Close();
+                        }
+                        else if (chucVu=="Quan ly")
+                        {
+                            MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            this.Hide();
+                            new MainBoard().ShowDialog();
+                            this.Close();
+                        }
+                    }
                 }
                 else
                 {

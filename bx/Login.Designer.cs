@@ -33,7 +33,6 @@ namespace bx
             this.formside = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.tgAgree = new Guna.UI2.WinForms.Guna2ToggleSwitch();
-            this.lbError = new System.Windows.Forms.Label();
             this.btnClear = new Guna.UI2.WinForms.Guna2Button();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
@@ -105,7 +104,6 @@ namespace bx
             this.formside.BackColor = System.Drawing.Color.Cyan;
             this.formside.Controls.Add(this.label6);
             this.formside.Controls.Add(this.tgAgree);
-            this.formside.Controls.Add(this.lbError);
             this.formside.Controls.Add(this.btnClear);
             this.formside.Controls.Add(this.btnLogin);
             this.formside.Controls.Add(this.txtPassword);
@@ -151,17 +149,6 @@ namespace bx
             this.tgAgree.UncheckedState.InnerBorderColor = System.Drawing.Color.Gray;
             this.tgAgree.UncheckedState.InnerColor = System.Drawing.Color.DarkGray;
             // 
-            // lbError
-            // 
-            this.lbError.AutoSize = true;
-            this.lbError.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbError.ForeColor = System.Drawing.Color.Red;
-            this.lbError.Location = new System.Drawing.Point(149, 472);
-            this.lbError.Name = "lbError";
-            this.lbError.Size = new System.Drawing.Size(442, 28);
-            this.lbError.TabIndex = 73;
-            this.lbError.Text = "Tên đăng nhập hoặc Mật khẩu không đúng";
-            // 
             // btnClear
             // 
             this.btnClear.BorderRadius = 18;
@@ -172,7 +159,7 @@ namespace bx
             this.btnClear.FillColor = System.Drawing.Color.GreenYellow;
             this.btnClear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.Gray;
-            this.btnClear.Location = new System.Drawing.Point(171, 519);
+            this.btnClear.Location = new System.Drawing.Point(117, 459);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(180, 67);
             this.btnClear.TabIndex = 72;
@@ -189,7 +176,7 @@ namespace bx
             this.btnLogin.FillColor = System.Drawing.Color.GreenYellow;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.DimGray;
-            this.btnLogin.Location = new System.Drawing.Point(401, 519);
+            this.btnLogin.Location = new System.Drawing.Point(375, 459);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(180, 67);
             this.btnLogin.TabIndex = 71;
@@ -293,7 +280,7 @@ namespace bx
             this.lbForgotPassword.AutoSize = true;
             this.lbForgotPassword.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbForgotPassword.ForeColor = System.Drawing.Color.Indigo;
-            this.lbForgotPassword.Location = new System.Drawing.Point(466, 426);
+            this.lbForgotPassword.Location = new System.Drawing.Point(466, 424);
             this.lbForgotPassword.Name = "lbForgotPassword";
             this.lbForgotPassword.Size = new System.Drawing.Size(171, 27);
             this.lbForgotPassword.TabIndex = 8;
@@ -372,7 +359,6 @@ namespace bx
         private Panel panel3;
         private Guna.UI2.WinForms.Guna2TextBox txtPassword;
         private Guna.UI2.WinForms.Guna2TextBox txtUsername;
-        private Label lbError;
         private Guna.UI2.WinForms.Guna2Button btnClear;
         private Guna.UI2.WinForms.Guna2Button btnLogin;
         private Guna.UI2.WinForms.Guna2ToggleSwitch tgAgree;
