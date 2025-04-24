@@ -39,7 +39,7 @@ namespace bx
             catch (Exception ex)
             {
                 Console.WriteLine("Lỗi khi lấy danh sách thống kê theo ngày: " + ex.Message);
-                return new DataTable(); // Trả về DataTable rỗng nếu có lỗi
+                return new DataTable(); 
             }
         }
     }

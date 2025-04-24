@@ -105,12 +105,13 @@
             this.grbTTSV.TabIndex = 43;
             this.grbTTSV.TabStop = false;
             this.grbTTSV.Text = "Thông tin sản phẩm";
+            this.grbTTSV.Enter += new System.EventHandler(this.grbTTSV_Enter);
             // 
             // txtHinhAnh
             // 
             this.txtHinhAnh.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHinhAnh.Location = new System.Drawing.Point(223, 277);
-            this.txtHinhAnh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtHinhAnh.Margin = new System.Windows.Forms.Padding(4);
             this.txtHinhAnh.Name = "txtHinhAnh";
             this.txtHinhAnh.Size = new System.Drawing.Size(151, 29);
             this.txtHinhAnh.TabIndex = 64;
@@ -143,7 +144,7 @@
             // 
             this.txtGiaBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGiaBan.Location = new System.Drawing.Point(606, 141);
-            this.txtGiaBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGiaBan.Margin = new System.Windows.Forms.Padding(4);
             this.txtGiaBan.Name = "txtGiaBan";
             this.txtGiaBan.Size = new System.Drawing.Size(159, 29);
             this.txtGiaBan.TabIndex = 49;
@@ -165,7 +166,7 @@
             // 
             this.txtDonViTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDonViTinh.Location = new System.Drawing.Point(606, 234);
-            this.txtDonViTinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDonViTinh.Margin = new System.Windows.Forms.Padding(4);
             this.txtDonViTinh.Name = "txtDonViTinh";
             this.txtDonViTinh.Size = new System.Drawing.Size(159, 29);
             this.txtDonViTinh.TabIndex = 48;
@@ -186,7 +187,7 @@
             // 
             this.txtSoLuong.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoLuong.Location = new System.Drawing.Point(606, 187);
-            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Size = new System.Drawing.Size(159, 29);
             this.txtSoLuong.TabIndex = 45;
@@ -220,7 +221,7 @@
             // 
             this.txtGiaNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGiaNhap.Location = new System.Drawing.Point(606, 94);
-            this.txtGiaNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtGiaNhap.Margin = new System.Windows.Forms.Padding(4);
             this.txtGiaNhap.Name = "txtGiaNhap";
             this.txtGiaNhap.Size = new System.Drawing.Size(159, 29);
             this.txtGiaNhap.TabIndex = 43;
@@ -230,7 +231,7 @@
             // 
             this.txtMauSac.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMauSac.Location = new System.Drawing.Point(606, 46);
-            this.txtMauSac.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMauSac.Margin = new System.Windows.Forms.Padding(4);
             this.txtMauSac.Name = "txtMauSac";
             this.txtMauSac.Size = new System.Drawing.Size(159, 29);
             this.txtMauSac.TabIndex = 41;
@@ -252,7 +253,7 @@
             // 
             this.txtLoaiXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLoaiXe.Location = new System.Drawing.Point(223, 141);
-            this.txtLoaiXe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLoaiXe.Margin = new System.Windows.Forms.Padding(4);
             this.txtLoaiXe.Name = "txtLoaiXe";
             this.txtLoaiXe.Size = new System.Drawing.Size(151, 29);
             this.txtLoaiXe.TabIndex = 39;
@@ -262,7 +263,7 @@
             // 
             this.txtHangSanXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHangSanXuat.Location = new System.Drawing.Point(223, 234);
-            this.txtHangSanXuat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtHangSanXuat.Margin = new System.Windows.Forms.Padding(4);
             this.txtHangSanXuat.Name = "txtHangSanXuat";
             this.txtHangSanXuat.Size = new System.Drawing.Size(151, 29);
             this.txtHangSanXuat.TabIndex = 38;
@@ -295,7 +296,7 @@
             // 
             this.txtDungTich.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDungTich.Location = new System.Drawing.Point(223, 186);
-            this.txtDungTich.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDungTich.Margin = new System.Windows.Forms.Padding(4);
             this.txtDungTich.Name = "txtDungTich";
             this.txtDungTich.Size = new System.Drawing.Size(151, 29);
             this.txtDungTich.TabIndex = 35;
@@ -317,7 +318,7 @@
             // 
             this.txtTenXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenXe.Location = new System.Drawing.Point(223, 94);
-            this.txtTenXe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenXe.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenXe.Name = "txtTenXe";
             this.txtTenXe.Size = new System.Drawing.Size(151, 29);
             this.txtTenXe.TabIndex = 33;
@@ -339,7 +340,7 @@
             // 
             this.txtMaXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaXe.Location = new System.Drawing.Point(223, 46);
-            this.txtMaXe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaXe.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaXe.Name = "txtMaXe";
             this.txtMaXe.Size = new System.Drawing.Size(151, 29);
             this.txtMaXe.TabIndex = 31;
@@ -370,7 +371,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvQLSP.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvQLSP.Location = new System.Drawing.Point(43, 428);
-            this.dgvQLSP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvQLSP.Margin = new System.Windows.Forms.Padding(4);
             this.dgvQLSP.MultiSelect = false;
             this.dgvQLSP.Name = "dgvQLSP";
             this.dgvQLSP.ReadOnly = true;
