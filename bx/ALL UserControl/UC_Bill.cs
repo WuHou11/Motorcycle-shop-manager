@@ -2,21 +2,39 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using iText.Kernel.Pdf;
+using iText.Layout;
+using iText.Layout.Element;
+using iText.Layout.Properties;
+using iText.Kernel.Font;
+using iText.IO.Font;
+using iText.Kernel.Pdf.Canvas.Parser;
+using iText.IO.Font.Constants;
+using System.Drawing.Printing;
 
 namespace bx.ALL_UserControl
 {
     public partial class UC_Bill : UserControl
     {
+        private Database db; 
         QLHD qlhd;
+        private PrintDocument printDocument1 = new PrintDocument();
+        private PrintPreviewDialog printPreviewDialog1 = new PrintPreviewDialog();
         public UC_Bill()
         {
             InitializeComponent();
             qlhd= new QLHD();
+            db = new Database(); 
+            printDocument1.PrintPage += new PrintPageEventHandler(printDocument1_PrintPage);
+            printPreviewDialog1.Document = printDocument1;
         }
         private void ClearFields()
         {
@@ -182,6 +200,110 @@ namespace bx.ALL_UserControl
             {
                 MessageBox.Show("Lỗi khi chọn hóa đơn: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void btnInHoaDon_Click(object sender, EventArgs e)
+        {
+            // Check if a row is selected in the DataGridView
+            if (dgvQLHD.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Vui lòng chọn một hóa đơn để in!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Get the selected invoice ID (MaHD)
+            string maHD = dgvQLHD.SelectedRows[0].Cells["MaHD"].Value?.ToString().Trim();
+            if (string.IsNullOrEmpty(maHD))
+            {
+                MessageBox.Show("Mã hóa đơn không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            try
+            {
+                // Query to fetch invoice data using Database class
+                string query = "SELECT * FROM QLHD WHERE MaHD = @MaHD";
+                SqlCommand cmd = new SqlCommand(query);
+                cmd.Parameters.AddWithValue("@MaHD", maHD);
+                DataTable dt = db.Execute(query, cmd);
+
+                if (dt.Rows.Count == 0)
+                {
+                    MessageBox.Show("Không tìm thấy hóa đơn!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                // Store the invoice data for printing
+                selectedInvoice = dt.Rows[0];
+
+                // Show print preview and print if confirmed
+                if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    printDocument1.Print();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}\nChi tiết: {ex.StackTrace}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private DataRow selectedInvoice; // To store the selected invoice data for printing
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            // Header
+            e.Graphics.DrawString("Motorcycle Shop", new Font("Arial", 20, FontStyle.Bold), Brushes.Black, new Point(50, 50));
+            e.Graphics.DrawString(" HOTLINE: 039.79.86868", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(50, 80));
+            e.Graphics.DrawString("HÓA ĐƠN BÁN HÀNG", new Font("Arial", 16, FontStyle.Bold), Brushes.Black, new Point(300, 100));
+
+            // Customer Information
+            int pt = 150;
+            e.Graphics.DrawString($"Số: {selectedInvoice["MaHD"]}", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(550, 50));
+            e.Graphics.DrawString($"Ngày {Convert.ToDateTime(selectedInvoice["NgayLap"]).Day} tháng {Convert.ToDateTime(selectedInvoice["NgayLap"]).Month} năm {Convert.ToDateTime(selectedInvoice["NgayLap"]).Year}", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(550, 65));
+            e.Graphics.DrawString($"Khách hàng: {selectedInvoice["TenKH"]}", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(50, pt));
+            pt += 20;
+            e.Graphics.DrawString($"Điện thoại: {selectedInvoice["SoDT"]}", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(50, pt));
+            pt += 20;
+            e.Graphics.DrawString($"Địa chỉ: {selectedInvoice["DiaChi"]}", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(50, pt));
+            pt += 30;
+
+            // Table Header
+            e.Graphics.DrawString("STT", new Font("Arial", 10, FontStyle.Bold), Brushes.Black, new Point(50, pt));
+            e.Graphics.DrawString("Sản Phẩm", new Font("Arial", 10, FontStyle.Bold), Brushes.Black, new Point(100, pt));
+            e.Graphics.DrawString("DVT", new Font("Arial", 10, FontStyle.Bold), Brushes.Black, new Point(420, pt));
+            e.Graphics.DrawString("SL", new Font("Arial", 10, FontStyle.Bold), Brushes.Black, new Point(470, pt));
+            e.Graphics.DrawString("Đơn Giá", new Font("Arial", 10, FontStyle.Bold), Brushes.Black, new Point(500, pt));
+            e.Graphics.DrawString("Thành Tiền", new Font("Arial", 10, FontStyle.Bold), Brushes.Black, new Point(600, pt));
+            pt += 20;
+
+            // Draw table border (top line)
+            e.Graphics.DrawLine(Pens.Black, new Point(50, pt), new Point(700, pt));
+            pt += 10;
+
+            // Product Row (only one row as per your data structure)
+            e.Graphics.DrawString("1", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(50, pt));
+            string productDescription = $"{selectedInvoice["TenXe"]} {selectedInvoice["LoaiXe"]} {selectedInvoice["DungTich"]}cc {selectedInvoice["HangSanXuat"]} {selectedInvoice["MauSac"]}";
+            e.Graphics.DrawString(productDescription, new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(100, pt));
+            e.Graphics.DrawString(selectedInvoice["DonViTinh"].ToString(), new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(420, pt));
+            e.Graphics.DrawString(selectedInvoice["SoLuong"].ToString(), new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(470, pt));
+            e.Graphics.DrawString(Convert.ToDecimal(selectedInvoice["GiaBan"]).ToString("N0"), new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(500, pt));
+            e.Graphics.DrawString(Convert.ToDecimal(selectedInvoice["ThanhTien"]).ToString("N0"), new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(600, pt));
+            pt += 20;
+
+            // Draw table border (bottom line)
+            e.Graphics.DrawLine(Pens.Black, new Point(50, pt), new Point(700, pt));
+            pt += 30;
+
+            // Total
+            e.Graphics.DrawString($"Tổng cộng: {Convert.ToDecimal(selectedInvoice["ThanhTien"]).ToString("N0")} VND", new Font("Arial", 12, FontStyle.Bold), Brushes.Black, new Point(500, pt));
+            pt += 50;
+
+            // Footer
+            
+            e.Graphics.DrawString("Người viết hóa đơn", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(600, pt));
+            pt += 50;
+            e.Graphics.DrawString("Cảm Ơn Quý Khách", new Font("Arial", 10, FontStyle.Italic), Brushes.Black, new Point(350, pt));
         }
     }
 }

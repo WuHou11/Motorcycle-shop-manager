@@ -82,5 +82,25 @@ namespace bx
         {
             ClearFields();
         }
+
+        private void picEyeClosed_Click(object sender, EventArgs e)
+        {
+            txtPassword.UseSystemPasswordChar = false;
+            picEyeClosed.Visible = false;
+            picEyeOpen.Visible = true;
+        }
+        private void picEyeOpen_Click(object sender, EventArgs e)
+        {
+            txtPassword.UseSystemPasswordChar = true;
+            picEyeOpen.Visible = false;
+            picEyeClosed.Visible = true;
+        }
+
+        private void lbForgotPassword_Click(object sender, EventArgs e)
+        {
+            ForgotPassword forgotPassword = new ForgotPassword();
+            forgotPassword.Show();
+            this.Hide();
+        }
     }
 }

@@ -31,6 +31,8 @@ namespace bx
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.formside = new System.Windows.Forms.Panel();
+            this.picEyeOpen = new System.Windows.Forms.PictureBox();
+            this.picEyeClosed = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.tgAgree = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.btnClear = new Guna.UI2.WinForms.Guna2Button();
@@ -48,6 +50,8 @@ namespace bx
             this.display.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).BeginInit();
             this.formside.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picEyeOpen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEyeClosed)).BeginInit();
             this.SuspendLayout();
             // 
             // display
@@ -102,6 +106,8 @@ namespace bx
             // formside
             // 
             this.formside.BackColor = System.Drawing.Color.Cyan;
+            this.formside.Controls.Add(this.picEyeOpen);
+            this.formside.Controls.Add(this.picEyeClosed);
             this.formside.Controls.Add(this.label6);
             this.formside.Controls.Add(this.tgAgree);
             this.formside.Controls.Add(this.btnClear);
@@ -121,6 +127,34 @@ namespace bx
             this.formside.Name = "formside";
             this.formside.Size = new System.Drawing.Size(685, 729);
             this.formside.TabIndex = 1;
+            // 
+            // picEyeOpen
+            // 
+            this.picEyeOpen.BackColor = System.Drawing.Color.White;
+            this.picEyeOpen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picEyeOpen.Image = ((System.Drawing.Image)(resources.GetObject("picEyeOpen.Image")));
+            this.picEyeOpen.InitialImage = null;
+            this.picEyeOpen.Location = new System.Drawing.Point(567, 348);
+            this.picEyeOpen.Name = "picEyeOpen";
+            this.picEyeOpen.Size = new System.Drawing.Size(40, 40);
+            this.picEyeOpen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picEyeOpen.TabIndex = 80;
+            this.picEyeOpen.TabStop = false;
+            this.picEyeOpen.Click += new System.EventHandler(this.picEyeOpen_Click);
+            // 
+            // picEyeClosed
+            // 
+            this.picEyeClosed.BackColor = System.Drawing.Color.White;
+            this.picEyeClosed.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picEyeClosed.ErrorImage = null;
+            this.picEyeClosed.Image = ((System.Drawing.Image)(resources.GetObject("picEyeClosed.Image")));
+            this.picEyeClosed.Location = new System.Drawing.Point(567, 347);
+            this.picEyeClosed.Name = "picEyeClosed";
+            this.picEyeClosed.Size = new System.Drawing.Size(40, 40);
+            this.picEyeClosed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picEyeClosed.TabIndex = 79;
+            this.picEyeClosed.TabStop = false;
+            this.picEyeClosed.Click += new System.EventHandler(this.picEyeClosed_Click);
             // 
             // label6
             // 
@@ -197,12 +231,10 @@ namespace bx
             this.txtPassword.ForeColor = System.Drawing.Color.Black;
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtPassword.IconLeft")));
-            this.txtPassword.IconRight = ((System.Drawing.Image)(resources.GetObject("txtPassword.IconRight")));
             this.txtPassword.IconRightOffset = new System.Drawing.Point(15, 1);
             this.txtPassword.Location = new System.Drawing.Point(303, 337);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '*';
             this.txtPassword.PlaceholderForeColor = System.Drawing.Color.DarkGray;
             this.txtPassword.PlaceholderText = "Nhập mật khẩu";
             this.txtPassword.SelectedText = "";
@@ -285,6 +317,7 @@ namespace bx
             this.lbForgotPassword.Size = new System.Drawing.Size(171, 27);
             this.lbForgotPassword.TabIndex = 8;
             this.lbForgotPassword.Text = "Quên mật khẩu?";
+            this.lbForgotPassword.Click += new System.EventHandler(this.lbForgotPassword_Click);
             // 
             // label5
             // 
@@ -340,6 +373,8 @@ namespace bx
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).EndInit();
             this.formside.ResumeLayout(false);
             this.formside.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picEyeOpen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picEyeClosed)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -363,5 +398,7 @@ namespace bx
         private Guna.UI2.WinForms.Guna2Button btnLogin;
         private Guna.UI2.WinForms.Guna2ToggleSwitch tgAgree;
         private Label label6;
+        private PictureBox picEyeClosed;
+        private PictureBox picEyeOpen;
     }
 }

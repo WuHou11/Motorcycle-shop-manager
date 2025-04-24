@@ -221,6 +221,7 @@
             this.btnInHoaDon.Size = new System.Drawing.Size(199, 61);
             this.btnInHoaDon.TabIndex = 58;
             this.btnInHoaDon.Text = "In hóa đơn";
+            this.btnInHoaDon.Click += new System.EventHandler(this.btnInHoaDon_Click);
             // 
             // btnRefresh
             // 
