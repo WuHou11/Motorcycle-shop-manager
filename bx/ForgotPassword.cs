@@ -47,14 +47,27 @@ namespace bx
 
         private void lbLogin_Click(object sender, EventArgs e)
         {
-            Login Formout = new Login();
-            Formout.Show();
             this.Hide();
+            Login login = new Login();
+            login.ShowDialog();  // Chặn luồng cho tới khi Login được đóng
+            this.Show();         // Hiện lại form hiện tại nếu cần sau khi login đóng
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void ForgotPassword_Load(object sender, EventArgs e)
+        {
+            txtRePassword.UseSystemPasswordChar = true; // ẩn mật khẩu
+            picEyeOpen2.Visible = false;
+            picEyeClosed2.Visible = true;
+
+
+            txtNewPassword.UseSystemPasswordChar = true; // ẩn mật khẩu
+            picEyeOpen1.Visible = false;
+            picEyeClosed1.Visible = true;
         }
     }
 }

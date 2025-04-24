@@ -134,7 +134,7 @@ namespace bx
             this.picEyeOpen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picEyeOpen.Image = ((System.Drawing.Image)(resources.GetObject("picEyeOpen.Image")));
             this.picEyeOpen.InitialImage = null;
-            this.picEyeOpen.Location = new System.Drawing.Point(567, 348);
+            this.picEyeOpen.Location = new System.Drawing.Point(576, 348);
             this.picEyeOpen.Name = "picEyeOpen";
             this.picEyeOpen.Size = new System.Drawing.Size(40, 40);
             this.picEyeOpen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -148,7 +148,7 @@ namespace bx
             this.picEyeClosed.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picEyeClosed.ErrorImage = null;
             this.picEyeClosed.Image = ((System.Drawing.Image)(resources.GetObject("picEyeClosed.Image")));
-            this.picEyeClosed.Location = new System.Drawing.Point(567, 347);
+            this.picEyeClosed.Location = new System.Drawing.Point(576, 348);
             this.picEyeClosed.Name = "picEyeClosed";
             this.picEyeClosed.Size = new System.Drawing.Size(40, 40);
             this.picEyeClosed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -368,6 +368,7 @@ namespace bx
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LOGIN";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.display.ResumeLayout(false);
             this.display.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Logo)).EndInit();

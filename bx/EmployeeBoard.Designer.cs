@@ -29,6 +29,8 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.uC_Bill1 = new bx.ALL_UserControl.UC_Bill();
+            this.uC_Product1 = new bx.ALL_UserControl.UC_Product();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.btnAccount = new Guna.UI2.WinForms.Guna2Button();
@@ -40,11 +42,8 @@
             this.btnLogout = new Guna.UI2.WinForms.Guna2Button();
             this.PanelMoving = new Guna.UI2.WinForms.Guna2Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnlog_out = new Guna.UI2.WinForms.Guna2Button();
             this.btnSale = new Guna.UI2.WinForms.Guna2Button();
             this.btnBack = new Guna.UI2.WinForms.Guna2Button();
-            this.uC_Bill1 = new bx.ALL_UserControl.UC_Bill();
-            this.uC_Product1 = new bx.ALL_UserControl.UC_Product();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -105,6 +104,23 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1503, 1157);
             this.panel1.TabIndex = 68;
+            // 
+            // uC_Bill1
+            // 
+            this.uC_Bill1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.uC_Bill1.Location = new System.Drawing.Point(15, 12);
+            this.uC_Bill1.Name = "uC_Bill1";
+            this.uC_Bill1.Size = new System.Drawing.Size(1450, 1100);
+            this.uC_Bill1.TabIndex = 1;
+            // 
+            // uC_Product1
+            // 
+            this.uC_Product1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.uC_Product1.Location = new System.Drawing.Point(15, 11);
+            this.uC_Product1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.uC_Product1.Name = "uC_Product1";
+            this.uC_Product1.Size = new System.Drawing.Size(1450, 1100);
+            this.uC_Product1.TabIndex = 0;
             // 
             // guna2Elipse1
             // 
@@ -273,30 +289,6 @@
             this.pictureBox1.TabIndex = 79;
             this.pictureBox1.TabStop = false;
             // 
-            // btnlog_out
-            // 
-            this.btnlog_out.BackColor = System.Drawing.Color.AliceBlue;
-            this.btnlog_out.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnlog_out.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnlog_out.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnlog_out.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnlog_out.FillColor = System.Drawing.Color.AliceBlue;
-            this.btnlog_out.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.btnlog_out.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnlog_out.HoverState.BorderColor = System.Drawing.Color.AliceBlue;
-            this.btnlog_out.HoverState.FillColor = System.Drawing.Color.AliceBlue;
-            this.btnlog_out.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
-            this.btnlog_out.Image = ((System.Drawing.Image)(resources.GetObject("btnlog_out.Image")));
-            this.btnlog_out.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnlog_out.ImageSize = new System.Drawing.Size(50, 50);
-            this.btnlog_out.Location = new System.Drawing.Point(31, 1096);
-            this.btnlog_out.Name = "btnlog_out";
-            this.btnlog_out.Size = new System.Drawing.Size(141, 95);
-            this.btnlog_out.TabIndex = 81;
-            this.btnlog_out.Click += new System.EventHandler(this.btnlog_out_Click);
-            this.btnlog_out.MouseEnter += new System.EventHandler(this.btnlog_out_MouseEnter);
-            this.btnlog_out.MouseLeave += new System.EventHandler(this.btnlog_out_MouseLeave);
-            // 
             // btnSale
             // 
             this.btnSale.BorderRadius = 15;
@@ -337,30 +329,13 @@
             this.btnBack.Text = "Back";
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // uC_Bill1
-            // 
-            this.uC_Bill1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.uC_Bill1.Location = new System.Drawing.Point(12, 12);
-            this.uC_Bill1.Name = "uC_Bill1";
-            this.uC_Bill1.Size = new System.Drawing.Size(1450, 1100);
-            this.uC_Bill1.TabIndex = 1;
-            // 
-            // uC_Product1
-            // 
-            this.uC_Product1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.uC_Product1.Location = new System.Drawing.Point(12, 12);
-            this.uC_Product1.Name = "uC_Product1";
-            this.uC_Product1.Size = new System.Drawing.Size(1450, 1100);
-            this.uC_Product1.TabIndex = 0;
-            // 
             // EmployeeBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1946, 1106);
+            this.ClientSize = new System.Drawing.Size(1946, 1148);
             this.Controls.Add(this.btnBack);
-            this.Controls.Add(this.btnlog_out);
             this.Controls.Add(this.btnSale);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.PanelMoving);
@@ -406,7 +381,6 @@
         private Guna.UI2.WinForms.Guna2Button btnLogout;
         private Guna.UI2.WinForms.Guna2Panel PanelMoving;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2Button btnlog_out;
         private Guna.UI2.WinForms.Guna2Button btnSale;
         private ALL_UserControl.UC_Product uC_Product1;
         private ALL_UserControl.UC_Bill uC_Bill1;

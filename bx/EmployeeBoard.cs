@@ -50,15 +50,6 @@ namespace bx
                 moveTimer.Start();
             }
         }
-        private void btnlog_out_MouseEnter(object sender, EventArgs e)
-        {
-            btnlog_out.ImageSize = new Size(60, 60);
-        }
-
-        private void btnlog_out_MouseLeave(object sender, EventArgs e)
-        {
-            btnlog_out.ImageSize = new Size(50, 50);
-        }
 
         private void btnlog_out_Click(object sender, EventArgs e)
         {
@@ -158,8 +149,10 @@ namespace bx
 
         private void btnBack_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Login login = new Login();
-            login.ShowDialog();
+            login.ShowDialog();  // Chặn luồng cho tới khi Login được đóng
+            this.Show();         // Hiện lại form hiện tại nếu cần sau khi login đóng
         }
     }
 }

@@ -28,48 +28,94 @@ namespace bx
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (tgAgree.Checked)
+            //if (tgAgree.Checked)
+            //{
+            //    string taiKhoan = txtUsername.Text.Trim();
+            //    string matKhau = txtPassword.Text.Trim();
+
+            //    if (string.IsNullOrEmpty(taiKhoan) || string.IsNullOrEmpty(matKhau))
+            //    {
+            //        MessageBox.Show("Vui lòng nhập đầy đủ tài khoản và mật khẩu!", "Thiếu thông tin", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //        return;
+            //    }
+            //    string query = $"SELECT * FROM QLTK WHERE TaiKhoan = '{taiKhoan}' AND MatKhau = '{matKhau}'";
+            //    DataTable dt = db.Execute(query);
+
+            //    if (dt.Rows.Count > 0)
+            //    {
+            //        foreach (DataRow row in dt.Rows)
+            //        {
+            //            string chucVu = row["ChucVu"].ToString();
+            //            if (chucVu=="Nhan vien")
+            //            {
+            //                MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //                this.Hide();
+            //                new EmployeeBoard().ShowDialog();
+            //                this.Close();
+            //            }
+            //            else if (chucVu=="Quan ly")
+            //            {
+            //                MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //                this.Hide();
+            //                new MainBoard().ShowDialog();
+            //                this.Close();
+            //            }
+            //        }
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Sai tài khoản hoặc mật khẩu!", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Bạn không đồng ý với điều khoản của chúng tôi?", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            //}
+
+            string taiKhoan = txtUsername.Text.Trim();
+            string matKhau = txtPassword.Text.Trim();
+
+            // Kiểm tra tài khoản/mật khẩu trước
+            if (string.IsNullOrEmpty(taiKhoan) || string.IsNullOrEmpty(matKhau))
             {
-                string taiKhoan = txtUsername.Text.Trim();
-                string matKhau = txtPassword.Text.Trim();
+                MessageBox.Show("Vui lòng nhập đầy đủ tài khoản và mật khẩu!", "Thiếu thông tin", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
-                if (string.IsNullOrEmpty(taiKhoan) || string.IsNullOrEmpty(matKhau))
-                {
-                    MessageBox.Show("Vui lòng nhập đầy đủ tài khoản và mật khẩu!", "Thiếu thông tin", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-                string query = $"SELECT * FROM QLTK WHERE TaiKhoan = '{taiKhoan}' AND MatKhau = '{matKhau}'";
-                DataTable dt = db.Execute(query);
+            // Kiểm tra điều khoản sau
+            if (!tgAgree.Checked)
+            {
+                MessageBox.Show("Bạn không đồng ý với điều khoản của chúng tôi?", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                return;
+            }
 
-                if (dt.Rows.Count > 0)
+            // Nếu mọi thứ ok, thực hiện truy vấn đăng nhập
+            string query = $"SELECT * FROM QLTK WHERE TaiKhoan = '{taiKhoan}' AND MatKhau = '{matKhau}'";
+            DataTable dt = db.Execute(query);
+
+            if (dt.Rows.Count > 0)
+            {
+                foreach (DataRow row in dt.Rows)
                 {
-                    foreach (DataRow row in dt.Rows)
+                    string chucVu = row["ChucVu"].ToString();
+                    MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Hide();
+
+                    if (chucVu == "Nhan vien")
                     {
-                        string chucVu = row["ChucVu"].ToString();
-                        if (chucVu=="Nhan vien")
-                        {
-                            MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            this.Hide();
-                            new EmployeeBoard().ShowDialog();
-                            this.Close();
-                        }
-                        else if (chucVu=="Quan ly")
-                        {
-                            MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            this.Hide();
-                            new MainBoard().ShowDialog();
-                            this.Close();
-                        }
+                        new EmployeeBoard().ShowDialog();
                     }
-                }
-                else
-                {
-                    MessageBox.Show("Sai tài khoản hoặc mật khẩu!", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    else if (chucVu == "Quan ly")
+                    {
+                        new MainBoard().ShowDialog();
+                    }
+
+                    this.Close();
                 }
             }
             else
             {
-                MessageBox.Show("Bạn không đồng ý với điều khoản của chúng tôi?", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                MessageBox.Show("Sai tài khoản hoặc mật khẩu!", "Lỗi đăng nhập", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -101,6 +147,13 @@ namespace bx
             ForgotPassword forgotPassword = new ForgotPassword();
             forgotPassword.Show();
             this.Hide();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            txtPassword.UseSystemPasswordChar = true;
+            picEyeOpen.Visible = false;
+            picEyeClosed.Visible = true;
         }
     }
 }

@@ -243,6 +243,7 @@ namespace bx.ALL_UserControl
 
         private void HienDSNhanVien()
         {
+            dgvQLTK.AllowUserToAddRows = false;
             try
             {
                 if (dgvQLTK.Columns.Count == 0)

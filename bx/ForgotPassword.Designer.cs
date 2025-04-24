@@ -29,56 +29,56 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ForgotPassword));
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblNewpass = new System.Windows.Forms.Label();
+            this.lblUsername = new System.Windows.Forms.Label();
             this.picEyeOpen1 = new System.Windows.Forms.PictureBox();
             this.picEyeClosed1 = new System.Windows.Forms.PictureBox();
             this.txtNewPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblQMK = new System.Windows.Forms.Label();
+            this.lblMaNV = new System.Windows.Forms.Label();
             this.txtMaNV = new Guna.UI2.WinForms.Guna2TextBox();
             this.picEyeOpen2 = new System.Windows.Forms.PictureBox();
             this.picEyeClosed2 = new System.Windows.Forms.PictureBox();
             this.txtRePassword = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblReNewPass = new System.Windows.Forms.Label();
             this.txtEmail = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtSDT = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.lblSDT = new System.Windows.Forms.Label();
             this.btnThoat = new Guna.UI2.WinForms.Guna2Button();
             this.btnXacnhan = new Guna.UI2.WinForms.Guna2Button();
             this.lbLogin = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblCanhBaoXacNhan = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picEyeOpen1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEyeClosed1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEyeOpen2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEyeClosed2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label4
+            // lblNewpass
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.DimGray;
-            this.label4.Location = new System.Drawing.Point(57, 395);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 32);
-            this.label4.TabIndex = 82;
-            this.label4.Text = "Mật khẩu mới";
+            this.lblNewpass.AutoSize = true;
+            this.lblNewpass.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNewpass.ForeColor = System.Drawing.Color.DimGray;
+            this.lblNewpass.Location = new System.Drawing.Point(57, 395);
+            this.lblNewpass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNewpass.Name = "lblNewpass";
+            this.lblNewpass.Size = new System.Drawing.Size(184, 32);
+            this.lblNewpass.TabIndex = 82;
+            this.lblNewpass.Text = "Mật khẩu mới";
             // 
-            // label3
+            // lblUsername
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.DimGray;
-            this.label3.Location = new System.Drawing.Point(56, 322);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(196, 32);
-            this.label3.TabIndex = 81;
-            this.label3.Text = "Tên đăng nhập";
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.ForeColor = System.Drawing.Color.DimGray;
+            this.lblUsername.Location = new System.Drawing.Point(56, 322);
+            this.lblUsername.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(196, 32);
+            this.lblUsername.TabIndex = 81;
+            this.lblUsername.Text = "Tên đăng nhập";
             // 
             // picEyeOpen1
             // 
@@ -130,7 +130,7 @@
             this.txtNewPassword.PlaceholderText = "Nhập mật khẩu";
             this.txtNewPassword.SelectedText = "";
             this.txtNewPassword.Size = new System.Drawing.Size(334, 60);
-            this.txtNewPassword.TabIndex = 84;
+            this.txtNewPassword.TabIndex = 5;
             // 
             // txtUsername
             // 
@@ -153,31 +153,31 @@
             this.txtUsername.PlaceholderText = "Nhập tên đăng nhập";
             this.txtUsername.SelectedText = "";
             this.txtUsername.Size = new System.Drawing.Size(334, 60);
-            this.txtUsername.TabIndex = 83;
+            this.txtUsername.TabIndex = 4;
             // 
-            // label1
+            // lblQMK
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(242, 34);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(242, 36);
-            this.label1.TabIndex = 87;
-            this.label1.Text = "Quên Mật Khẩu";
+            this.lblQMK.AutoSize = true;
+            this.lblQMK.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQMK.ForeColor = System.Drawing.Color.DimGray;
+            this.lblQMK.Location = new System.Drawing.Point(242, 34);
+            this.lblQMK.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQMK.Name = "lblQMK";
+            this.lblQMK.Size = new System.Drawing.Size(242, 36);
+            this.lblQMK.TabIndex = 87;
+            this.lblQMK.Text = "Quên Mật Khẩu";
             // 
-            // label2
+            // lblMaNV
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(56, 111);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(180, 32);
-            this.label2.TabIndex = 88;
-            this.label2.Text = "Mã nhân viên";
+            this.lblMaNV.AutoSize = true;
+            this.lblMaNV.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMaNV.ForeColor = System.Drawing.Color.DimGray;
+            this.lblMaNV.Location = new System.Drawing.Point(56, 111);
+            this.lblMaNV.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMaNV.Name = "lblMaNV";
+            this.lblMaNV.Size = new System.Drawing.Size(180, 32);
+            this.lblMaNV.TabIndex = 88;
+            this.lblMaNV.Text = "Mã nhân viên";
             // 
             // txtMaNV
             // 
@@ -201,7 +201,7 @@
             this.txtMaNV.PlaceholderText = "Nhập tên đăng nhập";
             this.txtMaNV.SelectedText = "";
             this.txtMaNV.Size = new System.Drawing.Size(334, 60);
-            this.txtMaNV.TabIndex = 89;
+            this.txtMaNV.TabIndex = 1;
             // 
             // picEyeOpen2
             // 
@@ -253,19 +253,19 @@
             this.txtRePassword.PlaceholderText = "Nhập mật khẩu";
             this.txtRePassword.SelectedText = "";
             this.txtRePassword.Size = new System.Drawing.Size(334, 60);
-            this.txtRePassword.TabIndex = 91;
+            this.txtRePassword.TabIndex = 6;
             // 
-            // label5
+            // lblReNewPass
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.DimGray;
-            this.label5.Location = new System.Drawing.Point(57, 479);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(290, 32);
-            this.label5.TabIndex = 90;
-            this.label5.Text = "Nhập lại mật khẩu mới";
+            this.lblReNewPass.AutoSize = true;
+            this.lblReNewPass.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReNewPass.ForeColor = System.Drawing.Color.DimGray;
+            this.lblReNewPass.Location = new System.Drawing.Point(57, 479);
+            this.lblReNewPass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblReNewPass.Name = "lblReNewPass";
+            this.lblReNewPass.Size = new System.Drawing.Size(290, 32);
+            this.lblReNewPass.TabIndex = 90;
+            this.lblReNewPass.Text = "Nhập lại mật khẩu mới";
             // 
             // txtEmail
             // 
@@ -290,7 +290,7 @@
             this.txtEmail.PlaceholderText = "Nhập Email";
             this.txtEmail.SelectedText = "";
             this.txtEmail.Size = new System.Drawing.Size(334, 60);
-            this.txtEmail.TabIndex = 97;
+            this.txtEmail.TabIndex = 3;
             // 
             // txtSDT
             // 
@@ -314,31 +314,31 @@
             this.txtSDT.PlaceholderText = "Nhập số điện thoại";
             this.txtSDT.SelectedText = "";
             this.txtSDT.Size = new System.Drawing.Size(334, 60);
-            this.txtSDT.TabIndex = 96;
+            this.txtSDT.TabIndex = 2;
             // 
-            // label6
+            // lblEmail
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.DimGray;
-            this.label6.Location = new System.Drawing.Point(57, 249);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(85, 32);
-            this.label6.TabIndex = 95;
-            this.label6.Text = "Email";
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.ForeColor = System.Drawing.Color.DimGray;
+            this.lblEmail.Location = new System.Drawing.Point(57, 249);
+            this.lblEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(85, 32);
+            this.lblEmail.TabIndex = 95;
+            this.lblEmail.Text = "Email";
             // 
-            // label7
+            // lblSDT
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.DimGray;
-            this.label7.Location = new System.Drawing.Point(56, 176);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(171, 32);
-            this.label7.TabIndex = 94;
-            this.label7.Text = "Số điện thoại";
+            this.lblSDT.AutoSize = true;
+            this.lblSDT.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSDT.ForeColor = System.Drawing.Color.DimGray;
+            this.lblSDT.Location = new System.Drawing.Point(56, 176);
+            this.lblSDT.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSDT.Name = "lblSDT";
+            this.lblSDT.Size = new System.Drawing.Size(171, 32);
+            this.lblSDT.TabIndex = 94;
+            this.lblSDT.Text = "Số điện thoại";
             // 
             // btnThoat
             // 
@@ -347,9 +347,9 @@
             this.btnThoat.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnThoat.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnThoat.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnThoat.FillColor = System.Drawing.Color.Silver;
+            this.btnThoat.FillColor = System.Drawing.Color.DarkOrange;
             this.btnThoat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.ForeColor = System.Drawing.Color.Gray;
+            this.btnThoat.ForeColor = System.Drawing.Color.DimGray;
             this.btnThoat.Location = new System.Drawing.Point(141, 593);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(180, 67);
@@ -364,7 +364,7 @@
             this.btnXacnhan.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnXacnhan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnXacnhan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnXacnhan.FillColor = System.Drawing.Color.Silver;
+            this.btnXacnhan.FillColor = System.Drawing.Color.DarkOrange;
             this.btnXacnhan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXacnhan.ForeColor = System.Drawing.Color.DimGray;
             this.btnXacnhan.Location = new System.Drawing.Point(399, 593);
@@ -385,48 +385,49 @@
             this.lbLogin.Text = "Đăng nhập";
             this.lbLogin.Click += new System.EventHandler(this.lbLogin_Click);
             // 
-            // label8
+            // lblCanhBaoXacNhan
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(166, 546);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(391, 32);
-            this.label8.TabIndex = 101;
-            this.label8.Text = "Xác nhận thay đổi lại mật khẩu";
+            this.lblCanhBaoXacNhan.AutoSize = true;
+            this.lblCanhBaoXacNhan.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCanhBaoXacNhan.ForeColor = System.Drawing.Color.Red;
+            this.lblCanhBaoXacNhan.Location = new System.Drawing.Point(166, 546);
+            this.lblCanhBaoXacNhan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCanhBaoXacNhan.Name = "lblCanhBaoXacNhan";
+            this.lblCanhBaoXacNhan.Size = new System.Drawing.Size(391, 32);
+            this.lblCanhBaoXacNhan.TabIndex = 101;
+            this.lblCanhBaoXacNhan.Text = "Xác nhận thay đổi lại mật khẩu";
             // 
             // ForgotPassword
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(754, 712);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblCanhBaoXacNhan);
             this.Controls.Add(this.lbLogin);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnXacnhan);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtSDT);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lblEmail);
+            this.Controls.Add(this.lblSDT);
             this.Controls.Add(this.picEyeOpen2);
             this.Controls.Add(this.picEyeClosed2);
             this.Controls.Add(this.txtRePassword);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblReNewPass);
             this.Controls.Add(this.txtMaNV);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblMaNV);
+            this.Controls.Add(this.lblQMK);
             this.Controls.Add(this.picEyeOpen1);
             this.Controls.Add(this.picEyeClosed1);
             this.Controls.Add(this.txtNewPassword);
             this.Controls.Add(this.txtUsername);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblNewpass);
+            this.Controls.Add(this.lblUsername);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ForgotPassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.ForgotPassword_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picEyeOpen1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEyeClosed1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picEyeOpen2)).EndInit();
@@ -442,22 +443,22 @@
         private System.Windows.Forms.PictureBox picEyeClosed1;
         private Guna.UI2.WinForms.Guna2TextBox txtNewPassword;
         private Guna.UI2.WinForms.Guna2TextBox txtUsername;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblNewpass;
+        private System.Windows.Forms.Label lblUsername;
+        private System.Windows.Forms.Label lblQMK;
+        private System.Windows.Forms.Label lblMaNV;
         private Guna.UI2.WinForms.Guna2TextBox txtMaNV;
         private System.Windows.Forms.PictureBox picEyeOpen2;
         private System.Windows.Forms.PictureBox picEyeClosed2;
         private Guna.UI2.WinForms.Guna2TextBox txtRePassword;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblReNewPass;
         private Guna.UI2.WinForms.Guna2TextBox txtEmail;
         private Guna.UI2.WinForms.Guna2TextBox txtSDT;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblEmail;
+        private System.Windows.Forms.Label lblSDT;
         private Guna.UI2.WinForms.Guna2Button btnThoat;
         private Guna.UI2.WinForms.Guna2Button btnXacnhan;
         private System.Windows.Forms.Label lbLogin;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblCanhBaoXacNhan;
     }
 }
