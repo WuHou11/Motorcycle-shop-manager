@@ -609,5 +609,22 @@ namespace bx.ALL_UserControl
             txtTongChi.Clear();
             txtTongThu.Clear();    
         }
+
+        private void dgvThongKe_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dgvThongKe.SelectedRows.Count > 0)
+            {
+                DataGridViewRow row = dgvThongKe.SelectedRows[0];
+
+                decimal thanhTien = row.Cells["ThanhTien"].Value != null ? Convert.ToDecimal(row.Cells["ThanhTien"].Value) : 0;
+                decimal giaNhap = row.Cells["GiaNhap"].Value != null ? Convert.ToDecimal(row.Cells["GiaNhap"].Value) : 0;
+                decimal loiNhuan = row.Cells["LoiNhuan"].Value != null ? Convert.ToDecimal(row.Cells["LoiNhuan"].Value) : 0;
+
+                txtTongThu.Text = thanhTien.ToString("#,##0 VNĐ");
+                txtTongChi.Text = giaNhap.ToString("#,##0 VNĐ");
+                txtLoiNhuan.Text = loiNhuan.ToString("#,##0 VNĐ");
+            }
+
+        }
     }
 }

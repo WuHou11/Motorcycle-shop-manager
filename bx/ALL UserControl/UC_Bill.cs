@@ -253,7 +253,7 @@ namespace bx.ALL_UserControl
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             // Header
-            e.Graphics.DrawString("Motorcycle Shop", new Font("Arial", 20, FontStyle.Bold), Brushes.Black, new Point(50, 50));
+            e.Graphics.DrawString("Motobikes Shop", new Font("Arial", 20, FontStyle.Bold), Brushes.Black, new Point(50, 50));
             e.Graphics.DrawString(" HOTLINE: 039.79.86868", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(50, 80));
             e.Graphics.DrawString("HÓA ĐƠN BÁN HÀNG", new Font("Arial", 16, FontStyle.Bold), Brushes.Black, new Point(300, 100));
 

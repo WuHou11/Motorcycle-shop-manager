@@ -95,7 +95,7 @@
             this.btnTimKiem.Location = new System.Drawing.Point(547, 72);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(131, 55);
-            this.btnTimKiem.TabIndex = 68;
+            this.btnTimKiem.TabIndex = 3;
             this.btnTimKiem.Text = "Tìm";
             this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
@@ -106,7 +106,7 @@
             this.txtTimMaNCC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTimMaNCC.Name = "txtTimMaNCC";
             this.txtTimMaNCC.Size = new System.Drawing.Size(187, 33);
-            this.txtTimMaNCC.TabIndex = 35;
+            this.txtTimMaNCC.TabIndex = 2;
             this.txtTimMaNCC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTimMaNCC_KeyPress);
             // 
             // label3
@@ -140,7 +140,7 @@
             this.txtTimTenNCC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTimTenNCC.Name = "txtTimTenNCC";
             this.txtTimTenNCC.Size = new System.Drawing.Size(187, 33);
-            this.txtTimTenNCC.TabIndex = 32;
+            this.txtTimTenNCC.TabIndex = 1;
             this.txtTimTenNCC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTimTenNCC_KeyPress);
             // 
             // grbTTNCC
@@ -183,7 +183,7 @@
             this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(260, 33);
-            this.txtDiaChi.TabIndex = 39;
+            this.txtDiaChi.TabIndex = 3;
             // 
             // txtSDT
             // 
@@ -192,7 +192,7 @@
             this.txtSDT.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(260, 33);
-            this.txtSDT.TabIndex = 38;
+            this.txtSDT.TabIndex = 5;
             this.txtSDT.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSDT_KeyPress);
             // 
             // lblSDT
@@ -226,7 +226,7 @@
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(260, 33);
-            this.txtEmail.TabIndex = 35;
+            this.txtEmail.TabIndex = 4;
             // 
             // lblTenNCC
             // 
@@ -247,7 +247,7 @@
             this.txtTenNCC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTenNCC.Name = "txtTenNCC";
             this.txtTenNCC.Size = new System.Drawing.Size(260, 33);
-            this.txtTenNCC.TabIndex = 33;
+            this.txtTenNCC.TabIndex = 2;
             this.txtTenNCC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTenNCC_KeyPress);
             // 
             // lblMaNCC
@@ -269,15 +269,16 @@
             this.txtMaNCC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMaNCC.Name = "txtMaNCC";
             this.txtMaNCC.Size = new System.Drawing.Size(260, 33);
-            this.txtMaNCC.TabIndex = 31;
+            this.txtMaNCC.TabIndex = 1;
             this.txtMaNCC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMaNCC_KeyPress);
             // 
             // dgvQLNCC
             // 
             this.dgvQLNCC.AllowUserToAddRows = false;
             this.dgvQLNCC.AllowUserToDeleteRows = false;
-            this.dgvQLNCC.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvQLNCC.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvQLNCC.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvQLNCC.BackgroundColor = System.Drawing.Color.White;
             this.dgvQLNCC.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.Maroon;
@@ -285,7 +286,7 @@
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Maroon;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvQLNCC.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvQLNCC.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -309,6 +310,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvQLNCC.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvQLNCC.RowHeadersVisible = false;
             this.dgvQLNCC.RowHeadersWidth = 62;
             this.dgvQLNCC.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvQLNCC.Size = new System.Drawing.Size(872, 752);
@@ -344,7 +346,7 @@
             this.btnXoa.Location = new System.Drawing.Point(364, 722);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(131, 55);
-            this.btnXoa.TabIndex = 77;
+            this.btnXoa.TabIndex = 3;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
@@ -364,7 +366,7 @@
             this.btnSua.Location = new System.Drawing.Point(213, 722);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(131, 55);
-            this.btnSua.TabIndex = 76;
+            this.btnSua.TabIndex = 1;
             this.btnSua.Text = "Sửa";
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
@@ -384,7 +386,7 @@
             this.btnThem.Location = new System.Drawing.Point(67, 722);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(131, 55);
-            this.btnThem.TabIndex = 75;
+            this.btnThem.TabIndex = 2;
             this.btnThem.Text = "Thêm";
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 

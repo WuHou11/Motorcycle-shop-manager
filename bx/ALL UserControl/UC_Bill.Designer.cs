@@ -55,6 +55,7 @@
             this.txtThanhTien.Location = new System.Drawing.Point(1169, 915);
             this.txtThanhTien.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtThanhTien.Name = "txtThanhTien";
+            this.txtThanhTien.ReadOnly = true;
             this.txtThanhTien.Size = new System.Drawing.Size(260, 33);
             this.txtThanhTien.TabIndex = 45;
             // 
@@ -102,7 +103,7 @@
             this.btnTimKiem.Location = new System.Drawing.Point(918, 33);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(131, 55);
-            this.btnTimKiem.TabIndex = 68;
+            this.btnTimKiem.TabIndex = 3;
             this.btnTimKiem.Text = "Tìm";
             this.btnTimKiem.Click += new System.EventHandler(this.btnTimKiem_Click);
             // 
@@ -113,7 +114,7 @@
             this.txtTimMaHD.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTimMaHD.Name = "txtTimMaHD";
             this.txtTimMaHD.Size = new System.Drawing.Size(187, 33);
-            this.txtTimMaHD.TabIndex = 35;
+            this.txtTimMaHD.TabIndex = 2;
             // 
             // lblTimMaHD
             // 
@@ -146,14 +147,15 @@
             this.txtTimMaKH.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtTimMaKH.Name = "txtTimMaKH";
             this.txtTimMaKH.Size = new System.Drawing.Size(187, 33);
-            this.txtTimMaKH.TabIndex = 32;
+            this.txtTimMaKH.TabIndex = 1;
             // 
             // dgvQLHD
             // 
             this.dgvQLHD.AllowUserToAddRows = false;
             this.dgvQLHD.AllowUserToDeleteRows = false;
-            this.dgvQLHD.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvQLHD.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvQLHD.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvQLHD.BackgroundColor = System.Drawing.Color.White;
             this.dgvQLHD.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.Maroon;
@@ -161,7 +163,7 @@
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Maroon;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvQLHD.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvQLHD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -185,6 +187,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvQLHD.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvQLHD.RowHeadersVisible = false;
             this.dgvQLHD.RowHeadersWidth = 62;
             this.dgvQLHD.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvQLHD.Size = new System.Drawing.Size(1385, 710);
