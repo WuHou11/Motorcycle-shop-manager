@@ -76,7 +76,7 @@ namespace bx
 
         private void btnXacnhan_Click(object sender, EventArgs e)
         {
-
+    
             string maNV = txtMaNV.Text.Trim();
             string sdt = txtSDT.Text.Trim();
             string taikhoan=txtUsername.Text.Trim();
@@ -111,7 +111,7 @@ namespace bx
                         }
                     }
                 }
-                 else
+                    else
                 {
                     MessageBox.Show("Mật khẩu mới và nhập lại không khớp!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }

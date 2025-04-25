@@ -198,7 +198,7 @@
             this.txtMaNV.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtMaNV.Name = "txtMaNV";
             this.txtMaNV.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txtMaNV.PlaceholderText = "Nhập tên đăng nhập";
+            this.txtMaNV.PlaceholderText = "Nhập mã nhân viên";
             this.txtMaNV.SelectedText = "";
             this.txtMaNV.Size = new System.Drawing.Size(334, 60);
             this.txtMaNV.TabIndex = 1;
