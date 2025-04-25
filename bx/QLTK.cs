@@ -59,5 +59,13 @@ namespace bx
             command.Parameters.AddWithValue("@MaNV", MaNV);
             db.ExecuteNonQuery(command);
         }
+        public void UpdatePass(string maNV, string matkhau)
+        {
+            string query = "UPDATE QLTK SET MatKhau=@MatKhau WHERE MaNV=@MaNV";
+            SqlCommand command = new SqlCommand(query, sqlConn);
+            command.Parameters.AddWithValue("@MaNV", maNV);
+            command.Parameters.AddWithValue("@MatKhau", matkhau);
+            db.ExecuteNonQuery(command);
+        }
     }
 }

@@ -372,6 +372,7 @@
             this.btnXacnhan.Size = new System.Drawing.Size(180, 67);
             this.btnXacnhan.TabIndex = 98;
             this.btnXacnhan.Text = "Xác nhận";
+            this.btnXacnhan.Click += new System.EventHandler(this.btnXacnhan_Click);
             // 
             // lbLogin
             // 

@@ -155,5 +155,6 @@ namespace bx
             picEyeOpen.Visible = false;
             picEyeClosed.Visible = true;
         }
+
     }
 }
