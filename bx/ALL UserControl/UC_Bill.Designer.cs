@@ -197,7 +197,7 @@
             // lblHDTT
             // 
             this.lblHDTT.AutoSize = true;
-            this.lblHDTT.BackColor = System.Drawing.Color.DodgerBlue;
+            this.lblHDTT.BackColor = System.Drawing.Color.Transparent;
             this.lblHDTT.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHDTT.ForeColor = System.Drawing.Color.White;
             this.lblHDTT.Location = new System.Drawing.Point(421, 12);

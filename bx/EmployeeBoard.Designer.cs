@@ -44,6 +44,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSale = new Guna.UI2.WinForms.Guna2Button();
             this.btnBack = new Guna.UI2.WinForms.Guna2Button();
+            this.uC_Sale1 = new bx.ALL_UserControl.UC_Sale();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -98,6 +99,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.uC_Sale1);
             this.panel1.Controls.Add(this.uC_Bill1);
             this.panel1.Controls.Add(this.uC_Product1);
             this.panel1.Location = new System.Drawing.Point(419, 57);
@@ -329,6 +331,15 @@
             this.btnBack.Text = "Back";
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // uC_Sale1
+            // 
+            this.uC_Sale1.BackColor = System.Drawing.Color.DarkOrange;
+            this.uC_Sale1.Location = new System.Drawing.Point(15, 10);
+            this.uC_Sale1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.uC_Sale1.Name = "uC_Sale1";
+            this.uC_Sale1.Size = new System.Drawing.Size(1450, 1100);
+            this.uC_Sale1.TabIndex = 2;
+            // 
             // EmployeeBoard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -385,5 +396,6 @@
         private ALL_UserControl.UC_Product uC_Product1;
         private ALL_UserControl.UC_Bill uC_Bill1;
         private Guna.UI2.WinForms.Guna2Button btnBack;
+        private ALL_UserControl.UC_Sale uC_Sale1;
     }
 }

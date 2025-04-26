@@ -144,9 +144,10 @@ namespace bx
 
         private void lbForgotPassword_Click(object sender, EventArgs e)
         {
-            ForgotPassword forgotPassword = new ForgotPassword();
-            forgotPassword.Show();
             this.Hide();
+            ForgotPassword forgotPassword = new ForgotPassword();
+            forgotPassword.ShowDialog();
+            this.Show();
         }
 
         private void Login_Load(object sender, EventArgs e)

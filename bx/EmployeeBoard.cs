@@ -94,14 +94,16 @@ namespace bx
 
         private void btnSale_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn không đủ quyền hạng để truy cập!",
-                   "Cảnh báo",
-                   MessageBoxButtons.OK,
-                   MessageBoxIcon.Warning);
+            uC_Sale1.BackColor = Color.DarkOrange;
+            ActivateButton(btnSale);
+            MovePanel(btnSale);
+            uC_Sale1.Visible = true;
+            uC_Sale1.BringToFront();
         }
 
         private void btnBill_Click(object sender, EventArgs e)
         {
+            uC_Bill1.BackColor = Color.DarkOrange;
             ActivateButton(btnBill);
             MovePanel(btnBill);
             uC_Bill1.Visible = true;

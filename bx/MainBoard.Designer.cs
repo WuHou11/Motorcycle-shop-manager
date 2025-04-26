@@ -285,6 +285,7 @@
             // 
             // btnAccount
             // 
+            this.btnAccount.BackColor = System.Drawing.Color.Transparent;
             this.btnAccount.BorderRadius = 15;
             this.btnAccount.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnAccount.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -387,6 +388,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MainBoard_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MainBoard_KeyDown);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);

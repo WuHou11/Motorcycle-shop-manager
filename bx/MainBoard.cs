@@ -59,7 +59,9 @@ namespace bx
             uC_Product1.Visible = false;
             uC_Revenue1.Visible = false;
             uC_Supplier1.Visible = false;
+            uC_Sale1.Visible = false;
             btnAccount.PerformClick();
+            
         }
 
         private void ActivateButton(Guna2Button activeButton)
@@ -169,5 +171,11 @@ namespace bx
         {
             Application.Exit();
         }
+
+        private void MainBoard_KeyDown(object sender, KeyEventArgs e)
+        {
+          
+        }
+
     }
 }
