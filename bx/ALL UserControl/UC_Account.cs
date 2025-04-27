@@ -359,8 +359,6 @@ namespace bx.ALL_UserControl
             HienDSNhanVien();
             cbChucVu.Items.Add("Nhan vien");
             cbChucVu.Items.Add("Quan ly");
-            cbChucVu.Items.Add("Truong phong");
-            cbChucVu.Items.Add("Giam doc");
             ClearFields();
         }
         
