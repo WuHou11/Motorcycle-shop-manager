@@ -23,10 +23,10 @@ namespace bx
             return db.Execute(query);
         }
         public void ThemHD(string MaHD, DateTime NgayLap, string MaKH, string TenKH, string GioiTinh, string CCCD, string DiaChi, string SoDT,
-                       string MaXe, string TenXe, string LoaiXe, string DungTich, string HangSanXuat, string MauSac, decimal GiaBan, int SoLuong, string DonViTinh)
+                       string MaXe, string TenXe, string LoaiXe, string DungTich, string HangSanXuat, string MauSac, decimal GiaBan, int SoLuong, string DonViTinh, string MaNV)
         {
-            string query = @"INSERT INTO QLHD(MaHD, NgayLap, MaKH, TenKH, GioiTinh, CCCD, DiaChi, SoDT, MaXe, TenXe, LoaiXe, DungTich, HangSanXuat, MauSac, GiaBan, SoLuong, DonViTinh)
-                     VALUES (@MaHD, @NgayLap, @MaKH, @TenKH, @GioiTinh, @CCCD, @DiaChi, @SoDT, @MaXe, @TenXe, @LoaiXe, @DungTich, @HangSanXuat, @MauSac, @GiaBan, @SoLuong, @DonViTinh)";
+            string query = @"INSERT INTO QLHD(MaHD, NgayLap, MaKH, TenKH, GioiTinh, CCCD, DiaChi, SoDT, MaXe, TenXe, LoaiXe, DungTich, HangSanXuat, MauSac, GiaBan, SoLuong, DonViTinh, MaNV)
+                     VALUES (@MaHD, @NgayLap, @MaKH, @TenKH, @GioiTinh, @CCCD, @DiaChi, @SoDT, @MaXe, @TenXe, @LoaiXe, @DungTich, @HangSanXuat, @MauSac, @GiaBan, @SoLuong, @DonViTinh, @MaNV)";
 
             SqlCommand command = new SqlCommand(query, sqlConn);
             command.Parameters.AddWithValue("@MaHD", MaHD);
@@ -46,16 +46,17 @@ namespace bx
             command.Parameters.AddWithValue("@GiaBan", GiaBan);
             command.Parameters.AddWithValue("@SoLuong", SoLuong);
             command.Parameters.AddWithValue("@DonViTinh", DonViTinh);
+            command.Parameters.AddWithValue("@MaNV", MaNV);
 
             db.ExecuteNonQuery(command);
         }
         public void SuaHoaDon(string MaHD, DateTime NgayLap, string MaKH, string TenKH, string GioiTinh, string CCCD, string DiaChi, string SoDT,
                           string MaXe, string TenXe, string LoaiXe, string DungTich, string HangSanXuat, string MauSac,
-                          decimal GiaBan, int SoLuong, string DonViTinh)
+                          decimal GiaBan, int SoLuong, string DonViTinh, string MaNV)
             {
                 string query = @"UPDATE QLHD SET NgayLap = @NgayLap, MaKH = @MaKH, TenKH = @TenKH, GioiTinh = @GioiTinh, CCCD = @CCCD, DiaChi = @DiaChi, SoDT = @SoDT,
                              MaXe = @MaXe, TenXe = @TenXe, LoaiXe = @LoaiXe, DungTich = @DungTich, HangSanXuat = @HangSanXuat, MauSac = @MauSac,
-                             GiaBan = @GiaBan, SoLuong = @SoLuong, DonViTinh = @DonViTinh WHERE MaHD = @MaHD";
+                             GiaBan = @GiaBan, SoLuong = @SoLuong, DonViTinh = @DonViTinh, MaNV=@MaNV WHERE MaHD = @MaHD";
                 SqlCommand command = new SqlCommand(query, sqlConn);
                 command.Parameters.AddWithValue("@MaHD", MaHD);
                 command.Parameters.AddWithValue("@NgayLap", NgayLap);
@@ -74,7 +75,8 @@ namespace bx
                 command.Parameters.AddWithValue("@GiaBan", GiaBan);
                 command.Parameters.AddWithValue("@SoLuong", SoLuong);
                 command.Parameters.AddWithValue("@DonViTinh", DonViTinh);
-
+                command.Parameters.AddWithValue("@MaNV", MaNV);
+                
                 db.ExecuteNonQuery(command);
             }
         

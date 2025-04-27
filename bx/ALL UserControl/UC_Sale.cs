@@ -115,6 +115,7 @@ namespace bx.ALL_UserControl
             txtSDT.Clear();
             txtThanhTien.Clear();
             txtMaHD.Clear();
+            txtMaNV.Clear();
             dtNgayLap.Value = DateTime.Now;
         }
 
@@ -214,6 +215,7 @@ namespace bx.ALL_UserControl
                     dgvQLHD.Columns.Add("DonViTinh", "Đơn Vị Tính");
                     dgvQLHD.Columns.Add("ThanhTien", "Thành Tiền");
                     dgvQLHD.Columns["NgayLap"].DefaultCellStyle.Format = "dd/MM/yyyy";
+                    dgvQLHD.Columns.Add("MaNV", "Mã nhân viên");
                 }
 
                 // Lấy danh sách hóa đơn từ cơ sở dữ liệu
@@ -250,7 +252,7 @@ namespace bx.ALL_UserControl
                     dgvRow.Cells[dgvQLHD.Columns["SoLuong"].Index].Value = row["SoLuong"].ToString();
                     dgvRow.Cells[dgvQLHD.Columns["DonViTinh"].Index].Value = row["DonViTinh"].ToString();
                     dgvRow.Cells[dgvQLHD.Columns["ThanhTien"].Index].Value = row["ThanhTien"].ToString();
-
+                    dgvRow.Cells[dgvQLHD.Columns["MaNV"].Index].Value = row["MaNV"].ToString();
                     dgvQLHD.Rows.Add(dgvRow);
                 }
             }
@@ -466,6 +468,7 @@ namespace bx.ALL_UserControl
                     txtSoLuong.Text = row.Cells["SoLuong"].Value.ToString().Trim();
                     txtDonViTinh.Text = row.Cells["DonViTinh"].Value.ToString().Trim();
                     txtThanhTien.Text = row.Cells["ThanhTien"].Value.ToString().Trim();
+                    txtMaNV.Text = row.Cells["MaNV"].Value.ToString().Trim();
                 }
             }
             catch (Exception ex)
@@ -500,7 +503,8 @@ namespace bx.ALL_UserControl
                     string.IsNullOrWhiteSpace(txtMauSac.Text) ||
                     string.IsNullOrWhiteSpace(txtGiaBan.Text) ||
                     string.IsNullOrWhiteSpace(txtSoLuong.Text) ||
-                    string.IsNullOrWhiteSpace(txtDonViTinh.Text))
+                    string.IsNullOrWhiteSpace(txtDonViTinh.Text) ||
+                    string.IsNullOrWhiteSpace(txtMaNV.Text))
                 {
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thiếu dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
@@ -535,7 +539,8 @@ namespace bx.ALL_UserControl
                 decimal giaBan = decimal.Parse(txtGiaBan.Text.Trim());
                 string soLuong = txtSoLuong.Text.Trim();
                 string donViTinh = txtDonViTinh.Text.Trim();
-                qlhd.ThemHD(maHD, ngayLap, maKH, tenKH, gioiTinh, cccd, diaChi, soDT, maXe, tenXe, loaiXe, dungTich, hangSX, mauSac, giaBan, int.Parse(soLuong), donViTinh);
+                string maNV = txtMaNV.Text.Trim();
+                qlhd.ThemHD(maHD, ngayLap, maKH, tenKH, gioiTinh, cccd, diaChi, soDT, maXe, tenXe, loaiXe, dungTich, hangSX, mauSac, giaBan, int.Parse(soLuong), donViTinh, maNV);
 
                 ClearFields();
 
@@ -582,7 +587,8 @@ namespace bx.ALL_UserControl
                     string.IsNullOrWhiteSpace(txtMauSac.Text) ||
                     string.IsNullOrWhiteSpace(txtGiaBan.Text) ||
                     string.IsNullOrWhiteSpace(txtSoLuong.Text) ||
-                    string.IsNullOrWhiteSpace(txtDonViTinh.Text))
+                    string.IsNullOrWhiteSpace(txtDonViTinh.Text) ||
+                    string.IsNullOrWhiteSpace(txtMaNV.Text))
                 {
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thiếu dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
@@ -605,12 +611,10 @@ namespace bx.ALL_UserControl
                 decimal giaBan = decimal.Parse(txtGiaBan.Text.Trim());
                 int soLuong = int.Parse(txtSoLuong.Text.Trim());
                 string donViTinh=txtDonViTinh.Text.Trim();
-
-                
-
+                string maNV=txtMaNV.Text.Trim();
                 qlhd.SuaHoaDon(maHD, ngayLap, maKH, tenKH, gioiTinh, cccd, diaChi, soDT,
                                maXe, tenXe, loaiXe, dungTich, hangSanXuat, mauSac,
-                               giaBan, soLuong, donViTinh);
+                               giaBan, soLuong, donViTinh,maNV);
 
                 ClearFields(); // Xóa dữ liệu nhập
                 MessageBox.Show("Sửa hóa đơn thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);

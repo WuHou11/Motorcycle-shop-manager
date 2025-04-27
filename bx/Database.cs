@@ -14,9 +14,9 @@ namespace bx
 
         public Database()
         {
-            sqlCon = new SqlConnection("Data Source = MINH_NHUT; Initial Catalog = QLCHXM; User ID = sa; Password = 28102005Zz@; TrustServerCertificate = True;");
+            //sqlCon = new SqlConnection("Data Source = MINH_NHUT; Initial Catalog = QLCHXM; User ID = sa; Password = 28102005Zz@; TrustServerCertificate = True;");
             
-            // sqlCon = new SqlConnection("Data Source=MSI\\TRIEUHIEU;Initial Catalog=QLCHXM;User ID=sa;Password=trieuphuchieu;TrustServerCertificate=True;");
+            sqlCon = new SqlConnection("Data Source=MSI\\TRIEUHIEU;Initial Catalog=QLCHXM;User ID=sa;Password=trieuphuchieu;TrustServerCertificate=True;");
             //sqlCon = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=QLCHXM;Integrated Security=True;TrustServerCertificate=True;");
 
         }
