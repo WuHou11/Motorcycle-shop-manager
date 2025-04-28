@@ -1,0 +1,41 @@
+USE QLCHXM
+GO
+--
+CREATE TABLE QLHD (
+    MaHD VARCHAR(10) PRIMARY KEY,
+    NgayLap DATE,
+    
+    -- Thông tin Khách hàng
+    MaKH NVARCHAR(20),
+    TenKH NVARCHAR(100),
+    GioiTinh NVARCHAR(10),
+    CCCD VARCHAR(20),
+    DiaChi NVARCHAR(200),
+    SoDT VARCHAR(15),
+    
+    -- Thông tin Sản phẩm
+    MaXe VARCHAR(10),
+    TenXe NVARCHAR(100),
+    LoaiXe NVARCHAR(50),
+    DungTich NVARCHAR(20),
+    HangSanXuat NVARCHAR(100),
+    MauSac NVARCHAR(30),
+    GiaBan DECIMAL(18,2),
+    SoLuong INT,
+    DonViTinh NVARCHAR(20),
+    MaNV NVARCHAR(20),
+    
+    -- Tính thành tiền
+    ThanhTien AS (GiaBan * SoLuong) PERSISTED
+);
+INSERT INTO QLHD (MaHD, NgayLap, MaKH, TenKH, GioiTinh, CCCD, DiaChi, SoDT, MaXe, TenXe, LoaiXe, DungTich, HangSanXuat, MauSac, GiaBan, SoLuong, DonViTinh, MaNV) VALUES
+('HD001', '2025-04-22', 'KH001', 'Nguyen Van A', 'Nam', '001234567890', 'Ha Noi', '0911000001', 'SP001', 'Yamaha Sirius', 'Xe so', '115', 'Yamaha', 'Den', 21000000, 2, 'Chiec', 'NV001'),
+('HD002', '2025-04-21', 'KH002', 'Tran Thi B', 'Nu', '001234567891', 'TP HCM', '0911000002', 'SP002', 'Honda Vision', 'Xe tay ga', '110', 'Honda', 'Trang', 32000000, 1, 'Chiec', 'NV002'),
+('HD003', '2025-04-20', 'KH003', 'Le Van C', 'Nam', '001234567892', 'Da Nang', '0911000003', 'SP003', 'Suzuki Raider', 'Xe the thao', '150', 'Suzuki', 'Xanh', 49000000, 1, 'Chiec', 'NV003'),
+('HD004', '2025-04-19', 'KH004', 'Pham Thi D', 'Nu', '001234567893', 'Hai Phong', '0911000004', 'SP004', 'Yamaha Janus', 'Xe tay ga', '125', 'Yamaha', 'Do', 33000000, 2, 'Chiec','NV004'),
+('HD005', '2025-04-18', 'KH005', 'Hoang Van E', 'Nam', '001234567894', 'Can Tho', '0911000005', 'SP005', 'Honda Wave Alpha', 'Xe so', '110', 'Honda', 'Den', 19500000, 1, 'Chiec', 'NV005'),
+('HD006', '2025-04-17', 'KH006', 'Dang Thi F', 'Nu', '001234567895', 'Nha Trang', '0911000006', 'SP006', 'SYM Elegant', 'Xe so', '100', 'SYM', 'Xam', 18000000, 1, 'Chiec','NV006'),
+('HD007', '2025-04-16', 'KH007', 'Bui Van G', 'Nam', '001234567896', 'Hue', '0911000007', 'SP007', 'Piaggio Liberty', 'Xe tay ga', '125', 'Piaggio', 'Trang', 56000000, 1, 'Chiec','NV007'),
+('HD008', '2025-04-15', 'KH008', 'Vu Thi H', 'Nu', '001234567897', 'Quang Ninh', '0911000008', 'SP008', 'Honda SH Mode', 'Xe tay ga', '125', 'Honda', 'Do', 65000000, 1, 'Chiec','NV008'),
+('HD009', '2025-04-14', 'KH009', 'To Van I', 'Nam', '001234567898', 'Vinh', '0911000009', 'SP009', 'Yamaha Exciter', 'Xe the thao', '155', 'Yamaha', 'Xanh', 52000000, 2, 'Chiec','NV009'),
+('HD010', '2025-04-13', 'KH010', 'Ngo Thi K', 'Nu', '001234567899', 'Thanh Hoa', '0911000010', 'SP010', 'Honda Air Blade', 'Xe tay ga', '125', 'Honda', 'Den', 45000000, 3, 'Chiec','NV010');

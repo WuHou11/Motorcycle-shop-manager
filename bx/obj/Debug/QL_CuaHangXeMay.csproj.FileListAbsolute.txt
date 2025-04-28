@@ -1,0 +1,488 @@
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\bin\Debug\bx.exe.config
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\bin\Debug\bx.exe
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\bin\Debug\bx.pdb
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\bin\Debug\Guna.UI2.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\QL_CuaHangXeMay.csproj.AssemblyReference.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Account.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Bill.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Customer.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Product.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Revenue.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Supplier.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.Login.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.MainBoard.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.Properties.Resources.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\QL_CuaHangXeMay.csproj.GenerateResource.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\QL_CuaHangXeMay.csproj.CoreCompileInputs.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\QL_CuaHa.C77DA4A3.Up2Date
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.exe
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.pdb
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\bx\bx\obj\Debug\bx.EmployeeBoard.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\QL_CuaHangXeMay.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Account.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Bill.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Customer.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Product.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Revenue.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.ALL_UserControl.UC_Supplier.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.EmployeeBoard.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.Login.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.MainBoard.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.Properties.Resources.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\QL_CuaHangXeMay.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\QL_CuaHangXeMay.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.exe
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\bx.pdb
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\bx.exe.config
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\bx.exe
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\bx.pdb
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\obj\Debug\QL_CuaHangXeMay.csproj.CopyComplete
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\ab125.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\ex155.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\janus.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\piaggio.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\raider.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\shmode.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\Sirius.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\sym.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\vision.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\wave.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\bx\bin\Debug\asset\images\r15.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ab125.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ex155.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\janus.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\piaggio.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\r15.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\raider.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\shmode.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\Sirius.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\sym.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\vision.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\wave.jpg
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe.config
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\bx.pdb
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Guna.UI2.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.AssemblyReference.cache
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Account.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Bill.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Customer.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Product.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Revenue.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Supplier.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.EmployeeBoard.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.Login.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.MainBoard.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.Properties.Resources.resources
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.GenerateResource.cache
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.CoreCompileInputs.cache
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHa.C77DA4A3.Up2Date
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.exe
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.pdb
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ab125.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ex155.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\janus.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\piaggio.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\r15.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\raider.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\shmode.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\Sirius.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\sym.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\vision.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\wave.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe.config
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\bx.pdb
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Guna.UI2.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.AssemblyReference.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Account.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Bill.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Customer.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Product.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Revenue.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Supplier.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.EmployeeBoard.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.Login.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.MainBoard.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.Properties.Resources.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.GenerateResource.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.CoreCompileInputs.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHa.C77DA4A3.Up2Date
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.exe
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.pdb
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.barcodes.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.bouncy-castle-connector.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.commons.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.forms.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.io.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.kernel.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.layout.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfa.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfua.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.sign.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.styledxmlparser.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.svg.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Options.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Newtonsoft.Json.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Buffers.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Memory.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Numerics.Vectors.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.ValueTuple.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.barcodes.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.bouncy-castle-connector.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.commons.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.forms.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.io.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.kernel.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.layout.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfa.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfua.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.sign.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.styledxmlparser.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\itext.svg.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Options.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\Newtonsoft.Json.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Buffers.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Memory.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Numerics.Vectors.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\bin\Debug\System.ValueTuple.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\Motorcycle-shop-manager2\bx\obj\Debug\bx.ForgotPassword.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ab125.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ex155.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\janus.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\piaggio.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\r15.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\raider.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\shmode.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\Sirius.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\sym.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\vision.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\wave.jpg
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe.config
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\bx.pdb
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Guna.UI2.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.barcodes.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.bouncy-castle-connector.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.commons.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.forms.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.io.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.kernel.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.layout.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfa.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfua.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.sign.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.styledxmlparser.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.svg.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Buffers.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Memory.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.barcodes.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.bouncy-castle-connector.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.commons.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.forms.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.io.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.kernel.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.layout.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfa.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfua.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.sign.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.styledxmlparser.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\itext.svg.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Buffers.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Memory.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Account.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Bill.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Customer.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Product.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Revenue.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Supplier.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.EmployeeBoard.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.ForgotPassword.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.Login.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.MainBoard.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.Properties.Resources.resources
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.CopyComplete
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.exe
+C:\Users\Admin\Downloads\ĐẠI HỌC\N2_HK2\LT_WINFORM\Motorcycle-shop-manager2-main\Motorcycle-shop-manager2\bx\obj\Debug\bx.pdb
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ab125.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ex155.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\janus.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\piaggio.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\r15.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\raider.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\shmode.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\Sirius.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\sym.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\vision.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\wave.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe.config
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\bx.pdb
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Guna.UI2.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.barcodes.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.bouncy-castle-connector.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.commons.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.forms.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.io.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.kernel.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.layout.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfa.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfua.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.sign.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.styledxmlparser.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.svg.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Options.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Newtonsoft.Json.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Buffers.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Memory.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Numerics.Vectors.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.ValueTuple.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.barcodes.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.bouncy-castle-connector.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.commons.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.forms.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.io.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.kernel.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.layout.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfa.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfua.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.sign.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.styledxmlparser.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\itext.svg.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Options.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\Newtonsoft.Json.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Buffers.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Memory.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Numerics.Vectors.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\bin\Debug\System.ValueTuple.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.AssemblyReference.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Account.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Bill.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Customer.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Product.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Revenue.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Supplier.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.EmployeeBoard.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.ForgotPassword.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.Login.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.MainBoard.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.Properties.Resources.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.GenerateResource.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.CoreCompileInputs.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHa.C77DA4A3.Up2Date
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.exe
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\focus\Motorcycle-shop-manager2\bx\obj\Debug\bx.pdb
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.barcodes.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.bouncy-castle-connector.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.commons.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.forms.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.io.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.kernel.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.layout.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfa.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfua.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.sign.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.styledxmlparser.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.svg.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Options.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Newtonsoft.Json.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Buffers.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Memory.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Numerics.Vectors.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.ValueTuple.dll
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.barcodes.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.bouncy-castle-connector.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.commons.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.forms.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.io.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.kernel.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.layout.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfa.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfua.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.sign.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.styledxmlparser.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\itext.svg.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Options.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\Newtonsoft.Json.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Buffers.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Memory.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Numerics.Vectors.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\bin\Debug\System.ValueTuple.xml
+D:\DO_AN_HK2_Nam2\Motorcycle-shop-manager2\bx\obj\Debug\bx.ForgotPassword.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ab125.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\ex155.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\janus.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\piaggio.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\r15.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\raider.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\shmode.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\Sirius.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\sym.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\vision.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\asset\images\wave.jpg
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe.config
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\bx.exe
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\bx.pdb
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Guna.UI2.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.barcodes.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.bouncy-castle-connector.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.commons.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.forms.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.io.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.kernel.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.layout.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfa.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfua.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.sign.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.styledxmlparser.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.svg.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Options.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Newtonsoft.Json.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Buffers.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Memory.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Numerics.Vectors.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.ValueTuple.dll
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.barcodes.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.bouncy-castle-connector.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.commons.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.forms.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.io.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.kernel.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.layout.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfa.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.pdfua.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.sign.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.styledxmlparser.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\itext.svg.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Options.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\Newtonsoft.Json.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Buffers.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Memory.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Numerics.Vectors.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\bin\Debug\System.ValueTuple.xml
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.AssemblyReference.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Account.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Bill.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Customer.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Product.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Revenue.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Sale.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.ALL_UserControl.UC_Supplier.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.EmployeeBoard.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.ForgotPassword.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.Login.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.MainBoard.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.Properties.Resources.resources
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.GenerateResource.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHangXeMay.csproj.CoreCompileInputs.cache
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\QL_CuaHa.C77DA4A3.Up2Date
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.exe
+D:\2024-2025\HK2\LapTrinhWin\Cuoiky\New folder\Motorcycle-shop-manager2\bx\obj\Debug\bx.pdb

@@ -1,0 +1,25 @@
+USE QLCHXM
+GO
+-- Tao bang QLKH
+CREATE TABLE QLKH (
+    MaKH VARCHAR(10) PRIMARY KEY,
+    TenKH VARCHAR(100),
+    GioiTinh VARCHAR(10),
+    SoCCCD VARCHAR(20),
+    DiaChi VARCHAR(200),
+    SoDT VARCHAR(15)
+);
+
+-- Them 10 dong du lieu
+INSERT INTO QLKH (MaKH, TenKH, GioiTinh, SoCCCD, DiaChi, SoDT)
+VALUES
+('KH001', 'Nguyen Van A', 'Nam', '001234567890', 'Ha Noi', '0911000001'),
+('KH002', 'Tran Thi B', 'Nu', '001234567891', 'TP HCM', '0911000002'),
+('KH003', 'Le Van C', 'Nam', '001234567892', 'Da Nang', '0911000003'),
+('KH004', 'Pham Thi D', 'Nu', '001234567893', 'Hai Phong', '0911000004'),
+('KH005', 'Hoang Van E', 'Nam', '001234567894', 'Can Tho', '0911000005'),
+('KH006', 'Dang Thi F', 'Nu', '001234567895', 'Nha Trang', '0911000006'),
+('KH007', 'Bui Van G', 'Nam', '001234567896', 'Hue', '0911000007'),
+('KH008', 'Vu Thi H', 'Nu', '001234567897', 'Quang Ninh', '0911000008'),
+('KH009', 'To Van I', 'Nam', '001234567898', 'Vinh', '0911000009'),
+('KH010', 'Ngo Thi K', 'Nu', '001234567899', 'Thanh Hoa', '0911000010');
