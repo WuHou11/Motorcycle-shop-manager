@@ -772,7 +772,7 @@ namespace bx.ALL_UserControl
                 string maXe = txtMaXe.Text.Trim();
                 if (string.IsNullOrWhiteSpace(maXe))
                 {
-                    // Clear fields and unlock textboxes when MaXe is empty
+                    // Clear fields when MaXe is empty
                     txtTenXe.Clear();
                     txtLoaiXe.Clear();
                     txtDungTich.Clear();
@@ -781,16 +781,6 @@ namespace bx.ALL_UserControl
                     txtGiaBan.Clear();
                     txtSoLuong.Clear();
                     txtDonViTinh.Clear();
-
-                    // Unlock textboxes
-                    txtMaXe.ReadOnly = false;
-                    txtTenXe.ReadOnly = false;
-                    txtLoaiXe.ReadOnly = false;
-                    txtDungTich.ReadOnly = false;
-                    txtHangSanXuat.ReadOnly = false;
-                    txtMauSac.ReadOnly = false;
-                    txtGiaBan.ReadOnly = false;
-                    txtDonViTinh.ReadOnly = false;
                     return;
                 }
 
@@ -810,16 +800,6 @@ namespace bx.ALL_UserControl
                         txtGiaBan.Text = row["GiaBan"].ToString().Trim();
                         txtSoLuong.Text = row["SoLuong"].ToString().Trim();
                         txtDonViTinh.Text = row["DonViTinh"].ToString().Trim();
-
-                        // Lock textboxes after populating
-                        txtMaXe.ReadOnly = true;
-                        txtTenXe.ReadOnly = true;
-                        txtLoaiXe.ReadOnly = true;
-                        txtDungTich.ReadOnly = true;
-                        txtHangSanXuat.ReadOnly = true;
-                        txtMauSac.ReadOnly = true;
-                        txtGiaBan.ReadOnly = true;
-                        txtDonViTinh.ReadOnly = true;
                         break;
                     }
                 }
@@ -835,15 +815,6 @@ namespace bx.ALL_UserControl
                     txtGiaBan.Clear();
                     txtSoLuong.Clear();
                     txtDonViTinh.Clear();
-
-                    // Unlock textboxes except txtMaXe
-                    txtTenXe.ReadOnly = false;
-                    txtLoaiXe.ReadOnly = false;
-                    txtDungTich.ReadOnly = false;
-                    txtHangSanXuat.ReadOnly = false;
-                    txtMauSac.ReadOnly = false;
-                    txtGiaBan.ReadOnly = false;
-                    txtDonViTinh.ReadOnly = false;
                 }
             }
             catch (Exception ex)
@@ -858,16 +829,6 @@ namespace bx.ALL_UserControl
                 txtGiaBan.Clear();
                 txtSoLuong.Clear();
                 txtDonViTinh.Clear();
-
-                // Unlock textboxes
-                txtMaXe.ReadOnly = false;
-                txtTenXe.ReadOnly = false;
-                txtLoaiXe.ReadOnly = false;
-                txtDungTich.ReadOnly = false;
-                txtHangSanXuat.ReadOnly = false;
-                txtMauSac.ReadOnly = false;
-                txtGiaBan.ReadOnly = false;
-                txtDonViTinh.ReadOnly = false;
             }
         }
 

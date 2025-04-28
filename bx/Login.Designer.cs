@@ -193,7 +193,7 @@ namespace bx
             this.btnClear.FillColor = System.Drawing.Color.GreenYellow;
             this.btnClear.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.Gray;
-            this.btnClear.Location = new System.Drawing.Point(117, 459);
+            this.btnClear.Location = new System.Drawing.Point(117, 480);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(180, 67);
             this.btnClear.TabIndex = 72;
@@ -210,7 +210,7 @@ namespace bx
             this.btnLogin.FillColor = System.Drawing.Color.GreenYellow;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.DimGray;
-            this.btnLogin.Location = new System.Drawing.Point(375, 459);
+            this.btnLogin.Location = new System.Drawing.Point(375, 480);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(180, 67);
             this.btnLogin.TabIndex = 71;

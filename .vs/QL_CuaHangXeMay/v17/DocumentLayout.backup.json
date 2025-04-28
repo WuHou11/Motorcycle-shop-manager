@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\new folder\\motorcycle-shop-manager2\\bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -27,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,14 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\new folder\\motorcycle-shop-manager2\\bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\all usercontrol\\uc_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\mainboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,7 +154,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1028,
-          "SelectedChildIndex": 37,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -174,37 +174,50 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UC_Supplier.cs",
+              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Supplier.cs",
+              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Supplier.cs",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Supplier.cs",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Supplier.cs",
+              "ViewState": "AgIAAEcBAAAAAAAAAADwv2UBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T13:56:05.101Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "UC_Sale.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Sale.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Sale.cs",
-              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Sale.cs",
-              "RelativeToolTip": "bx\\ALL UserControl\\UC_Sale.cs",
-              "ViewState": "AgIAAGgDAAAAAAAAAAAwwI4DAAAjAAAAAAAAAA==",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Sale.cs*",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Sale.cs*",
+              "ViewState": "AgIAAPICAAAAAAAAAAAswD8DAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T14:55:33.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UC_Sale.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Sale.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Sale.cs",
-              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Sale.cs [Design]",
-              "RelativeToolTip": "bx\\ALL UserControl\\UC_Sale.cs [Design]",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Sale.cs [Design]*",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Sale.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T13:10:39.194Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UC_Bill.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Bill.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Bill.cs",
@@ -216,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "UC_Bill.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Bill.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Bill.cs",
@@ -229,12 +242,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "UC_Supplier.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Supplier.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Supplier.cs",
-              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Supplier.cs [Design]*",
-              "RelativeToolTip": "bx\\ALL UserControl\\UC_Supplier.cs [Design]*",
+              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Supplier.cs [Design]",
+              "RelativeToolTip": "bx\\ALL UserControl\\UC_Supplier.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T12:07:39.928Z",
               "EditorCaption": " [Design]"
@@ -254,19 +267,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "UC_Revenue.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Revenue.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Revenue.cs",
               "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Revenue.cs [Design]",
               "RelativeToolTip": "bx\\ALL UserControl\\UC_Revenue.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:07:55.15Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-15T12:07:55.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "UC_Product.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Product.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Product.cs",
@@ -356,8 +368,7 @@
               "RelativeToolTip": "bx\\ALL UserControl\\UC_Revenue.cs",
               "ViewState": "AgIAAF0CAAAAAAAAAAAgwHQCAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T12:54:55.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T12:54:55.383Z"
             },
             {
               "$type": "Document",
@@ -397,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UC_Customer.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Customer.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Customer.cs",
@@ -405,33 +416,31 @@
               "RelativeToolTip": "bx\\ALL UserControl\\UC_Customer.cs",
               "ViewState": "AgIAAEsBAAAAAAAAAADwv2MBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T13:50:17.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T13:50:17.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "UC_Product.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Product.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Product.cs",
               "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Product.cs",
               "RelativeToolTip": "bx\\ALL UserControl\\UC_Product.cs",
-              "ViewState": "AgIAABcCAAAAAAAAAAAswHkCAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABkCAAAAAAAAAAAwwHACAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T14:49:57.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "UC_Customer.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Customer.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Customer.cs",
               "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Customer.cs [Design]",
               "RelativeToolTip": "bx\\ALL UserControl\\UC_Customer.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:08:52.002Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-15T12:08:52.002Z"
             },
             {
               "$type": "Document",
@@ -471,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "UC_Account.cs",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Account.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Account.cs",
@@ -479,20 +488,18 @@
               "RelativeToolTip": "bx\\ALL UserControl\\UC_Account.cs",
               "ViewState": "AgIAAIsBAAAAAAAAAAAswMkBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T14:17:15.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T14:17:15.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "UC_Account.cs [Design]",
               "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Account.cs",
               "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Account.cs",
               "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Account.cs [Design]",
               "RelativeToolTip": "bx\\ALL UserControl\\UC_Account.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:09:17.15Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-15T12:09:17.15Z"
             },
             {
               "$type": "Document",
@@ -516,8 +523,7 @@
               "RelativeToolTip": "bx\\ALL UserControl\\UC_Revenue.Designer.cs",
               "ViewState": "AgIAAJMBAAAAAAAAAAAAAJwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T13:10:52.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T13:10:52.462Z"
             },
             {
               "$type": "Document",
@@ -588,19 +594,6 @@
               "ViewState": "AgIAAJgBAAAAAAAAAAAAAKcBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T14:05:25.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UC_Supplier.cs",
-              "DocumentMoniker": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Supplier.cs",
-              "RelativeDocumentMoniker": "bx\\ALL UserControl\\UC_Supplier.cs",
-              "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\ALL UserControl\\UC_Supplier.cs*",
-              "RelativeToolTip": "bx\\ALL UserControl\\UC_Supplier.cs*",
-              "ViewState": "AgIAAEcBAAAAAAAAAADwv2UBAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T13:56:05.101Z",
-              "EditorCaption": ""
             }
           ]
         },
