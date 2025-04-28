@@ -74,11 +74,11 @@
             this.lblNgayLap = new System.Windows.Forms.Label();
             this.dtNgayLap = new System.Windows.Forms.DateTimePicker();
             this.grbHoaDon = new System.Windows.Forms.GroupBox();
+            this.txtMaNV = new System.Windows.Forms.TextBox();
+            this.lblMaNV = new System.Windows.Forms.Label();
             this.txtMaHD = new System.Windows.Forms.TextBox();
             this.lblMaHD = new System.Windows.Forms.Label();
             this.btnRefresh = new Guna.UI2.WinForms.Guna2Button();
-            this.lblMaNV = new System.Windows.Forms.Label();
-            this.txtMaNV = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQLHD)).BeginInit();
             this.grbTTKH.SuspendLayout();
             this.grbTTSP.SuspendLayout();
@@ -143,6 +143,7 @@
             // 
             // btnInHoaDon
             // 
+            this.btnInHoaDon.BackColor = System.Drawing.Color.Transparent;
             this.btnInHoaDon.BorderRadius = 18;
             this.btnInHoaDon.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnInHoaDon.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -704,6 +705,24 @@
             this.grbHoaDon.TabStop = false;
             this.grbHoaDon.Text = "Hóa Đơn";
             // 
+            // txtMaNV
+            // 
+            this.txtMaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaNV.Location = new System.Drawing.Point(226, 98);
+            this.txtMaNV.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtMaNV.Name = "txtMaNV";
+            this.txtMaNV.Size = new System.Drawing.Size(169, 33);
+            this.txtMaNV.TabIndex = 64;
+            // 
+            // lblMaNV
+            // 
+            this.lblMaNV.AutoSize = true;
+            this.lblMaNV.Location = new System.Drawing.Point(22, 93);
+            this.lblMaNV.Name = "lblMaNV";
+            this.lblMaNV.Size = new System.Drawing.Size(196, 38);
+            this.lblMaNV.TabIndex = 63;
+            this.lblMaNV.Text = "Mã nhân viên";
+            // 
             // txtMaHD
             // 
             this.txtMaHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -743,24 +762,6 @@
             this.btnRefresh.TabIndex = 73;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
-            // 
-            // lblMaNV
-            // 
-            this.lblMaNV.AutoSize = true;
-            this.lblMaNV.Location = new System.Drawing.Point(22, 93);
-            this.lblMaNV.Name = "lblMaNV";
-            this.lblMaNV.Size = new System.Drawing.Size(196, 38);
-            this.lblMaNV.TabIndex = 63;
-            this.lblMaNV.Text = "Mã nhân viên";
-            // 
-            // txtMaNV
-            // 
-            this.txtMaNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaNV.Location = new System.Drawing.Point(226, 98);
-            this.txtMaNV.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtMaNV.Name = "txtMaNV";
-            this.txtMaNV.Size = new System.Drawing.Size(169, 33);
-            this.txtMaNV.TabIndex = 64;
             // 
             // UC_Sale
             // 

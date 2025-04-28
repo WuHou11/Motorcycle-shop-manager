@@ -756,7 +756,7 @@ namespace bx.ALL_UserControl
             // Footer
 
             e.Graphics.DrawString("Người viết hóa đơn", new Font("Arial", 10, FontStyle.Regular), Brushes.Black, new Point(600, pt));
-            pt += 50;
+            pt += 200;
             e.Graphics.DrawString("Cảm Ơn Quý Khách", new Font("Arial", 10, FontStyle.Italic), Brushes.Black, new Point(350, pt));
         }
 

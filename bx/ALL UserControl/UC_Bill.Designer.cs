@@ -89,7 +89,7 @@
             // 
             // btnTimKiem
             // 
-            this.btnTimKiem.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnTimKiem.BackColor = System.Drawing.Color.Transparent;
             this.btnTimKiem.BorderRadius = 15;
             this.btnTimKiem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnTimKiem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -228,7 +228,7 @@
             // 
             // btnRefresh
             // 
-            this.btnRefresh.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnRefresh.BackColor = System.Drawing.Color.Transparent;
             this.btnRefresh.BorderRadius = 15;
             this.btnRefresh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnRefresh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;

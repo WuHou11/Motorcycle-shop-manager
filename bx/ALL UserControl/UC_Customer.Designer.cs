@@ -363,7 +363,7 @@
             // lblQLKH
             // 
             this.lblQLKH.AutoSize = true;
-            this.lblQLKH.BackColor = System.Drawing.Color.DodgerBlue;
+            this.lblQLKH.BackColor = System.Drawing.Color.Transparent;
             this.lblQLKH.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQLKH.ForeColor = System.Drawing.Color.White;
             this.lblQLKH.Location = new System.Drawing.Point(24, 35);
@@ -375,7 +375,7 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnXoa.BackColor = System.Drawing.Color.Transparent;
             this.btnXoa.BorderRadius = 15;
             this.btnXoa.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnXoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -395,7 +395,7 @@
             // 
             // btnSua
             // 
-            this.btnSua.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnSua.BackColor = System.Drawing.Color.Transparent;
             this.btnSua.BorderRadius = 15;
             this.btnSua.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnSua.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -415,7 +415,7 @@
             // 
             // btnThem
             // 
-            this.btnThem.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnThem.BackColor = System.Drawing.Color.Transparent;
             this.btnThem.BorderRadius = 15;
             this.btnThem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnThem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
@@ -439,7 +439,7 @@
             // 
             // btnRefresh
             // 
-            this.btnRefresh.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnRefresh.BackColor = System.Drawing.Color.Transparent;
             this.btnRefresh.BorderRadius = 15;
             this.btnRefresh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnRefresh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;

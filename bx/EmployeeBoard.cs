@@ -85,19 +85,21 @@ namespace bx
 
         private void btnCustomer_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn không đủ quyền hạng để truy cập!",
-                   "Cảnh báo",
-                   MessageBoxButtons.OK,
-                   MessageBoxIcon.Warning);
+            uC_Customer1.BackColor = Color.DarkOrange;
+            ActivateButton(btnCustomer);
+            MovePanel(btnCustomer);
+            uC_Customer1.Visible = true;
+            uC_Customer1.BringToFront();
 
         }
 
         private void btnSale_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bạn không đủ quyền hạng để truy cập!",
-                   "Cảnh báo",
-                   MessageBoxButtons.OK,
-                   MessageBoxIcon.Warning);
+            uC_Sale1.BackColor = Color.DarkOrange;
+            ActivateButton(btnSale);
+            MovePanel(btnSale);
+            uC_Sale1.Visible = true;
+            uC_Sale1.BringToFront();
         }
 
         private void btnBill_Click(object sender, EventArgs e)
@@ -154,6 +156,11 @@ namespace bx
             Login login = new Login();
             login.ShowDialog();  // Chặn luồng cho tới khi Login được đóng
             this.Show();         // Hiện lại form hiện tại nếu cần sau khi login đóng
+        }
+
+        private void lbMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

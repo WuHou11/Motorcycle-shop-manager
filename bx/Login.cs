@@ -157,5 +157,9 @@ namespace bx
             picEyeClosed.Visible = true;
         }
 
+        private void lbMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

@@ -177,5 +177,9 @@ namespace bx
           
         }
 
+        private void lbMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
