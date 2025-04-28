@@ -401,5 +401,61 @@ namespace bx.ALL_UserControl
             HienDSNhanVien();
             ClearFields();
         }
+
+        private void txtMaNV_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                string maNV = txtMaNV.Text.Trim();
+                if (string.IsNullOrWhiteSpace(maNV))
+                {
+                    ClearFields();
+                    return;
+                }
+
+                DataTable dt = qltk.LayDSTaiKhoan();
+                bool found = false;
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    if (row["MaNV"].ToString().Trim().ToUpper() == maNV.ToUpper())
+                    {
+                        found = true;
+                        txtHoTen.Text = row["HoTen"].ToString().Trim();
+                        txtTuoi.Text = row["Tuoi"].ToString().Trim();
+                        string gioiTinh = row["GioiTinh"].ToString().Trim();
+                        rbNam.Checked = gioiTinh == "Nam";
+                        rbNu.Checked = gioiTinh == "Nu";
+                        txtEmail.Text = row["Email"].ToString().Trim();
+                        txtSDT.Text = row["SDT"].ToString().Trim();
+                        txtUsername.Text = row["TaiKhoan"].ToString().Trim();
+                        txtPassword.Text = row["MatKhau"].ToString().Trim();
+                        string chucVu = row["ChucVu"].ToString().Trim();
+                        cbChucVu.SelectedIndex = cbChucVu.FindStringExact(chucVu);
+                        break;
+                    }
+                }
+
+                if (!found)
+                {
+                    txtHoTen.Clear();
+                    txtTuoi.Clear();
+                    rbNam.Checked = false;
+                    rbNu.Checked = false;
+                    txtEmail.Clear();
+                    txtSDT.Clear();
+                    txtUsername.Clear();
+                    txtPassword.Clear();
+                    cbChucVu.SelectedIndex = -1;
+                    txtTimMaNV.Clear();
+                    txtTimTenNV.Clear();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tìm kiếm nhân viên: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                ClearFields();
+            }
+        }
     }
 }

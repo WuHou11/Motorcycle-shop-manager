@@ -270,6 +270,7 @@
             this.txtMaNCC.Name = "txtMaNCC";
             this.txtMaNCC.Size = new System.Drawing.Size(260, 33);
             this.txtMaNCC.TabIndex = 1;
+            this.txtMaNCC.TextChanged += new System.EventHandler(this.txtMaNCC_TextChanged);
             this.txtMaNCC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMaNCC_KeyPress);
             // 
             // dgvQLNCC

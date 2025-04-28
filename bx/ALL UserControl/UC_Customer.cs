@@ -309,5 +309,54 @@ namespace bx.ALL_UserControl
                 return;
             }
         }
+
+        private void txtMaKH_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                string maKH = txtMaKH.Text.Trim();
+                if (string.IsNullOrWhiteSpace(maKH))
+                {
+                    ClearFields();
+                    return;
+                }
+
+                DataTable dt = qlkh.LayDSKhachHang();
+                bool found = false;
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    if (row["MaKH"].ToString().Trim().ToUpper() == maKH.ToUpper())
+                    {
+                        found = true;
+                        txtTenKH.Text = row["TenKH"].ToString().Trim();
+                        string gioiTinh = row["GioiTinh"].ToString().Trim();
+                        rbNam.Checked = gioiTinh == "Nam";
+                        rbNu.Checked = gioiTinh == "Nu";
+                        txtSoCCCD.Text = row["SoCCCD"].ToString().Trim();
+                        txtDiachi.Text = row["DiaChi"].ToString().Trim();
+                        txtSDT.Text = row["SoDT"].ToString().Trim();
+                        break;
+                    }
+                }
+
+                if (!found)
+                {
+                    txtTenKH.Clear();
+                    rbNam.Checked = false;
+                    rbNu.Checked = false;
+                    txtSoCCCD.Clear();
+                    txtDiachi.Clear();
+                    txtSDT.Clear();
+                    txtTimMaKH.Clear();
+                    txtTimTenKH.Clear();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tìm kiếm khách hàng: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                ClearFields();
+            }
+        }
     }
 }

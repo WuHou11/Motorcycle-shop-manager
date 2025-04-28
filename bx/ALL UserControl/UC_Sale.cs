@@ -764,5 +764,158 @@ namespace bx.ALL_UserControl
         {
 
         }
+
+        private void txtMaXe_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                string maXe = txtMaXe.Text.Trim();
+                if (string.IsNullOrWhiteSpace(maXe))
+                {
+                    // Clear fields and unlock textboxes when MaXe is empty
+                    txtTenXe.Clear();
+                    txtLoaiXe.Clear();
+                    txtDungTich.Clear();
+                    txtHangSanXuat.Clear();
+                    txtMauSac.Clear();
+                    txtGiaBan.Clear();
+                    txtSoLuong.Clear();
+                    txtDonViTinh.Clear();
+
+                    // Unlock textboxes
+                    txtMaXe.ReadOnly = false;
+                    txtTenXe.ReadOnly = false;
+                    txtLoaiXe.ReadOnly = false;
+                    txtDungTich.ReadOnly = false;
+                    txtHangSanXuat.ReadOnly = false;
+                    txtMauSac.ReadOnly = false;
+                    txtGiaBan.ReadOnly = false;
+                    txtDonViTinh.ReadOnly = false;
+                    return;
+                }
+
+                DataTable dt = qlsp.LayDSSanPham();
+                bool found = false;
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    if (row["MaXe"].ToString().Trim().ToUpper() == maXe.ToUpper())
+                    {
+                        found = true;
+                        txtTenXe.Text = row["TenXe"].ToString().Trim();
+                        txtLoaiXe.Text = row["LoaiXe"].ToString().Trim();
+                        txtDungTich.Text = row["DungTich"].ToString().Trim();
+                        txtHangSanXuat.Text = row["HangSanXuat"].ToString().Trim();
+                        txtMauSac.Text = row["MauSac"].ToString().Trim();
+                        txtGiaBan.Text = row["GiaBan"].ToString().Trim();
+                        txtSoLuong.Text = row["SoLuong"].ToString().Trim();
+                        txtDonViTinh.Text = row["DonViTinh"].ToString().Trim();
+
+                        // Lock textboxes after populating
+                        txtMaXe.ReadOnly = true;
+                        txtTenXe.ReadOnly = true;
+                        txtLoaiXe.ReadOnly = true;
+                        txtDungTich.ReadOnly = true;
+                        txtHangSanXuat.ReadOnly = true;
+                        txtMauSac.ReadOnly = true;
+                        txtGiaBan.ReadOnly = true;
+                        txtDonViTinh.ReadOnly = true;
+                        break;
+                    }
+                }
+
+                if (!found)
+                {
+                    // Clear fields except txtMaXe if no match is found
+                    txtTenXe.Clear();
+                    txtLoaiXe.Clear();
+                    txtDungTich.Clear();
+                    txtHangSanXuat.Clear();
+                    txtMauSac.Clear();
+                    txtGiaBan.Clear();
+                    txtSoLuong.Clear();
+                    txtDonViTinh.Clear();
+
+                    // Unlock textboxes except txtMaXe
+                    txtTenXe.ReadOnly = false;
+                    txtLoaiXe.ReadOnly = false;
+                    txtDungTich.ReadOnly = false;
+                    txtHangSanXuat.ReadOnly = false;
+                    txtMauSac.ReadOnly = false;
+                    txtGiaBan.ReadOnly = false;
+                    txtDonViTinh.ReadOnly = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tìm kiếm mã xe: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // Clear fields on error
+                txtTenXe.Clear();
+                txtLoaiXe.Clear();
+                txtDungTich.Clear();
+                txtHangSanXuat.Clear();
+                txtMauSac.Clear();
+                txtGiaBan.Clear();
+                txtSoLuong.Clear();
+                txtDonViTinh.Clear();
+
+                // Unlock textboxes
+                txtMaXe.ReadOnly = false;
+                txtTenXe.ReadOnly = false;
+                txtLoaiXe.ReadOnly = false;
+                txtDungTich.ReadOnly = false;
+                txtHangSanXuat.ReadOnly = false;
+                txtMauSac.ReadOnly = false;
+                txtGiaBan.ReadOnly = false;
+                txtDonViTinh.ReadOnly = false;
+            }
+        }
+
+        private void txtMaKH_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                string maKH = txtMaKH.Text.Trim();
+                if (string.IsNullOrWhiteSpace(maKH))
+                {
+                    ClearFields();
+                    return;
+                }
+
+                DataTable dt = qlkh.LayDSKhachHang();
+                bool found = false;
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    if (row["MaKH"].ToString().Trim().ToUpper() == maKH.ToUpper())
+                    {
+                        found = true;
+                        txtTenKH.Text = row["TenKH"].ToString().Trim();
+                        string gioiTinh = row["GioiTinh"].ToString().Trim();
+                        rbNam.Checked = gioiTinh == "Nam";
+                        rbNu.Checked = gioiTinh == "Nu";
+                        txtSoCCCD.Text = row["SoCCCD"].ToString().Trim();
+                        txtDiachi.Text = row["DiaChi"].ToString().Trim();
+                        txtSDT.Text = row["SoDT"].ToString().Trim();
+                        break;
+                    }
+                }
+
+                if (!found)
+                {
+                    txtTenKH.Clear();
+                    rbNam.Checked = false;
+                    rbNu.Checked = false;
+                    txtSoCCCD.Clear();
+                    txtDiachi.Clear();
+                    txtSDT.Clear();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tìm kiếm khách hàng: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                ClearFields();
+            }
+        }
     }
 }

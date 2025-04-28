@@ -313,5 +313,49 @@ namespace bx.ALL_UserControl
                 return;
             }
         }
+
+        private void txtMaNCC_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                string maNCC = txtMaNCC.Text.Trim();
+                if (string.IsNullOrWhiteSpace(maNCC))
+                {
+                    ClearFields();
+                    return;
+                }
+
+                DataTable dt = qlncc.LayDSNhaCungCap();
+                bool found = false;
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    if (row["MaNCC"].ToString().Trim().ToUpper() == maNCC.ToUpper())
+                    {
+                        found = true;
+                        txtTenNCC.Text = row["TenNCC"].ToString().Trim();
+                        txtDiaChi.Text = row["DiaChi"].ToString().Trim();
+                        txtEmail.Text = row["Email"].ToString().Trim();
+                        txtSDT.Text = row["SDT"].ToString().Trim();
+                        break;
+                    }
+                }
+
+                if (!found)
+                {
+                    txtTenNCC.Clear();
+                    txtDiaChi.Clear();
+                    txtEmail.Clear();
+                    txtSDT.Clear();
+                    txtTimMaNCC.Clear();
+                    txtTimTenNCC.Clear();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tìm kiếm nhà cung cấp: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                ClearFields();
+            }
+        }
     }
 }
