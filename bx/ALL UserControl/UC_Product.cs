@@ -538,5 +538,100 @@ namespace bx.ALL_UserControl
         {
 
         }
+
+        private void txtMaXe_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                string maXe = txtMaXe.Text.Trim();
+                if (string.IsNullOrWhiteSpace(maXe))
+                {
+                    ClearFields();
+                    return;
+                }
+
+                DataTable dt = qlsp.LayDSSanPham();
+                bool found = false;
+
+                foreach (DataRow row in dt.Rows)
+                {
+                    if (row["MaXe"].ToString().Trim().ToUpper() == maXe.ToUpper())
+                    {
+                        found = true;
+                        txtTenXe.Text = row["TenXe"].ToString().Trim();
+                        txtLoaiXe.Text = row["LoaiXe"].ToString().Trim();
+                        txtDungTich.Text = row["DungTich"].ToString().Trim();
+                        txtHangSanXuat.Text = row["HangSanXuat"].ToString().Trim();
+                        txtMauSac.Text = row["MauSac"].ToString().Trim();
+                        txtGiaNhap.Text = row["GiaNhap"].ToString().Trim();
+                        txtGiaBan.Text = row["GiaBan"].ToString().Trim();
+                        txtSoLuong.Text = row["SoLuong"].ToString().Trim();
+                        txtDonViTinh.Text = row["DonViTinh"].ToString().Trim();
+                        txtHinhAnh.Text = row["HinhAnh"].ToString().Trim();
+
+                        // Load image
+                        string tenFileAnh = row["HinhAnh"].ToString().Trim();
+                        string thuMucChuaAnh = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "asset", "images");
+                        string duongDanHinhAnh = Path.Combine(thuMucChuaAnh, tenFileAnh);
+
+                        if (!string.IsNullOrEmpty(duongDanHinhAnh) && File.Exists(duongDanHinhAnh))
+                        {
+                            if (ptbHinhSP.Image != null)
+                            {
+                                ptbHinhSP.Image.Dispose();
+                                ptbHinhSP.Image = null;
+                            }
+
+                            try
+                            {
+                                using (Bitmap tempImage = new Bitmap(duongDanHinhAnh))
+                                {
+                                    int newWidth = 300;
+                                    int newHeight = (int)((double)tempImage.Height / tempImage.Width * newWidth);
+                                    ptbHinhSP.Image = new Bitmap(tempImage, newWidth, newHeight);
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show($"Lỗi khi load hình ảnh: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                ptbHinhSP.Image = null;
+                            }
+                        }
+                        else
+                        {
+                            if (ptbHinhSP.Image != null)
+                            {
+                                ptbHinhSP.Image.Dispose();
+                                ptbHinhSP.Image = null;
+                            }
+                        }
+                        break;
+                    }
+                }
+
+                if (!found)
+                {
+                    txtTenXe.Clear();
+                    txtLoaiXe.Clear();
+                    txtDungTich.Clear();
+                    txtHangSanXuat.Clear();
+                    txtMauSac.Clear();
+                    txtGiaNhap.Clear();
+                    txtGiaBan.Clear();
+                    txtSoLuong.Clear();
+                    txtDonViTinh.Clear();
+                    txtHinhAnh.Clear();
+                    if (ptbHinhSP.Image != null)
+                    {
+                        ptbHinhSP.Image.Dispose();
+                        ptbHinhSP.Image = null;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tìm kiếm xe: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

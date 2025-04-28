@@ -344,6 +344,7 @@
             this.txtMaXe.Name = "txtMaXe";
             this.txtMaXe.Size = new System.Drawing.Size(169, 33);
             this.txtMaXe.TabIndex = 1;
+            this.txtMaXe.TextChanged += new System.EventHandler(this.txtMaXe_TextChanged);
             this.txtMaXe.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMaXe_KeyPress);
             // 
             // dgvQLSP
