@@ -20,7 +20,7 @@ VALUES
 ('NV002', 'Tran Thi B', 25, 'Nu', 'b.tran@example.com', '0912345679', 'tranthib', 'matkhau2', 'Nhan vien'),
 ('NV003', 'Le Van C', 30, 'Nam', 'c.le@example.com', '0912345680', 'levanc', 'matkhau3', 'Quan ly'),
 ('NV004', 'Pham Thi D', 27, 'Nu', 'd.pham@example.com', '0912345681', 'phamthid', 'matkhau4', 'Nhan vien'),
-('NV005', 'Hoang Van E', 32, 'Nam', 'e.hoang@example.com', '0912345682', 'hoangvane', 'matkhau5', 'Truong phong'),
+('NV005', 'Hoang Van E', 32, 'Nam', 'e.hoang@example.com', '0912345682', 'hoangvane', 'matkhau5', 'Nhan vien'),
 ('NV006', 'Dang Thi F', 24, 'Nu', 'f.dang@example.com', '0912345683', 'dangthif', 'matkhau6', 'Nhan vien'),
 ('NV007', 'Bui Van G', 29, 'Nam', 'g.bui@example.com', '0912345684', 'buivang', 'matkhau7', 'Nhan vien'),
 ('NV008', 'Vu Thi H', 26, 'Nu', 'h.vu@example.com', '0912345685', 'vuthih', 'matkhau8', 'Nhan vien'),
