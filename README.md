@@ -1,4 +1,5 @@
 TÓM TẮT: HỆ THỐNG QUẢN LÝ CỬA HÀNG BÁN XE MÁY
+
 Đề tài tập trung nghiên cứu và xây dựng một phần mềm quản lý cửa hàng xe máy nhằm hỗ trợ tối ưu công tác quản lý kinh doanh trong bối cảnh công nghệ thông tin ngày càng phát triển. Việc quản lý thủ công hiện nay không còn phù hợp do dễ gây sai sót, mất mát dữ liệu và kém hiệu quả trong việc theo dõi hoạt động kinh doanh. Do đó, đề tài hướng tới việc xây dựng một hệ thống phần mềm chuyên nghiệp, thân thiện và hiệu quả để giải quyết các vấn đề trên.
 
 Phần mềm được thiết kế nhằm phục vụ hai nhóm người dùng là quản lý và nhân viên, với các mức phân quyền phù hợp. Chức năng chính của hệ thống bao gồm: quản lý sản phẩm, khách hàng, nhân viên, nhà cung cấp, hóa đơn bán hàng và thống kê doanh thu. Giao diện người dùng được thiết kế trực quan, dễ sử dụng, phù hợp với người dùng phổ thông.
