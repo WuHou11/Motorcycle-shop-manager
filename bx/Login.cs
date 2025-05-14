@@ -161,5 +161,29 @@ namespace bx
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void lbDieuKhoan_Click(object sender, EventArgs e)
+        {
+            string dieuKhoan = "ĐIỀU KHOẢN SỬ DỤNG DỊCH VỤ\n\n" +
+         "1. Chấp nhận điều khoản:\n" +
+         "- Bằng việc sử dụng hệ thống, bạn đồng ý với toàn bộ điều khoản sử dụng.\n\n" +
+         "2. Thông tin khách hàng:\n" +
+         "- Bạn cam kết cung cấp thông tin cá nhân chính xác và đầy đủ.\n" +
+         "- Chúng tôi cam kết bảo mật thông tin và không chia sẻ cho bên thứ ba nếu không được phép.\n\n" +
+         "3. Sản phẩm và dịch vụ:\n" +
+         "- Hệ thống cung cấp thông tin chi tiết về các dòng xe máy đang bán.\n" +
+         "- Giá cả và thông tin có thể thay đổi mà không cần báo trước.\n\n" +
+         "4. Thanh toán:\n" +
+         "- Chúng tôi hỗ trợ thanh toán qua tiền mặt, chuyển khoản hoặc ví điện tử.\n\n" +
+         "5. Bảo hành và bảo trì:\n" +
+         "- Xe được bảo hành chính hãng từ 12 đến 36 tháng.\n" +
+         "- Hỗ trợ bảo trì định kỳ tại cửa hàng.\n\n" +
+         "6. Đổi trả sản phẩm:\n" +
+         "- Chấp nhận đổi trả trong 3 ngày nếu xe có lỗi kỹ thuật từ nhà sản xuất.\n" +
+         "- Xe chưa được đăng ký và không có hư hại vật lý.\n\n" +
+         "Vui lòng liên hệ nhân viên cửa hàng nếu bạn cần thêm thông tin.";
+
+            MessageBox.Show(dieuKhoan, "Điều khoản sử dụng", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

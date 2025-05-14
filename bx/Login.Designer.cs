@@ -33,7 +33,7 @@ namespace bx
             this.formside = new System.Windows.Forms.Panel();
             this.picEyeOpen = new System.Windows.Forms.PictureBox();
             this.picEyeClosed = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lbDieuKhoan = new System.Windows.Forms.Label();
             this.tgAgree = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.btnClear = new Guna.UI2.WinForms.Guna2Button();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
@@ -108,7 +108,7 @@ namespace bx
             this.formside.BackColor = System.Drawing.Color.Cyan;
             this.formside.Controls.Add(this.picEyeOpen);
             this.formside.Controls.Add(this.picEyeClosed);
-            this.formside.Controls.Add(this.label6);
+            this.formside.Controls.Add(this.lbDieuKhoan);
             this.formside.Controls.Add(this.tgAgree);
             this.formside.Controls.Add(this.btnClear);
             this.formside.Controls.Add(this.btnLogin);
@@ -156,16 +156,17 @@ namespace bx
             this.picEyeClosed.TabStop = false;
             this.picEyeClosed.Click += new System.EventHandler(this.picEyeClosed_Click);
             // 
-            // label6
+            // lbDieuKhoan
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.Color.Maroon;
-            this.label6.Location = new System.Drawing.Point(3, 673);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(552, 32);
-            this.label6.TabIndex = 78;
-            this.label6.Text = "Bạn chấp nhận các điều khoản của chúng tôi";
+            this.lbDieuKhoan.AutoSize = true;
+            this.lbDieuKhoan.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold);
+            this.lbDieuKhoan.ForeColor = System.Drawing.Color.Maroon;
+            this.lbDieuKhoan.Location = new System.Drawing.Point(3, 673);
+            this.lbDieuKhoan.Name = "lbDieuKhoan";
+            this.lbDieuKhoan.Size = new System.Drawing.Size(552, 32);
+            this.lbDieuKhoan.TabIndex = 78;
+            this.lbDieuKhoan.Text = "Bạn chấp nhận các điều khoản của chúng tôi";
+            this.lbDieuKhoan.Click += new System.EventHandler(this.lbDieuKhoan_Click);
             // 
             // tgAgree
             // 
@@ -399,7 +400,7 @@ namespace bx
         private Guna.UI2.WinForms.Guna2Button btnClear;
         private Guna.UI2.WinForms.Guna2Button btnLogin;
         private Guna.UI2.WinForms.Guna2ToggleSwitch tgAgree;
-        private Label label6;
+        private Label lbDieuKhoan;
         private PictureBox picEyeClosed;
         private PictureBox picEyeOpen;
     }
