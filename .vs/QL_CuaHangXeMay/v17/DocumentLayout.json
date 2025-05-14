@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\new folder\\motorcycle-shop-manager2\\bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|d:\\2024-2025\\hk2\\laptrinhwin\\cuoiky\\new folder\\motorcycle-shop-manager2\\bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{536669B5-24D1-457C-AF4E-EB94B6BE4F1A}|bx\\QL_CuaHangXeMay.csproj|solutionrelative:bx\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -394,7 +394,7 @@
               "RelativeDocumentMoniker": "bx\\Login.cs",
               "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\Login.cs",
               "RelativeToolTip": "bx\\Login.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAAAwwLAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAuwL0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T02:14:06.21Z",
               "EditorCaption": ""
@@ -550,8 +550,7 @@
               "RelativeToolTip": "bx\\Login.Designer.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAYwIAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T02:14:23.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T02:14:23.102Z"
             },
             {
               "$type": "Document",
@@ -574,8 +573,7 @@
               "ToolTip": "D:\\2024-2025\\HK2\\LapTrinhWin\\Cuoiky\\New folder\\Motorcycle-shop-manager2\\bx\\Login.cs [Design]",
               "RelativeToolTip": "bx\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T14:09:41.93Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-15T14:09:41.93Z"
             },
             {
               "$type": "Document",

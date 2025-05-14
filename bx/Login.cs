@@ -12,7 +12,7 @@ namespace bx
         {
             InitializeComponent();
             db = new Database();
-            qltk=new QLTK();
+            qltk = new QLTK();
 
         }
 
@@ -164,24 +164,32 @@ namespace bx
 
         private void lbDieuKhoan_Click(object sender, EventArgs e)
         {
-            string dieuKhoan = "ĐIỀU KHOẢN SỬ DỤNG DỊCH VỤ\n\n" +
-         "1. Chấp nhận điều khoản:\n" +
-         "- Bằng việc sử dụng hệ thống, bạn đồng ý với toàn bộ điều khoản sử dụng.\n\n" +
-         "2. Thông tin khách hàng:\n" +
-         "- Bạn cam kết cung cấp thông tin cá nhân chính xác và đầy đủ.\n" +
-         "- Chúng tôi cam kết bảo mật thông tin và không chia sẻ cho bên thứ ba nếu không được phép.\n\n" +
-         "3. Sản phẩm và dịch vụ:\n" +
-         "- Hệ thống cung cấp thông tin chi tiết về các dòng xe máy đang bán.\n" +
-         "- Giá cả và thông tin có thể thay đổi mà không cần báo trước.\n\n" +
-         "4. Thanh toán:\n" +
-         "- Chúng tôi hỗ trợ thanh toán qua tiền mặt, chuyển khoản hoặc ví điện tử.\n\n" +
-         "5. Bảo hành và bảo trì:\n" +
-         "- Xe được bảo hành chính hãng từ 12 đến 36 tháng.\n" +
-         "- Hỗ trợ bảo trì định kỳ tại cửa hàng.\n\n" +
-         "6. Đổi trả sản phẩm:\n" +
-         "- Chấp nhận đổi trả trong 3 ngày nếu xe có lỗi kỹ thuật từ nhà sản xuất.\n" +
-         "- Xe chưa được đăng ký và không có hư hại vật lý.\n\n" +
-         "Vui lòng liên hệ nhân viên cửa hàng nếu bạn cần thêm thông tin.";
+            string dieuKhoan = "ĐIỀU KHOẢN SỬ DỤNG HỆ THỐNG (DÀNH CHO NHÂN VIÊN & QUẢN LÝ)\n\n" +
+            "1. Chấp nhận điều khoản:\n" +
+            "  - Khi đăng nhập và sử dụng hệ thống, bạn đồng ý tuân thủ tất cả điều khoản sử dụng.\n" +
+            "2. Bảo mật tài khoản:\n" +
+            "  - Không chia sẻ tài khoản và mật khẩu cho người khác.\n" +
+            "  - Quản lý có trách nhiệm phân quyền phù hợp cho từng nhân viên.\n" +
+            "3. Nhập và cập nhật dữ liệu:\n" +
+            "  - Nhân viên cần nhập liệu chính xác về sản phẩm, khách hàng, hóa đơn...\n" +
+            "  - Không chỉnh sửa/xóa dữ liệu nếu không có quyền hoặc lý do chính đáng.\n" +
+            "4. Trách nhiệm sử dụng:\n" +
+            "  - Chỉ sử dụng hệ thống vào mục đích công việc.\n" +
+            "  - Nghiêm cấm truy xuất trái phép, phá hoại hoặc sao chép dữ liệu.\n" +
+            "5. Quản lý bán hàng:\n" +
+            "  - Kiểm tra thông tin sản phẩm, giá bán, khuyến mãi trước khi lập hóa đơn.\n" +
+            "  - Mọi giao dịch phải được lưu trên hệ thống.\n" +
+            "6. Quản lý kho:\n" +
+            "  - Nhập – xuất hàng phải thực hiện trên hệ thống.\n" +
+            "  - Kiểm kho định kỳ và báo cáo nếu có chênh lệch.\n" +
+            "7. Báo cáo và thống kê:\n" +
+            "  - Chỉ dùng báo cáo nội bộ, không chia sẻ ra bên ngoài khi chưa được phép.\n" +
+            "8. Xử lý vi phạm:\n" +
+            "  - Các hành vi làm sai lệch dữ liệu hoặc vi phạm bảo mật sẽ bị xử lý theo quy định.\n" +
+            "9. Thay đổi điều khoản:\n" +
+            "  - Điều khoản có thể được cập nhật để phù hợp thực tế. Nhân viên có trách nhiệm theo dõi.\n\n" +
+
+            "Vui lòng liên hệ quản lý cửa hàng nếu bạn cần thêm thông tin.";
 
             MessageBox.Show(dieuKhoan, "Điều khoản sử dụng", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
