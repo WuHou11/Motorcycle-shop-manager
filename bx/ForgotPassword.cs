@@ -105,9 +105,14 @@ namespace bx
                         {
                             qltk.UpdatePass(maNV, passwordNew);
                             MessageBox.Show("Đổi mật khẩu thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            //Login login = new Login();
+                            //login.ShowDialog();
+                            //this.Close();
+                            this.Hide();
                             Login login = new Login();
-                            login.ShowDialog();
-                            this.Close();
+                            login.ShowDialog();  // Chặn luồng cho tới khi Login được đóng
+                            this.Show();         // Hiện lại form hiện tại nếu cần sau khi login đóng
+
                         }
                     }
                 }
